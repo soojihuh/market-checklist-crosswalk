@@ -1,0 +1,1053 @@
+{
+  "market": "CA",
+  "name": {
+    "en": "Canada Medical Devices Regulations SOR/98-282 (Sections 9–20)",
+    "ko": "캐나다 의료기기규정 SOR/98-282 (Section 9–20)"
+  },
+  "role": "spoke",
+  "verification": "official",
+  "titleNote": "Justice Laws HTML 본문(page-2; 'current to 2026-10-29, last amended 2026-10-01')의 Sections 9–20을 2026-11-18 Chrome으로 읽고 항(paragraph) 단위로 분할(27개). 영문은 원문 그대로이고 국문은 AI 번역 초안. 그룹 제목 'Manufacturer's Obligations'(Section 9)와 'Safety and Effectiveness Requirements'(Section 10–20)는 원문 소제목. Sections 9–20에는 EMC·사이버보안 명시 표현이 없고 방사선은 Section 16(c)에 한 단어로만 등장. 표시기재(Sections 21–23)는 범위 밖. 인쇄본(PDF)과의 대조는 하지 않음. '관련 규격'은 사용자가 제공한 제조자 체크리스트 양식(열: Safety and Effectiveness Requirements / A, N/A / Relevant Standards / Document, Report, Procedures and Data / Comments)의 'Relevant Standards' 열에 기재된 규격명을 참고용으로 옮긴 것이며 공식 규정이 정한 목록이 아님. 문서·시험성적서 번호, 기기명, 적용/비적용(A/N/A) 판단 같은 제품 고유 정보는 넣지 않았음. Sections 21–23(표시 요건)은 Justice Laws 원문(page-2)을 읽어 항 단위로 추가함(IVD 전용 문구 없음). 이 항목은 사용자가 제공한 체크리스트(Sections 9–20) 밖의 규정 원문 기반.",
+  "topicsFormat": "p:<topic> = primary, s:<topic> = secondary",
+  "sections": [
+    {
+      "id": "CA-SOR98-282-s9-1",
+      "ref": "Section 9(1)",
+      "titleEn": "Manufacturer ensures the device meets Sections 10–20",
+      "titleKo": "제조자는 기기가 Section 10–20 요건을 충족하도록 보장",
+      "summaryEn": "A manufacturer shall ensure that the medical device meets the applicable requirements of sections 10 to 20.",
+      "summaryKo": "제조자는 의료기기가 제10조부터 제20조까지의 해당 요건을 충족하도록 보장해야 한다.",
+      "topics": [
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "s9",
+        "en": "Section 9 — Manufacturer's obligations",
+        "ko": "Section 9 — 제조자의 의무"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s9-2",
+      "ref": "Section 9(2)",
+      "titleEn": "Manufacturer keeps objective evidence",
+      "titleKo": "제조자는 객관적 증거를 보유",
+      "summaryEn": "A manufacturer shall keep objective evidence to establish that the medical device meets those requirements.",
+      "summaryKo": "제조자는 의료기기가 해당 요건을 충족함을 입증하는 객관적 증거를 보유해야 한다.",
+      "topics": [
+        "s:general-safety"
+      ],
+      "ownNote": "증거 보유 의무. EU는 기술문서(Annex II)에서 별도 규정(Annex I 밖).",
+      "group": {
+        "key": "s9",
+        "en": "Section 9 — Manufacturer's obligations",
+        "ko": "Section 9 — 제조자의 의무"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-lead",
+      "ref": "Section 10 (lead-in)",
+      "titleEn": "Designed and manufactured to be safe",
+      "titleKo": "안전하게 설계·제조",
+      "summaryEn": "A medical device shall be designed and manufactured to be safe, and to this end the manufacturer shall, in particular, take reasonable measures to",
+      "summaryKo": "의료기기는 안전하도록 설계·제조되어야 하며, 이를 위해 제조자는 특히 다음의 합리적 조치를 취해야 한다.",
+      "topics": [
+        "p:general-safety",
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      },
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 24971",
+          "ko": "ISO 14971 적용 지침"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-1-6",
+          "ko": "사용성"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "ISO 10993-1",
+          "ko": "생물학적 평가"
+        },
+        {
+          "id": "ISO 10993-5",
+          "ko": ""
+        },
+        {
+          "id": "ISO 10993-10",
+          "ko": ""
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s10-a",
+      "ref": "Section 10(a)",
+      "titleEn": "Identify the risks inherent in the device",
+      "titleKo": "기기 고유의 위험 식별",
+      "summaryEn": "identify the risks inherent in the device;",
+      "summaryKo": "기기에 내재된 위험을 식별한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-b",
+      "ref": "Section 10(b)",
+      "titleEn": "Eliminate the risks if they can be eliminated",
+      "titleKo": "제거 가능한 위험은 제거",
+      "summaryEn": "if the risks can be eliminated, eliminate them;",
+      "summaryKo": "위험을 제거할 수 있으면 제거한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-c",
+      "ref": "Section 10(c)",
+      "titleEn": "If the risks cannot be eliminated",
+      "titleKo": "위험을 제거할 수 없는 경우",
+      "summaryEn": "if the risks cannot be eliminated,",
+      "summaryKo": "위험을 제거할 수 없는 경우 다음을 한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-c-i",
+      "ref": "Section 10(c)(i)",
+      "titleEn": "Reduce the risks to the extent possible",
+      "titleKo": "가능한 범위까지 위험 감소",
+      "summaryEn": "(i) reduce the risks to the extent possible,",
+      "summaryKo": "(i) 가능한 범위까지 위험을 줄인다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-c-ii",
+      "ref": "Section 10(c)(ii)",
+      "titleEn": "Provide protection appropriate to the risks, including alarms",
+      "titleKo": "위험에 적합한 방호(경보 포함) 제공",
+      "summaryEn": "(ii) provide for protection appropriate to those risks, including the provision of alarms, and",
+      "summaryKo": "(ii) 해당 위험에 적합한 방호(경보 제공 포함)를 마련한다.",
+      "topics": [
+        "p:risk-management",
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-c-iii",
+      "ref": "Section 10(c)(iii)",
+      "titleEn": "Provide information on the remaining risks with the device",
+      "titleKo": "잔여 위험에 대한 정보를 기기와 함께 제공",
+      "summaryEn": "(iii) provide, with the device, information relative to the risks that remain; and",
+      "summaryKo": "(iii) 남아 있는 위험에 관한 정보를 기기와 함께 제공한다.",
+      "topics": [
+        "p:risk-management",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s10-d",
+      "ref": "Section 10(d)",
+      "titleEn": "Minimize hazard from potential failures over the projected useful life",
+      "titleKo": "예상 사용수명 동안 잠재적 고장 위험 최소화",
+      "summaryEn": "(d) minimize the hazard from potential failures during the projected useful life of the device.",
+      "summaryKo": "(d) 기기의 예상 사용수명 동안 잠재적 고장으로 인한 위험을 최소화한다.",
+      "topics": [
+        "p:risk-management",
+        "s:lifetime"
+      ],
+      "group": {
+        "key": "s10",
+        "en": "Section 10 — Safe design (Safety and Effectiveness Requirements)",
+        "ko": "Section 10 — 안전 설계 (안전·유효성 요건)"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s11-1",
+      "ref": "Section 11(1)",
+      "titleEn": "No adverse effect unless risk acceptable against benefit (other than decorative contact lenses)",
+      "titleKo": "이익 대비 허용 가능한 경우를 제외하고 악영향 금지 (장식용 콘택트렌즈 제외)",
+      "summaryEn": "A medical device other than a decorative contact lens shall not, when used for the medical conditions, purposes or uses for which it is manufactured, sold or represented, adversely affect the health or safety of a patient, user or other person, except to the extent that a possible adverse effect of the device constitutes an acceptable risk when weighed against the benefits to the patient and the risk is compatible with a high level of protection of health and safety.",
+      "summaryKo": "장식용 콘택트렌즈를 제외한 의료기기는, 제조·판매·표시된 의학적 상태·목적·용도로 사용될 때 환자·사용자·제3자의 건강이나 안전에 악영향을 주어서는 안 된다. 다만 가능한 악영향이 환자에 대한 이익과 비교하여 허용 가능한 위험이고 그 위험이 높은 수준의 건강·안전 보호와 양립하는 범위는 예외로 한다.",
+      "topics": [
+        "p:benefit-risk",
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "s11",
+        "en": "Section 11 — Protection of health and safety",
+        "ko": "Section 11 — 건강·안전 보호"
+      },
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 24971",
+          "ko": "ISO 14971 적용 지침"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-1-6",
+          "ko": "사용성"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "ISO 10993-1",
+          "ko": "생물학적 평가"
+        },
+        {
+          "id": "ISO 10993-5",
+          "ko": ""
+        },
+        {
+          "id": "ISO 10993-10",
+          "ko": ""
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s11-2",
+      "ref": "Section 11(2)",
+      "titleEn": "Decorative contact lens — no adverse effect",
+      "titleKo": "장식용 콘택트렌즈 — 악영향 금지",
+      "summaryEn": "A decorative contact lens shall not adversely affect the health or safety of a user, except to the extent that a possible adverse effect of the device constitutes a risk that is compatible with a high level of protection of health and safety.",
+      "summaryKo": "장식용 콘택트렌즈는 사용자의 건강이나 안전에 악영향을 주어서는 안 된다. 다만 가능한 악영향이 높은 수준의 건강·안전 보호와 양립하는 위험인 범위는 예외로 한다.",
+      "topics": [],
+      "ownNote": "장식용 콘택트렌즈 전용 — 본 도구(치과 X-ray/SW) 범위 외",
+      "group": {
+        "key": "s11",
+        "en": "Section 11 — Protection of health and safety",
+        "ko": "Section 11 — 건강·안전 보호"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s12-1",
+      "ref": "Section 12(1)",
+      "titleEn": "Performs as intended and is effective (other than decorative contact lenses)",
+      "titleKo": "의도대로 성능 발휘·유효 (장식용 콘택트렌즈 제외)",
+      "summaryEn": "A medical device other than a decorative contact lens shall perform as intended by the manufacturer and shall be effective for the medical conditions, purposes and uses for which it is manufactured, sold or represented.",
+      "summaryKo": "장식용 콘택트렌즈를 제외한 의료기기는 제조자가 의도한 대로 작동해야 하며, 제조·판매·표시된 의학적 상태·목적·용도에 대해 유효해야 한다.",
+      "topics": [
+        "p:intended-performance",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "s12",
+        "en": "Section 12 — Performance and effectiveness",
+        "ko": "Section 12 — 성능·유효성"
+      },
+      "standards": [
+        {
+          "id": "ISO 13485",
+          "ko": "품질경영시스템"
+        },
+        {
+          "id": "SOR/98-282",
+          "ko": "캐나다 의료기기규정"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-1-6",
+          "ko": "사용성"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "IEC 61223-3-4",
+          "ko": ""
+        },
+        {
+          "id": "IEC 61223-3-7",
+          "ko": ""
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s12-2",
+      "ref": "Section 12(2)",
+      "titleEn": "Decorative contact lens — performs as intended",
+      "titleKo": "장식용 콘택트렌즈 — 의도대로 작동",
+      "summaryEn": "A decorative contact lens shall perform as intended by the manufacturer.",
+      "summaryKo": "장식용 콘택트렌즈는 제조자가 의도한 대로 작동해야 한다.",
+      "topics": [],
+      "ownNote": "장식용 콘택트렌즈 전용 — 본 도구(치과 X-ray/SW) 범위 외",
+      "group": {
+        "key": "s12",
+        "en": "Section 12 — Performance and effectiveness",
+        "ko": "Section 12 — 성능·유효성"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s13",
+      "ref": "Section 13",
+      "titleEn": "Durability over projected useful life",
+      "titleKo": "예상 사용수명 동안의 내구성",
+      "summaryEn": "During the projected useful life of a medical device, its characteristics and performance shall not deteriorate under normal use to such a degree that the health or safety of a patient, user or other person is adversely affected.",
+      "summaryKo": "의료기기의 예상 사용수명 동안, 정상 사용에서 기기의 특성과 성능이 환자·사용자·제3자의 건강이나 안전에 악영향을 줄 정도로 열화되어서는 안 된다.",
+      "topics": [
+        "p:lifetime"
+      ],
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 24971",
+          "ko": "ISO 14971 적용 지침"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-1-6",
+          "ko": "사용성"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s14",
+      "ref": "Section 14",
+      "titleEn": "Transport and storage",
+      "titleKo": "운송·보관",
+      "summaryEn": "The characteristics and performance of a medical device shall not be adversely affected by transport or conditions of storage, taking into account the manufacturer's instructions and information for transport and storage.",
+      "summaryKo": "의료기기의 특성과 성능은 제조자의 운송·보관 지침과 정보를 고려했을 때 운송 또는 보관 조건에 의해 악영향을 받아서는 안 된다.",
+      "topics": [
+        "p:transport-storage"
+      ],
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 24971",
+          "ko": "ISO 14971 적용 지침"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-1-6",
+          "ko": "사용성"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 61223-3-4",
+          "ko": ""
+        },
+        {
+          "id": "IEC 61223-3-7",
+          "ko": ""
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s15",
+      "ref": "Section 15",
+      "titleEn": "Compatibility of materials",
+      "titleKo": "재료 간 적합성",
+      "summaryEn": "Reasonable measures shall be taken to ensure that every material used in the manufacture of a medical device shall be compatible with every other material with which it interacts and with material that may come into contact with it in normal use, and shall not pose any undue risk to a patient, user or other person.",
+      "summaryKo": "의료기기 제조에 사용되는 모든 재료가 상호작용하는 다른 모든 재료 및 정상 사용에서 접촉할 수 있는 재료와 적합하고, 환자·사용자·제3자에게 과도한 위험을 주지 않도록 합리적인 조치를 취해야 한다.",
+      "topics": [
+        "p:materials"
+      ],
+      "ownNote": "'재료 간 적합성' 요건으로, EU 10.x와 달리 생체적합성·독성을 명시하지 않음."
+    },
+    {
+      "id": "CA-SOR98-282-s16-lead",
+      "ref": "Section 16 (lead-in)",
+      "titleEn": "Minimize risk from reasonably foreseeable hazards",
+      "titleKo": "합리적으로 예측 가능한 위험의 최소화",
+      "summaryEn": "The design, manufacture and packaging of a medical device shall minimize any risk to a patient, user or other person from reasonably foreseeable hazards, including",
+      "summaryKo": "의료기기의 설계·제조·포장은 다음을 포함하여 합리적으로 예측 가능한 위험으로 인한 환자·사용자·제3자에 대한 모든 위험을 최소화해야 한다.",
+      "topics": [
+        "p:general-safety",
+        "s:risk-management"
+      ],
+      "group": {
+        "key": "s16",
+        "en": "Section 16 — Foreseeable hazards",
+        "ko": "Section 16 — 예측 가능한 위험"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s16a",
+      "ref": "Section 16(a)",
+      "titleEn": "Flammability or explosion",
+      "titleKo": "인화 또는 폭발",
+      "summaryEn": "(a) flammability or explosion;",
+      "summaryKo": "(a) 인화 또는 폭발",
+      "topics": [
+        "p:environment-construction",
+        "s:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "s16",
+        "en": "Section 16 — Foreseeable hazards",
+        "ko": "Section 16 — 예측 가능한 위험"
+      },
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s16b",
+      "ref": "Section 16(b)",
+      "titleEn": "Contaminant, chemical or microbial residue",
+      "titleKo": "오염물, 화학·미생물 잔류물",
+      "summaryEn": "(b) presence of a contaminant or chemical or microbial residue;",
+      "summaryKo": "(b) 오염물 또는 화학적·미생물 잔류물의 존재",
+      "topics": [
+        "p:materials",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "s16",
+        "en": "Section 16 — Foreseeable hazards",
+        "ko": "Section 16 — 예측 가능한 위험"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s16c",
+      "ref": "Section 16(c)",
+      "titleEn": "Radiation",
+      "titleKo": "방사선",
+      "summaryEn": "(c) radiation;",
+      "summaryKo": "(c) 방사선",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "ownNote": "'radiation' 한 단어뿐 — EU 16.x·AU EP 11처럼 세부 요건이 없음. 방사선 방출 기기의 별도 규정 적용 여부는 이번 검토에서 미확인.",
+      "group": {
+        "key": "s16",
+        "en": "Section 16 — Foreseeable hazards",
+        "ko": "Section 16 — 예측 가능한 위험"
+      },
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 24971",
+          "ko": "ISO 14971 적용 지침"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s16d",
+      "ref": "Section 16(d)",
+      "titleEn": "Electrical, mechanical or thermal hazards",
+      "titleKo": "전기·기계·열 위험",
+      "summaryEn": "(d) electrical, mechanical or thermal hazards; and",
+      "summaryKo": "(d) 전기적·기계적·열적 위험",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "ownNote": "EMC·전자기 간섭에 대한 명시 표현 없음(확인).",
+      "group": {
+        "key": "s16",
+        "en": "Section 16 — Foreseeable hazards",
+        "ko": "Section 16 — 예측 가능한 위험"
+      },
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 24971",
+          "ko": "ISO 14971 적용 지침"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s16e",
+      "ref": "Section 16(e)",
+      "titleEn": "Fluid leaking from or entering into the device",
+      "titleKo": "기기에서 누설되거나 기기로 유입되는 유체",
+      "summaryEn": "(e) fluid leaking from or entering into the device.",
+      "summaryKo": "(e) 기기에서 누설되거나 기기 안으로 유입되는 유체",
+      "topics": [
+        "s:materials",
+        "s:environment-construction"
+      ],
+      "group": {
+        "key": "s16",
+        "en": "Section 16 — Foreseeable hazards",
+        "ko": "Section 16 — 예측 가능한 위험"
+      }
+    },
+    {
+      "id": "CA-SOR98-282-s17",
+      "ref": "Section 17",
+      "titleEn": "Sterile devices — controlled conditions, validated method",
+      "titleKo": "멸균 기기 — 관리된 조건·밸리데이션된 방법",
+      "summaryEn": "A medical device that is to be sold in a sterile condition shall be manufactured and sterilized under appropriately controlled conditions, and the sterilization method used shall be validated.",
+      "summaryKo": "멸균 상태로 판매되는 의료기기는 적절히 관리된 조건에서 제조·멸균해야 하며, 사용하는 멸균 방법은 밸리데이션되어야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s18",
+      "ref": "Section 18",
+      "titleEn": "Compatibility of components within a system",
+      "titleKo": "시스템 구성 기기 간 호환",
+      "summaryEn": "A medical device that is part of a system shall be compatible with every other component or part of the system with which it interacts and shall not adversely affect the performance of that system.",
+      "summaryKo": "시스템의 일부인 의료기기는 상호작용하는 시스템의 다른 모든 구성요소·부분과 호환되어야 하며 해당 시스템의 성능에 악영향을 주어서는 안 된다.",
+      "topics": [
+        "p:systems-interconnection"
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s19",
+      "ref": "Section 19",
+      "titleEn": "Measuring function within tolerance limits",
+      "titleKo": "허용 한계 내의 측정 기능",
+      "summaryEn": "A medical device that performs a measuring function shall be designed to perform that function within tolerance limits that are appropriate for the medical conditions, purposes and uses for which the device is manufactured, sold or represented.",
+      "summaryKo": "측정 기능을 수행하는 의료기기는 제조·판매·표시된 의학적 상태·목적·용도에 적합한 허용 한계 내에서 그 기능을 수행하도록 설계되어야 한다.",
+      "topics": [
+        "p:measuring-diagnostic"
+      ]
+    },
+    {
+      "id": "CA-SOR98-282-s20",
+      "ref": "Section 20",
+      "titleEn": "Software — performs as intended and is validated",
+      "titleKo": "소프트웨어 — 의도대로 작동·밸리데이션",
+      "summaryEn": "If a medical device consists of or contains software, the software shall be designed to perform as intended by the manufacturer, and the performance of the software shall be validated.",
+      "summaryKo": "의료기기가 소프트웨어로 구성되거나 소프트웨어를 포함하는 경우, 소프트웨어는 제조자가 의도한 대로 작동하도록 설계되어야 하며 소프트웨어의 성능은 밸리데이션되어야 한다.",
+      "topics": [
+        "p:software"
+      ],
+      "ownNote": "Section 20에 사이버보안·정보보안 명시 요건 없음(확인). 수명주기·위험관리 요건도 명시되지 않음.",
+      "standards": [
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        }
+      ]
+    },
+    {
+      "id": "CA-s21-1",
+      "ref": "Section 21(1) (lead-in)",
+      "titleEn": "Label must set out the following information",
+      "titleKo": "라벨에 기재해야 하는 정보(도입문)",
+      "summaryEn": "No person shall import or sell a medical device unless the device has a label that sets out the following information:",
+      "summaryKo": "다음 정보가 기재된 라벨이 없는 의료기기는 누구도 수입하거나 판매할 수 없다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1a",
+      "ref": "Section 21(1)(a)",
+      "titleEn": "Name of the device",
+      "titleKo": "기기 이름",
+      "summaryEn": "the name of the device;",
+      "summaryKo": "기기의 이름.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1b",
+      "ref": "Section 21(1)(b)",
+      "titleEn": "Name and address of the manufacturer",
+      "titleKo": "제조자 이름·주소",
+      "summaryEn": "the name and address of the manufacturer;",
+      "summaryKo": "제조자의 이름과 주소.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1c",
+      "ref": "Section 21(1)(c)",
+      "titleEn": "Device identifier (including system/test kit/group/family components)",
+      "titleKo": "기기 식별자(시스템·키트·그룹·패밀리 포함)",
+      "summaryEn": "the identifier of the device, including the identifier of any medical device that is part of a system, test kit, medical device group, medical device family or medical device group family;",
+      "summaryKo": "기기의 식별자 — 시스템, 테스트 키트, 의료기기 그룹·패밀리·그룹 패밀리에 속하는 의료기기의 식별자 포함.",
+      "topics": [
+        "p:labelling-ifu",
+        "p:udi"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1d",
+      "ref": "Section 21(1)(d)",
+      "titleEn": "Control number for Class III or IV devices",
+      "titleKo": "Class III·IV 기기의 관리 번호",
+      "summaryEn": "in the case of a Class III or IV device, the control number;",
+      "summaryKo": "Class III 또는 IV 기기는 관리 번호(control number).",
+      "topics": [
+        "p:labelling-ifu",
+        "s:premarket-registration"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1e",
+      "ref": "Section 21(1)(e)",
+      "titleEn": "Indication of package contents",
+      "titleKo": "포장 내용물 표시",
+      "summaryEn": "if the contents are not readily apparent, an indication of what the package contains, expressed in terms appropriate to the device, such as the size, net weight, length, volume or number of units;",
+      "summaryKo": "내용물이 분명하지 않으면, 크기·순중량·길이·부피·단위 수 등 기기에 적합한 용어로 포장 내용을 표시.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1f",
+      "ref": "Section 21(1)(f)",
+      "titleEn": "The word \"Sterile\"",
+      "titleKo": "\"Sterile\" 표기",
+      "summaryEn": "the word “Sterile”, if the manufacturer intends the device to be sold in a sterile condition;",
+      "summaryKo": "제조자가 멸균 상태로 판매할 의도이면 “Sterile”(멸균)이라는 단어.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1g",
+      "ref": "Section 21(1)(g)",
+      "titleEn": "Expiry date",
+      "titleKo": "사용기한",
+      "summaryEn": "the expiry date of the device, if the device has one, to be determined by the manufacturer on the basis of the component that has the shortest projected useful life;",
+      "summaryKo": "기기에 사용기한이 있으면, 제조자가 가장 짧은 예상 유효 수명을 가진 구성 요소를 기준으로 정한 사용기한.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:lifetime"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1h",
+      "ref": "Section 21(1)(h)",
+      "titleEn": "Medical conditions, purposes, uses and performance specifications",
+      "titleKo": "의학적 상태·목적·용도와 성능 사양",
+      "summaryEn": "unless self-evident to the intended user, the medical conditions, purposes and uses for which the device is manufactured, sold or represented, as well as the performance specifications of the device if those specifications are necessary for proper use;",
+      "summaryKo": "의도된 사용자에게 자명하지 않으면, 기기가 제조·판매·표방되는 의학적 상태·목적·용도와, 올바른 사용에 필요한 경우 기기의 성능 사양.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:intended-performance"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1i",
+      "ref": "Section 21(1)(i)",
+      "titleEn": "Directions for use",
+      "titleKo": "사용 지침",
+      "summaryEn": "the directions for use, unless directions are not required\n(i) in the case of a decorative contact lens, for the device to be used safely, and\n(ii) in the case of any other medical device, for the device to be used safely and effectively; and",
+      "summaryKo": "사용 지침 — 단, 장식용 콘택트렌즈는 안전한 사용에, 그 밖의 의료기기는 안전하고 효과적인 사용에 지침이 필요하지 않은 경우는 제외.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1j",
+      "ref": "Section 21(1)(j)",
+      "titleEn": "Special storage conditions",
+      "titleKo": "특별 보관 조건",
+      "summaryEn": "any special storage conditions applicable to the device.",
+      "summaryKo": "기기에 적용되는 특별 보관 조건.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:transport-storage"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-2",
+      "ref": "Section 21(2)",
+      "titleEn": "Legible, permanent and prominent; easily understood",
+      "titleKo": "판독 가능·영구적·눈에 띄게; 쉬운 용어",
+      "summaryEn": "The information required by subsection (1) shall be expressed in a legible, permanent and prominent manner, in terms that are easily understood by the intended user.",
+      "summaryKo": "제(1)항이 요구하는 정보는 판독 가능하고 영구적이며 눈에 띄는 방식으로, 의도된 사용자가 쉽게 이해하는 용어로 표현해야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21",
+        "en": "Section 21 — Information required on the label",
+        "ko": "Section 21 — 라벨에 기재해야 하는 정보"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-1-1",
+      "ref": "Section 21.1",
+      "titleEn": "Imported device not labelled per the Regulations — prior notice and relabelling",
+      "titleKo": "규정에 맞지 않게 표시된 수입 기기 — 사전 통지·재표시",
+      "summaryEn": "Despite section 21, any person who imports for sale a medical device not labelled in accordance with these Regulations shall ensure\n(a) that prior notice of the proposed importation is sent to the Minister — by the importer if it holds an establishment licence to import the device, otherwise by the manufacturer; and\n(b) before selling the device, that the manufacturer has relabelled it in accordance with these Regulations within three months after the date of importation.",
+      "summaryKo": "제21조에도 불구하고, 이 규정에 맞게 표시되지 않은 의료기기를 판매 목적으로 수입하는 사람은\n(a) 수입 업체 허가를 가진 경우 본인이, 아니면 제조자가 장관에게 수입 예정 사전 통지를 보내도록 하고,\n(b) 판매 전에 제조자가 수입일부터 3개월 이내에 이 규정에 맞게 재표시하도록 해야 한다.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:premarket-registration"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21-1-2",
+        "en": "Sections 21.1–21.2 — Imported devices not labelled per the Regulations",
+        "ko": "Section 21.1–21.2 — 규정에 맞게 표시되지 않은 수입 기기"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s21-2-1",
+      "ref": "Section 21.2",
+      "titleEn": "Notification of who will relabel in Canada",
+      "titleKo": "캐나다에서 재표시할 자의 통지",
+      "summaryEn": "Any person who imports for sale a medical device that is not labelled in accordance with these Regulations shall ensure that the manufacturer notifies the Minister in writing of the name of the person who will relabel it in Canada, if it is to be relabelled on the manufacturer's behalf.",
+      "summaryKo": "이 규정에 맞게 표시되지 않은 의료기기를 판매 목적으로 수입하는 사람은, 제조자를 대신해 캐나다에서 재표시하는 경우 그 사람의 이름을 제조자가 장관에게 서면으로 통지하도록 해야 한다.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:premarket-registration"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s21-1-2",
+        "en": "Sections 21.1–21.2 — Imported devices not labelled per the Regulations",
+        "ko": "Section 21.1–21.2 — 규정에 맞게 표시되지 않은 수입 기기"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s22-1",
+      "ref": "Section 22(1)",
+      "titleEn": "Devices sold to the general public — information on the outside of the package",
+      "titleKo": "일반인 판매 기기 — 포장 겉면 표시",
+      "summaryEn": "Subject to subsection (2), if a device is intended to be sold to the general public, the information required by subsection 21(1) shall\n(a) be set out on the outside of the package that contains the device; and\n(b) be visible under normal conditions of sale.",
+      "summaryKo": "제(2)항을 조건으로, 일반인에게 판매할 의도의 기기는 제21조(1)이 요구하는 정보를\n(a) 기기가 담긴 포장 겉면에 기재하고\n(b) 정상 판매 조건에서 보이게 해야 한다.",
+      "topics": [
+        "p:labelling-ifu",
+        "p:lay-usability"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s22",
+        "en": "Section 22 — Devices sold to the general public: where the information appears",
+        "ko": "Section 22 — 일반인 판매 기기: 정보 표시 위치"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s22-2",
+      "ref": "Section 22(2)",
+      "titleEn": "Package too small — directions for use may accompany the device",
+      "titleKo": "포장이 너무 작은 경우 — 사용 지침 동봉",
+      "summaryEn": "Where a package is too small to display all the information in accordance with section 21, the directions for use shall accompany the device but need not be set out on the outside of the package or be visible under normal conditions of sale.",
+      "summaryKo": "포장이 너무 작아 제21조의 정보를 모두 표시할 수 없으면, 사용 지침은 기기에 동봉하되 포장 겉면에 기재하거나 정상 판매 조건에서 보이게 할 필요는 없다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s22",
+        "en": "Section 22 — Devices sold to the general public: where the information appears",
+        "ko": "Section 22 — 일반인 판매 기기: 정보 표시 위치"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s23-1",
+      "ref": "Section 23(1)",
+      "titleEn": "Official language — English or French as a minimum",
+      "titleKo": "공용어 — 최소 영어 또는 프랑스어",
+      "summaryEn": "Subject to subsection (3), the information required by subsection 21(1) shall, as a minimum, be in either English or French.",
+      "summaryKo": "제(3)항을 조건으로, 제21조(1)이 요구하는 정보는 최소한 영어 또는 프랑스어로 작성해야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s23",
+        "en": "Section 23 — Official languages",
+        "ko": "Section 23 — 공용어"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s23-2",
+      "ref": "Section 23(2)",
+      "titleEn": "Directions for use in the other official language on request",
+      "titleKo": "다른 공용어 사용 지침 — 요청 시 제공",
+      "summaryEn": "Subject to subsection (3), where the directions for use are supplied in only one official language at the time of sale, directions for use in the other official language shall be made available by the manufacturer as soon as possible at the request of the purchaser.",
+      "summaryKo": "제(3)항을 조건으로, 판매 시 사용 지침이 한 공용어로만 제공되면 구매자가 요청할 때 제조자가 다른 공용어 사용 지침을 가능한 한 빨리 제공해야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s23",
+        "en": "Section 23 — Official languages",
+        "ko": "Section 23 — 공용어"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    },
+    {
+      "id": "CA-s23-3",
+      "ref": "Section 23(3)",
+      "titleEn": "General public — English and French",
+      "titleKo": "일반인 판매 — 영어·프랑스어 모두",
+      "summaryEn": "In respect of a device to be sold to the general public, the information required by paragraphs 21(1)(a) and (e) to (j) shall, as a minimum, be in both English and French.",
+      "summaryKo": "일반인에게 판매할 기기는 제21조(1)(a) 및 (e)–(j)의 정보를 최소한 영어와 프랑스어 모두로 작성해야 한다.",
+      "topics": [
+        "p:labelling-ifu",
+        "p:lay-usability"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "s23",
+        "en": "Section 23 — Official languages",
+        "ko": "Section 23 — 공용어"
+      },
+      "ownNote": "출처: Justice Laws — Medical Devices Regulations SOR/98-282, Sections 21–23 (page-2, Date modified 2026-11-16)"
+    }
+  ]
+}

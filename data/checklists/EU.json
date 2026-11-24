@@ -1,0 +1,3405 @@
+{
+  "market": "EU",
+  "name": {
+    "en": "EU MDR 2017/745 (GSPR)",
+    "ko": "EU MDR 2017/745 (GSPR)"
+  },
+  "role": "hub",
+  "verification": "official",
+  "titleNote": "사용자가 제공한 영/국문 대역 PDF('MDR GSPR.pdf', MDR 원문 108–195쪽 구간의 Annex I)를 숫자 조항·(a)–(ab) 소항목 단위로 분할(항목 193개). 영문은 규정 본문이며 이전 세션에서 EUR-Lex 통합본(2026-01-01)으로 번호·구조를 확인한 것과 일치(23.1 (a)–(h), 23.2 (a)–(s), 23.3 (a)–(j), 23.4 (a)–(ab)). 국문은 파일에 포함된 번역으로 번역 출처는 미확인. PDF의 판본(개정 반영 여부)은 미확인 — EUR-Lex 통합본에서는 10.4.1(b), 10.4.2(c)가 Reg. (EU) 2025/2457로 개정됨. 소제목만 있는 항목(10, 10.4, 11 등)은 카드에서 제외했고, 제목은 '큰 항목 · 조항 번호'로 구성. 토픽은 조항 단위 기본 매핑에 키워드(IT 보안, 전자기, 방사선, 임상, UDI, 소프트웨어, 멸균)를 더한 초안이며 RA 검토 필요. Annex I에는 'clinical evaluation' 표현이 없음(임상평가는 Art. 61/Annex XIV).",
+  "topicsFormat": "p:<topic> = primary, s:<topic> = secondary",
+  "sections": [
+    {
+      "id": "EU-GSPR-1",
+      "ref": "GSPR 1",
+      "titleEn": "General requirement — intended performance, safety and effectiveness · 1",
+      "titleKo": "일반 요구사항 — 의도된 성능, 안전·유효성 · 1",
+      "summaryEn": "Devices shall achieve the performance intended by their manufacturer and shall be designed and manufactured in such a way that, during normal conditions of use, they are suitable for their intended purpose. They shall be safe and effective and shall not compromise the clinical condition or the safety of patients, or the safety and health of users or, where applicable, other persons, provided that any risks which may be associated with their use constitute acceptable risks when weighed against the benefits to the patient and are compatible with a high level of protection of health and safety, taking into account the generally acknowledged state of the art.",
+      "summaryKo": "기기는 제조자가 의도한 성능을 달성해야 하며, 정상적인 사용 환경에서 용도에 적합할 수 있도록 설계 및 제조되어야 한다. 기기는 안전하고 효과적이어야 하며, 환자의 임상적 상태나 안전 또는 사용자(적용가능할 경우 그 외 사람들)의 안전 및 건강을 위태롭게 해서는 안 된다. 이 때, 기기 사용과 관련되어 있을 수 있는 모든 위험은, 일반적으로 인정되는 최신 기술을 고려하여, 환자에 대한 유익과 비교했을 때 허용가능한 위험이어야 하며, 높은 수준의 건강 및 안전 보호와 양립할 수 있어야 한다.",
+      "topics": [
+        "p:general-safety",
+        "p:intended-performance",
+        "s:benefit-risk"
+      ],
+      "group": {
+        "key": "1",
+        "en": "1. General requirement — intended performance, safety and effectiveness",
+        "ko": "1. 일반 요구사항 — 의도된 성능, 안전·유효성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-2",
+      "ref": "GSPR 2",
+      "titleEn": "Meaning of 'reduce risks as far as possible' · 2",
+      "titleKo": "'위험의 최대한 감소'의 의미 · 2",
+      "summaryEn": "The requirement in this Annex to reduce risks as far as possible means the reduction of risks as far as possible without adversely affecting the benefit-risk ratio.",
+      "summaryKo": "위험을 최대한 감소시키기 위한 이 부속서의 요구사항은, 위험편익비에 부정적인 영향을 미치지 않으면서 위험을 최대한 감소시키는 것을 의미한다.",
+      "topics": [
+        "p:risk-management",
+        "s:benefit-risk"
+      ],
+      "group": {
+        "key": "2",
+        "en": "2. Meaning of 'reduce risks as far as possible'",
+        "ko": "2. '위험의 최대한 감소'의 의미",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3",
+      "ref": "GSPR 3",
+      "titleEn": "Risk management system · 3",
+      "titleKo": "위험관리 시스템 · 3",
+      "summaryEn": "Manufacturers shall establish, implement, document and maintain a risk management system. Risk management shall be understood as a continuous iterative process throughout the entire lifecycle of a device, requiring regular systematic updating. In carrying out risk management manufacturers shall:",
+      "summaryKo": "제조자는 위험 관리 시스템을 구축, 실행, 문서화 및 유지해야 한다. 위험 관리는 기기의 전 생애주기에 걸친 지속적이고 반복적인 프로세스로 해석되며, 정기적인 시스템 업데이트가 요구된다. 위험 관리를 수행하는데 있어 제조자는",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3(a)",
+      "ref": "GSPR 3(a)",
+      "titleEn": "Risk management system · 3(a)",
+      "titleKo": "위험관리 시스템 · 3(a)",
+      "summaryEn": "establish and document a risk management plan for each device;",
+      "summaryKo": "각 기기에 대해 위험 관리 계획을 수립하고 문서화",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3(b)",
+      "ref": "GSPR 3(b)",
+      "titleEn": "Risk management system · 3(b)",
+      "titleKo": "위험관리 시스템 · 3(b)",
+      "summaryEn": "identify and analyse the known and foreseeable hazards associated with each device;",
+      "summaryKo": "기기와 관련해 알려진/예측가능한 유해성을 파악하고 분석",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3(c)",
+      "ref": "GSPR 3(c)",
+      "titleEn": "Risk management system · 3(c)",
+      "titleKo": "위험관리 시스템 · 3(c)",
+      "summaryEn": "estimate and evaluate the risks associated with, and occurring during, the intended use and during reasonably foreseeable misuse;",
+      "summaryKo": "용도와 관련해, 정상적인 사용 도중에 그리고 합리적으로 예측가능한 오용 도중에 발생하는 위험을 추정하고 평가",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3(d)",
+      "ref": "GSPR 3(d)",
+      "titleEn": "Risk management system · 3(d)",
+      "titleKo": "위험관리 시스템 · 3(d)",
+      "summaryEn": "eliminate or control the risks referred to in point (c) in accordance with the requirements of Section 4;",
+      "summaryKo": "제4절의 요구사항에 따라 (c)에 언급되어 있는 위험을 제거 또는 통제",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3(e)",
+      "ref": "GSPR 3(e)",
+      "titleEn": "Risk management system · 3(e)",
+      "titleKo": "위험관리 시스템 · 3(e)",
+      "summaryEn": "evaluate the impact of information from the production phase and, in particular, from the post-market surveillance system, on hazards and the frequency of occurrence thereof, on estimates of their associated risks, as well as on the overall risk, benefit-risk ratio and risk acceptability; and",
+      "summaryKo": "유해성 및 유해성 발생 빈도, 관련 위험의 예상, 그리고 전반적인 위험, 위험편익비 및 위험 허용가능성에 대하여, 생산 단계에서, 그리고 특히 시판후 감시 시스템을 통해 얻게 되는 정보의 영향을 평가",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-3(f)",
+      "ref": "GSPR 3(f)",
+      "titleEn": "Risk management system · 3(f)",
+      "titleKo": "위험관리 시스템 · 3(f)",
+      "summaryEn": "based on the evaluation of the impact of the information referred to in point (e), if necessary amend control measures in line with the requirements of Section 4.",
+      "summaryKo": "또한, (e)에 언급되어 있는 정보의 영향 평가에 근거하여, 필요할 경우 제 4절의 요구사항에 따라 통제 조치를 수정.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "3",
+        "en": "3. Risk management system",
+        "ko": "3. 위험관리 시스템",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-4",
+      "ref": "GSPR 4",
+      "titleEn": "Risk control measures · 4",
+      "titleKo": "위험통제 조치 · 4",
+      "summaryEn": "Risk control measures adopted by manufacturers for the design and manufacture of the devices shall conform to safety principles, taking account of the generally acknowledged state of the art. To reduce risks, Manufacturers shall manage risks so that the residual risk associated with each hazard as well as the overall residual risk is judged acceptable. In selecting the most appropriate solutions, manufacturers shall, in the following order of priority:",
+      "summaryKo": "제조자가 기기 설계 및 제조를 위해 채택하는 위험 통제 조치는 일반적으로 인정되는 최신 기술을 고려하여 안전 원칙을 따라야 한다. 위험을 줄이기 위해 제조자는 각 유해성과 관련 있는 잔여 위험과 전반적인 잔여 위험이 허용가능 판정을 받도록 위험을 관리해야 한다. 가장 적절한 솔루션을 선택하는데 있어 제조자는 다음의 우선순위대로 해야 한다",
+      "topics": [
+        "p:risk-management",
+        "s:labelling-ifu",
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "4",
+        "en": "4. Risk control measures",
+        "ko": "4. 위험통제 조치",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-4(a)",
+      "ref": "GSPR 4(a)",
+      "titleEn": "Risk control measures · 4(a)",
+      "titleKo": "위험통제 조치 · 4(a)",
+      "summaryEn": "eliminate or reduce risks as far as possible through safe design and manufacture;",
+      "summaryKo": "안전 설계 및 제조를 통해 최대한 위험을 제거 또는 감소",
+      "topics": [
+        "p:risk-management",
+        "s:labelling-ifu",
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "4",
+        "en": "4. Risk control measures",
+        "ko": "4. 위험통제 조치",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-4(b)",
+      "ref": "GSPR 4(b)",
+      "titleEn": "Risk control measures · 4(b)",
+      "titleKo": "위험통제 조치 · 4(b)",
+      "summaryEn": "where appropriate, take adequate protection measures, including alarms if necessary, in relation to risks that cannot be eliminated; and",
+      "summaryKo": "적용가능할 경우, 제거될 수 없는 위험에 대해 적절한 보호 조치를 채택 (필요할 경우, 경보를 포함)",
+      "topics": [
+        "p:risk-management",
+        "s:labelling-ifu",
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "4",
+        "en": "4. Risk control measures",
+        "ko": "4. 위험통제 조치",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-4(c)",
+      "ref": "GSPR 4(c)",
+      "titleEn": "Risk control measures · 4(c)",
+      "titleKo": "위험통제 조치 · 4(c)",
+      "summaryEn": "provide information for safety (warnings/precautions/contra- indications) and, where appropriate, training to users. Manufacturers shall inform users of any residual risks.",
+      "summaryKo": "또한, 안전을 위한 정보 (경고, 예방조치, 금기사항), 그리고 적절할 경우 사용자에게 훈련을 제공. 제조자는 사용자에게 모든 잔여 위험을 알려야 한다.",
+      "topics": [
+        "p:risk-management",
+        "s:labelling-ifu",
+        "s:general-safety"
+      ],
+      "group": {
+        "key": "4",
+        "en": "4. Risk control measures",
+        "ko": "4. 위험통제 조치",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-5",
+      "ref": "GSPR 5",
+      "titleEn": "Use error · 5",
+      "titleKo": "사용 오류 · 5",
+      "summaryEn": "In eliminating or reducing risks related to use error, the manufacturer shall:",
+      "summaryKo": "사용 오류와 관련된 위험을 없애거나 줄이기 위해 제조자는",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "5",
+        "en": "5. Use error",
+        "ko": "5. 사용 오류",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-5(a)",
+      "ref": "GSPR 5(a)",
+      "titleEn": "Use error · 5(a)",
+      "titleKo": "사용 오류 · 5(a)",
+      "summaryEn": "reduce as far as possible the risks related to the ergonomic features of the device and the environment in which the device is intended to be used (design for patient safety), and",
+      "summaryKo": "기기의 인체공학적 특징, 그리고 기기가 사용되는 환경과 관련된 위험을 최대한 줄이고 (환자 안전을 위한 설계)",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "5",
+        "en": "5. Use error",
+        "ko": "5. 사용 오류",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-5(b)",
+      "ref": "GSPR 5(b)",
+      "titleEn": "Use error · 5(b)",
+      "titleKo": "사용 오류 · 5(b)",
+      "summaryEn": "give consideration to the technical knowledge, experience, education, training and use environment, where applicable, and the medical and physical conditions of intended users (design for lay, professional, disabled or other users).",
+      "summaryKo": "또한, 기술적 지식, 경험, 교육, 훈련 및 사용 환경을 고려하고, 적용가능할 경우 대상 사용자의 의료 및 물리적 환경을 고려 (비전문가, 전문가, 장애인 또는 그 밖의 사람들을 위한 설계).",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "5",
+        "en": "5. Use error",
+        "ko": "5. 사용 오류",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-6",
+      "ref": "GSPR 6",
+      "titleEn": "Lifetime · 6",
+      "titleKo": "수명 · 6",
+      "summaryEn": "The characteristics and performance of a device shall not be adversely affected to such a degree that the health or safety of the patient or the user and, where applicable, of other persons are compromised during the lifetime of the device, as indicated by the manufacturer, when the device is subjected to the stresses which can occur during normal conditions of use and has been properly maintained in accordance with the manufacturer's instructions.",
+      "summaryKo": "기기의 생애주기 동안, 제조자가 표시한 대로 정상적인 사용 환경에서 발생할 수 있는 응력을 받았을 때, 그리고 제조자의 지시에 따라 적절하게 유지보수 되었을 때, 기기의 특성 및 성능은 환자 또는 사용자의(적용가능할 경우 그 밖의 사람들) 건강이나 안전이 위태롭게 될 정도로 부정적인 영향을 받아서는 안 된다.",
+      "topics": [
+        "p:lifetime"
+      ],
+      "group": {
+        "key": "6",
+        "en": "6. Lifetime",
+        "ko": "6. 수명",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-7",
+      "ref": "GSPR 7",
+      "titleEn": "Transport and storage · 7",
+      "titleKo": "운송 및 보관 · 7",
+      "summaryEn": "Devices shall be designed, manufactured and packaged in such a way that their characteristics and performance during their intended use are not adversely affected during transport and storage, for example, through fluctuations of temperature and humidity, taking account of the instructions and information provided by the manufacturer.",
+      "summaryKo": "기기는 제조자가 제공한 지시사항 및 정보에 따라 이동 및 보관 했을 때, 사용 중 그 특성과 성능이 부정적으로 영향 받지 않도록 (예를 들어, 기온 및 습도 변화에 의해)설계, 제조 및 포장되어야 한다.",
+      "topics": [
+        "p:transport-storage"
+      ],
+      "group": {
+        "key": "7",
+        "en": "7. Transport and storage",
+        "ko": "7. 운송 및 보관",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-8",
+      "ref": "GSPR 8",
+      "titleEn": "Undesirable side-effects vs benefits · 8",
+      "titleKo": "부작용 대 이익 · 8",
+      "summaryEn": "All known and foreseeable risks, and any undesirable side- effects, shall be minimised and be acceptable when weighed against the evaluated benefits to the patient and/or user arising from the achieved performance of the device during normal conditions of use.",
+      "summaryKo": "정상적인 사용 환경에서 기기의 성능으로 인한 모든 알려진/예측가능한 위험, 그리고 바람직하지 않은 부작용은 최소화 되어야 하며, 환자 및/또는 사용자에 대해 평가된 유익과 비교했을 때 허용가능해야 한다.",
+      "topics": [
+        "p:benefit-risk"
+      ],
+      "group": {
+        "key": "8",
+        "en": "8. Undesirable side-effects vs benefits",
+        "ko": "8. 부작용 대 이익",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-9",
+      "ref": "GSPR 9",
+      "titleEn": "Annex XVI devices · 9",
+      "titleKo": "Annex XVI 기기 · 9",
+      "summaryEn": "For the devices referred to in Annex XVI, the general safety requirements set out in Sections 1 and 8 shall be understood to mean that the device, when used under the conditions and for the purposes intended, does not present a risk at all or presents a risk that is no more than the maximum acceptable risk related to the product's use which is consistent with a high level of protection for the safety and health of persons.",
+      "summaryKo": "부속서 16에 언급되어 있는 기기에 대해, 제 1절 및 8절에 명시되어 있는 일반 안전 및 성능 요구사항은, 의도된 환경에서 의도된 용도에 따라 사용되었을 때 기기가 위험을 전혀 초래하지 않거나, 높은 수준의 안전 및 건강 보호와 조화되며, 제품 사용과 관련해 허용가능한 최대 위험을 초과하지 않는 위험만을 초래함을 의미한다.",
+      "topics": [],
+      "group": {
+        "key": "9",
+        "en": "9. Annex XVI devices",
+        "ko": "9. Annex XVI 기기",
+        "hideTitle": true
+      },
+      "ownNote": "EU 고유(Annex XVI 제품). 치과 X-ray/SW와 직접 관련 낮음."
+    },
+    {
+      "id": "EU-GSPR-10.1",
+      "ref": "GSPR 10.1",
+      "titleEn": "Chemical, physical and biological properties · 10.1",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to ensure that the characteristics and performance requirements referred to in Chapter I are fulfilled. Particular attention shall be paid to:",
+      "summaryKo": "기기는 제1장의 특성 및 성능 요구사항이 충족되는 방식으로 설계 및 제조되어야 한다. 특히 다음에 유의한다",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(a)",
+      "ref": "GSPR 10.1(a)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(a)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(a)",
+      "summaryEn": "the choice of materials and substances used, particularly as regards toxicity and, where relevant, flammability;",
+      "summaryKo": "사용된 재료 및 물질의 선택 (특히 독성, 그리고 관련이 있을 경우, 가연성과 관련해)",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(b)",
+      "ref": "GSPR 10.1(b)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(b)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(b)",
+      "summaryEn": "the compatibility between the materials and substances used and biological tissues, cells and body fluids, taking account of the intended purpose of the device and, where relevant, absorption, distribution, metabolism and excretion;",
+      "summaryKo": "사용된 재료 및 물질, 그리고 생물학적 조직, 세포 및 체액 간의 적합성 (기기의 용도, 그리고 관련이 있을 경우, 흡수, 분포, 대사 및 배출을 고려)",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(c)",
+      "ref": "GSPR 10.1(c)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(c)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(c)",
+      "summaryEn": "the compatibility between the different parts of a device which consists of more than one implantable part;",
+      "summaryKo": "한 개 이상의 이식형 부품으로 이루어진 기기의 여러 부품들간의 호환성",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(d)",
+      "ref": "GSPR 10.1(d)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(d)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(d)",
+      "summaryEn": "the impact of processes on material properties;",
+      "summaryKo": "재료 특성에 공정이 미치는 영향",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(e)",
+      "ref": "GSPR 10.1(e)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(e)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(e)",
+      "summaryEn": "where appropriate, the results of biophysical or modelling research the validity of which has been demonstrated beforehand;",
+      "summaryKo": "적절할 경우, 생물물리학적 또는 모델링 연구의 결과 (그 유효성은 사전에 입증되어야 함)",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(f)",
+      "ref": "GSPR 10.1(f)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(f)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(f)",
+      "summaryEn": "the mechanical properties of the materials used, reflecting, where appropriate, matters such as strength, ductility, fracture resistance, wear resistance and fatigue resistance;",
+      "summaryKo": "사용된 재료의 기계적 특성 (적절할 경우, 강도, 연성, 파괴 저항성, 내마모성 및 내피로성과 같은 사항들을 반영)",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(g)",
+      "ref": "GSPR 10.1(g)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(g)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(g)",
+      "summaryEn": "surface properties; and",
+      "summaryKo": "표면 특성",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.1(h)",
+      "ref": "GSPR 10.1(h)",
+      "titleEn": "Chemical, physical and biological properties · 10.1(h)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.1(h)",
+      "summaryEn": "the confirmation that the device meets any defined chemical and/or physical specifications.",
+      "summaryKo": "또한, 기기가 정의된 모든 화학적 및/또는 물리적 사양을 충족시킨다는 확인.",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.2",
+      "ref": "GSPR 10.2",
+      "titleEn": "Chemical, physical and biological properties · 10.2",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.2",
+      "summaryEn": "Devices shall be designed, manufactured and packaged in such a way as to minimise the risk posed by contaminants and residues to patients, taking account of the intended purpose of the device, and to the persons involved in the transport, storage and use of the devices. Particular attention shall be paid to tissues exposed to those contaminants and residues and to the duration and frequency of exposure.",
+      "summaryKo": "기기는 기기의 용도를 고려하여, 오염물질 및 잔여물이 환자에게, 그리고 운반, 저장 및 사용과 관련된 사람들에게 초래하는 위험을 최소화하는 방식으로 설계, 제조 및 포장되어야 한다. 오염물질 및 잔여물에 노출되는 조직, 그리고 노출의 기간 및 빈도에 특별한 주의를 기울여야 한다.",
+      "topics": [
+        "p:materials",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.3",
+      "ref": "GSPR 10.3",
+      "titleEn": "Chemical, physical and biological properties · 10.3",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.3",
+      "summaryEn": "Devices shall be designed and manufactured in such a way that they can be used safely with the materials and substances, including gases, with which they enter into contact during their intended use; if the devices are intended to administer medicinal products they shall be designed and manufactured in such a way as to be compatible with the medicinal products concerned in accordance with the provisions and restrictions governing those medicinal products and that the performance of both the medicinal products and of the devices is maintained in accordance with their respective indications and intended use.",
+      "summaryKo": "기기는 정상적인 사용 중에 접촉할 수 있는 재료 및 물질과(기체 포함) 함께 안전하게 사용될 수 있는 방식으로 설계 및 제조되어야 한다. 해당 기기가 약용제품을 투여하는 경우, 기기는 관련 약용제품에 적용되는 조항 및 제한에 따라 약용제품과 호환되는 방식으로, 그리고 약용제품 및 기기의 성능이 각 표시내용 및 용도에 따라 유지될 수 있는 방식으로 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:materials",
+        "s:medicinal-substance"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.1",
+      "ref": "GSPR 10.4.1",
+      "titleEn": "Chemical, physical and biological properties · 10.4.1",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.1",
+      "summaryEn": "Design and manufacture of devices Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks posed by substances or particles, including wear debris, degradation products and processing residues, that may be released from the device. Devices, or those parts thereof or those materials used therein that:\n- are invasive and come into direct contact with the human body,\n- (re)administer medicines, body liquids or other substances, including gases, to/from the body, or\n- transport or store such medicines, body fluids or substances, including gases, to be (re)administered to the body,\n- shall only contain the following substances in a concentration that is above 0,1 % weight by weight (w/w) where justified pursuant to Section 10.4.2: 0.1%",
+      "summaryKo": "기기의 설계 및 제조 기기는 기기에서 방출되는 물질 또는 입자가 초래하는 위험을 (마모 부스러기, 열화 생성물 및 가공 잔여물을 포함) 최대한 줄이기 위한 방식으로 설계 및 제조되어야 한다 다음과 같은 기기 또는 기기의 부품 혹은 사용된 재료는 침습적이며 인체와 직접 접촉하는 의약품, 체액 또는 기체를 포함한 기타 물질을 인체에서 및/또는 인체로 (재)투여, 또는 그러한 의약품, 체액 또는 기체를 포함한 기타 물질을 인체에 (재)투여하기 위해 이동 또는 저장 이상 농도의 (w/w기준) 다음의 물질을 10.4.2절에 따라 타당할 경우에만 포함해야 한다",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.1(a)",
+      "ref": "GSPR 10.4.1(a)",
+      "titleEn": "Chemical, physical and biological properties · 10.4.1(a)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.1(a)",
+      "summaryEn": "substances which are carcinogenic, mutagenic or toxic to reproduction (‘CMR’), of category 1A or 1B, in accordance with Part 3 of Annex VI to Regulation (EC) No 1272/2008 of the European Parliament and of the Council (1), or",
+      "summaryKo": "유럽 의회 및 이사회 규정 (EC) No 1272/2008 (1)의 부속서 6의 Part 3에 따른, 1A 또는 1B 카테고리의 발암성, 돌연변이성, 독성 (‘CMR’) 물질, 또는",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.1(b)",
+      "ref": "GSPR 10.4.1(b)",
+      "titleEn": "Chemical, physical and biological properties · 10.4.1(b)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.1(b)",
+      "summaryEn": "substances having endocrine-disrupting properties for which there is scientific evidence of probable serious effects to human health and which are identified either in accordance with the procedure set out in Article 59 of Regulation (EC) No 1907/2006 of the European Parliament and of the Council (2) or, once a delegated act has been adopted by the Commission pursuant to the first subparagraph of Article 5(3) of Regulation (EU) No 528/2012 of the European Parliament and the Council (3), in accordance with the criteria that are relevant to human health amongst the criteria established therein. (3)",
+      "summaryKo": "내분비 교란 특성이 있는 물질로서, 인간의 건강에 심각한 영향을 줄 수 있다는 과학적 증거가 있고, 유럽 의회 및 이사회 규정 (EC) No 1907/2006 (2) 제 59조에 설명되어 있는 절차에 따라 파악된, 또는 유럽 의회 및 이사회 규정 (EU) No 528/2012 제 5조(3)의 첫 번째 호에 따라 집행위원회가 위임 법령을 채택한 경우, 이를 통해 수립된 기준 중에서 인간의 건강과 관련된 기준에 따라 파악된 물질.",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.2",
+      "ref": "GSPR 10.4.2",
+      "titleEn": "Chemical, physical and biological properties · 10.4.2",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.2",
+      "summaryEn": "Justification regarding the presence of CMR and/or endocrine-disrupting substances The justification for the presence of such substances shall be based upon:",
+      "summaryKo": "CMR 및/또는 내분비 교란 물질의 존재와 관련된 타당성 그러한 물질의 존재에 대한 타당성은 다음에 기반해야 한다",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.2(a)",
+      "ref": "GSPR 10.4.2(a)",
+      "titleEn": "Chemical, physical and biological properties · 10.4.2(a)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.2(a)",
+      "summaryEn": "an analysis and estimation of potential patient or user exposure to the substance;",
+      "summaryKo": "물질의 환자 또는 사용자에 대한 잠재적인 노출의 분석과 추정",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.2(b)",
+      "ref": "GSPR 10.4.2(b)",
+      "titleEn": "Chemical, physical and biological properties · 10.4.2(b)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.2(b)",
+      "summaryEn": "an analysis of possible alternative substances, materials or designs, including, where available, information about independent research, peer-reviewed studies, scientific opinions from relevant scientific committees and an analysis of the availability of such alternatives;",
+      "summaryKo": "가능한 대안 물질, 재료 또는 설계의 분석 (적용가능할 경우 독립적인 연구, 동료 검토 연구, 관련 과학 위원회의 과학적 의견, 그리고 그러한 대안들의 가용성 분석을 포함)",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.2(c)",
+      "ref": "GSPR 10.4.2(c)",
+      "titleEn": "Chemical, physical and biological properties · 10.4.2(c)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.2(c)",
+      "summaryEn": "argumentation as to why possible substance and/ or material substitutes, if available, or design changes, if feasible, are inappropriate in relation to maintaining the functionality, performance and the benefit-risk ratios of the product; including taking into account if the intended use of such devices includes treatment of children or treatment of pregnant or breastfeeding women or treatment of other patient groups considered particularly vulnerable to such substances and/or materials; and",
+      "summaryKo": "가능한 물질 및/또는 재료 대체재 (가용할 경우) 또는 설계 변경이 (실현가능할 경우) 제품의 기능, 성능 및 위험편익비 유지에 왜 부적절한지에 대한 논증 (그러한 기기의 용도에 어린이의 치료, 임산부나 모유수유 여성의 치료 혹은 그러한 물질 및/또는 재료에 특히 취약하다고 여겨지는 기타 위험군의 치료가 포함될 경우, 이를 고려하는 것이 포함됨)",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.2(d)",
+      "ref": "GSPR 10.4.2(d)",
+      "titleEn": "Chemical, physical and biological properties · 10.4.2(d)",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.2(d)",
+      "summaryEn": "where applicable and available, the latest relevant scientific committee guidelines in accordance with Sections 10.4.3. and 10.4.4.",
+      "summaryKo": "또한, 적용가능하고 가용한 경우, 제10.4.3 및 10.4.4절에 따른 최신 관련 과학 위원회의 지침.",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.3",
+      "ref": "GSPR 10.4.3",
+      "titleEn": "Chemical, physical and biological properties · 10.4.3",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.3",
+      "summaryEn": "Guidelines on phthalates For the purposes of Section 10.4., the Commission shall, as soon as possible and by 26 May 2018, provide the relevant scientific committee with a mandate to prepare guidelines that shall be ready before 26 May 2020. The mandate for the committee shall encompass at least a benefit-risk assessment of the presence of phthalates which belong to either of the groups of substances referred to in points (a) and (b) of Section 10.4.1. The benefit- risk assessment shall take into account the intended purpose and context of the use of the device, as well as any available alternative substances and alternative materials, designs or medical treatments. When deemed appropriate on the basis of the latest scientific evidence, but at least every five years, the guidelines shall be updated. (1) Regulation (EC) No 1272/2008 of the European Parliament and of the Council of 16 December 2008 on classification, labelling and packaging of substances and mixtures, amending and repealing Directives 67/548/EEC and 1999/45/EC, and amending Regulation (EC) No 1907/2006 (OJ L 353, 31.12.2008, p. 1). (1) 67/548/EEC (EC) No (2) Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (OJ L 396, 30.12.2006, p. 1). (2) 30.12.2006, p. 1). (3) Regulation (EU) No 528/2012 of the European Parliament and the Council of 22 May 2012 concerning the making available on the market of and use of biocidal products (OJ L 167, 27.6.2012, p. 1). (3) 1).",
+      "summaryKo": "프탈레이트(phthalate)에 대한 지침 10.4절의 목적을 위해, 집행위원회는 가능한 빨리, 그리고 2018년 5월 26일까지 관련 과학 위원회에 2020년 5월 26일 전에 준비되어야 하는 지침을 작성하도록 지시해야 한다. 위원회에 주어진 지시에는 최소한, 10.4.1절의 (a) 및 (b)에 언급되어 있는 물질군에 속하는 프탈레이트의 위험편익 평가를 포함해야 한다. 그러한 위험편익 평가는 용도와 기기 사용 환경, 그리고 대체 물질 및 대체 재료, 설계 또는 의학적 치료를 고려해야 한다. 최신 과학적 증거에 근거하여 적절하다고 여겨질 경우, 그러나 최소 5년마다, 해당 지침을 업데이트 한다. 유럽 의회 및 이사회 규정 (EC) No 1272/2008, 2008년 12월 16일, 물질 및 혼합물의 분류, 라벨링 및 포장, 지침 및 1999/45/EC의 수정 및 폐지, 그리고 규정 1907/2006의 수정 ( OJ L 353, 31.12.2008, p. 1). 유럽 의회 및 이사회 규정 (EC) No 1907/2006, 2006년 12월 18일, 화학물질의 등록, 평가, 허가 및 제한 (REACH) (OJ L 396, 유럽 의회 및 이사회 규정 (EU) No 528/2012, 2012년 5월 22일, 살생물제의 시장 가용성 및 사용 (OJ L 167, 27.6.2012, p.",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.4",
+      "ref": "GSPR 10.4.4",
+      "titleEn": "Chemical, physical and biological properties · 10.4.4",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.4",
+      "summaryEn": "Guidelines on other CMR and endocrine-disrupting substances Subsequently, the Commission shall mandate the relevant scientific committee to prepare guidelines as referred to in Section 10.4.3. also for other substances referred to in points (a) and (b) of Section 10.4.1., where appropriate.",
+      "summaryKo": "기타 CMR 및 내분비 교란 물질에 대한 지침 이후에 집행위원회는 10.4.3절에 언급되어 있는 지침을 작성하기 위해, 또한 적절할 경우 10.4.1절(a) 및 (b)애 언급되어 있는 기타 물질을 위해 관련 과학 위원회를 임명해야 한다",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.4.5",
+      "ref": "GSPR 10.4.5",
+      "titleEn": "Chemical, physical and biological properties · 10.4.5",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.4.5",
+      "summaryEn": "Labelling Where devices, parts thereof or materials used therein as referred to in Section 10.4.1. contain substances referred to in points (a) or (b) of Section 10.4.1. in a concentration above 0.1 % weight by weight (w/w), the presence of those substances shall be labelled on the device itself and/or on the packaging for each unit or, where appropriate, on the sales packaging, with the list of such substances. If the intended use of such devices includes treatment of children or treatment of pregnant or breastfeeding women or treatment of other patient groups considered particularly vulnerable to such substances and/or materials, information on residual risks for those patient groups and, if applicable, on appropriate precautionary measures shall be given in the instructions for use.",
+      "summaryKo": "라벨링 10.4.1절에 언급되어 있는 기기, 기기의 부품 또는 사용된 재료가 10.4.1절의 (a) 또는 (b)에 언급되어 있는 물질을 0.1%이상의 농도로 (w/w기준) 포함할 경우, 그러한 물질의 존재를 기기 자체에 그리고/또는 각각의 포장에, 또는 적절할 경우 판매 포장지(sales packaging)에, 그러한 물질의 목록과 함께 표시해야 한다. 그러한 기기의 용도에, 어린이의 치료 또는 임산부나 모유수유 여성의 치료, 또는 그러한 물질 및/또는 재료에 특히 취약하다고 여겨지는 기타 환자군의 치료가 포함되면, 해당 환자군에 대한 잔여 위험 정보, 그리고 적용가능할 경우 적절한 예방조치를 사용설명서에 포함시켜야 한다.",
+      "topics": [
+        "p:materials",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.5",
+      "ref": "GSPR 10.5",
+      "titleEn": "Chemical, physical and biological properties · 10.5",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.5",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks posed by the unintentional ingress of substances into the device taking into account the device and the nature of the environment in which it is intended to be used.",
+      "summaryKo": "기기는 기기와 그것이 사용되는 환경의 특성을 고려해, 의도치 않은 물질의 침투로 인해 초래되는 위험을 최대한 줄이기 위한 방식으로 설계 및 제조되어야 한다.",
+      "topics": [
+        "s:materials",
+        "s:environment-construction"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-10.6",
+      "ref": "GSPR 10.6",
+      "titleEn": "Chemical, physical and biological properties · 10.6",
+      "titleKo": "화학적·물리적·생물학적 특성 · 10.6",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks linked to the size and the properties of particles which are or can be released into the patient's or user's body, unless they come into contact with intact skin only. Special attention shall be given to nanomaterials.",
+      "summaryKo": "기기는 환자 또는 사용자의 몸으로 유입될 수 있는 입자의 크기 및 특성과 관련된 위험을, 그러한 입자가 오로지 정상적인 피부와 접촉하는 경우가 아니라면, 이를 최대한 줄이기 위한 방식으로 설계 및 제조되어야 한다. 나노물질에 특별한 주의를 기울여야 한다.",
+      "topics": [
+        "p:materials"
+      ],
+      "group": {
+        "key": "10",
+        "en": "10. Chemical, physical and biological properties",
+        "ko": "10. 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.1",
+      "ref": "GSPR 11.1",
+      "titleEn": "Infection and microbial contamination · 11.1",
+      "titleKo": "감염 및 미생물 오염 · 11.1",
+      "summaryEn": "Devices and their manufacturing processes shall be designed in such a way as to eliminate or to reduce as far as possible the risk of infection to patients, users and, where applicable, other persons. The design shall:",
+      "summaryKo": "기기 및 제조 공정은 환자, 사용자, 그리고 적용가능할 경우 그 밖의 사람들에 대한 감염 위험을 최대한 제거 또는 줄이기 위한 방식으로 설계 및 제조되어야 한다. 그러한 설계는",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.1(a)",
+      "ref": "GSPR 11.1(a)",
+      "titleEn": "Infection and microbial contamination · 11.1(a)",
+      "titleKo": "감염 및 미생물 오염 · 11.1(a)",
+      "summaryEn": "reduce as far as possible and appropriate the risks from unintended cuts and pricks, such as needle stick injuries,",
+      "summaryKo": "의도하지 않은 베임 또는 찔림의 위험을 (예를 들어, 바늘 찔림 부상) 최대한 그리고 적절하게 감소",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.1(b)",
+      "ref": "GSPR 11.1(b)",
+      "titleEn": "Infection and microbial contamination · 11.1(b)",
+      "titleKo": "감염 및 미생물 오염 · 11.1(b)",
+      "summaryEn": "allow easy and safe handling,",
+      "summaryKo": "쉽고 안전한 취급을 가능하게",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.1(c)",
+      "ref": "GSPR 11.1(c)",
+      "titleEn": "Infection and microbial contamination · 11.1(c)",
+      "titleKo": "감염 및 미생물 오염 · 11.1(c)",
+      "summaryEn": "reduce as far as possible any microbial leakage from the device and/or microbial exposure during use, and",
+      "summaryKo": "사용 중에 기기로부터의 미생물 누출 및/또는 미생물 노출을 최대한 감소",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.1(d)",
+      "ref": "GSPR 11.1(d)",
+      "titleEn": "Infection and microbial contamination · 11.1(d)",
+      "titleKo": "감염 및 미생물 오염 · 11.1(d)",
+      "summaryEn": "prevent microbial contamination of the device or its content such as specimens or fluids.",
+      "summaryKo": "또한, 기기 또는 그 내용물 (검체 또는 유체와 같은)의 미생물 오염을 예방해야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.2",
+      "ref": "GSPR 11.2",
+      "titleEn": "Infection and microbial contamination · 11.2",
+      "titleKo": "감염 및 미생물 오염 · 11.2",
+      "summaryEn": "Where necessary devices shall be designed to facilitate their safe cleaning, disinfection, and/or re-sterilisation.",
+      "summaryKo": "필요할 경우 기기는 안전한 세척, 살균 및/또는 재-멸균을 용이하게 하는 방식으로 설계되어야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.3",
+      "ref": "GSPR 11.3",
+      "titleEn": "Infection and microbial contamination · 11.3",
+      "titleKo": "감염 및 미생물 오염 · 11.3",
+      "summaryEn": "Devices labelled as having a specific microbial state shall be designed, manufactured and packaged to ensure that they remain in that state when placed on the market and remain so under the transport and storage conditions specified by the manufacturer.",
+      "summaryKo": "특정 미생물 상태가 표시된 기기는, 시판될 때, 그리고 제조자가 명시한 운반 및 보관 조건에서 그러한 상태가 유지되도록 설계, 제조 및 포장되어야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.4",
+      "ref": "GSPR 11.4",
+      "titleEn": "Infection and microbial contamination · 11.4",
+      "titleKo": "감염 및 미생물 오염 · 11.4",
+      "summaryEn": "Devices delivered in a sterile state shall be designed, manufactured and packaged in accordance with appropriate procedures, to ensure that they are sterile when placed on the market and that, unless the packaging which is intended to maintain their sterile condition is damaged, they remain sterile, under the transport and storage conditions specified by the manufacturer, until that packaging is opened at the point of use. It shall be ensured that the integrity of that packaging is clearly evident to the final user.",
+      "summaryKo": "멸균 상태로 제공되는 기기는 시판될 때 멸균 상태를 보장할 수 있는 방식으로 (멸균 상태를 유지해주는 포장이 손상된 경우가 아니라면), 그리고 사용 시점에 포장이 개봉될 때까지 제조자가 명시한 운반 및 보관 조건에서 그러한 멸균 상태가 유지되도록, 적절한 절차에 따라 설계, 제조 및 포장되어야 한다. 포장의 무결성은 최종 사용자가 명확히 식별할 수 있어야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.5",
+      "ref": "GSPR 11.5",
+      "titleEn": "Infection and microbial contamination · 11.5",
+      "titleKo": "감염 및 미생물 오염 · 11.5",
+      "summaryEn": "Devices labelled as sterile shall be processed, manufactured, packaged and, sterilised by means of appropriate, validated methods.",
+      "summaryKo": "멸균 상태임이 표시된 기기는 적절하고 검증된 방법으로 가공, 제조, 포장 및 멸균되어야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.6",
+      "ref": "GSPR 11.6",
+      "titleEn": "Infection and microbial contamination · 11.6",
+      "titleKo": "감염 및 미생물 오염 · 11.6",
+      "summaryEn": "Devices intended to be sterilised shall be manufactured and packaged in appropriate and controlled conditions and facilities.",
+      "summaryKo": "멸균되어야 하는 기기는 적절하고 통제된 조건 및 시설에서 제조 및 포장되어야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.7",
+      "ref": "GSPR 11.7",
+      "titleEn": "Infection and microbial contamination · 11.7",
+      "titleKo": "감염 및 미생물 오염 · 11.7",
+      "summaryEn": "Packaging systems for non-sterile devices shall maintain the integrity and cleanliness of the product and, where the devices are to be sterilised prior to use, minimise the risk of microbial contamination; the packaging system shall be suitable taking account of the method of sterilisation indicated by the manufacturer.",
+      "summaryKo": "비-멸균 기기를 위한 포장 시스템은 제품의 무결성 및 청결을 유지해야 하며, 사용 전에 멸균 되어야 하는 기기의 경우, 미생물 오염 위험을 최소화해야 한다. 포장 시스템은 제조자가 표시한 멸균 방법을 고려했을 때 적절해야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-11.8",
+      "ref": "GSPR 11.8",
+      "titleEn": "Infection and microbial contamination · 11.8",
+      "titleKo": "감염 및 미생물 오염 · 11.8",
+      "summaryEn": "The labelling of the device shall distinguish between identical or similar devices placed on the market in both a sterile and a non-sterile condition additional to the symbol used to indicate that devices are sterile.",
+      "summaryKo": "기기의 라벨링은 기기가 멸균임을 표시하기 위해 사용된 기호에 더해, 시판되는 멸균/비-멸균의 동일 또는 유사 기기를 구별해야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "11",
+        "en": "11. Infection and microbial contamination",
+        "ko": "11. 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-12",
+      "ref": "GSPR 12",
+      "titleEn": "Medicinal substance / absorbed or dispersed substances · 12",
+      "titleKo": "의약물질 포함 / 체내 흡수·분산 물질 기기 · 12",
+      "summaryEn": "Devices incorporating a substance considered to be a medicinal product and devices that are composed of substances or of combinations of substances that are absorbed by or locally dispersed in the human body.",
+      "summaryKo": "약용제품으로 여겨지는 물질을 포함하는 기기, 그리고 인체에서 흡수되거나 국소적으로 확산되는 물질로 구성된, 또는 그러한 물질들의 조합으로 구성된 기기",
+      "topics": [
+        "p:medicinal-substance"
+      ],
+      "group": {
+        "key": "12",
+        "en": "12. Medicinal substance / absorbed or dispersed substances",
+        "ko": "12. 의약물질 포함 / 체내 흡수·분산 물질 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-12.1",
+      "ref": "GSPR 12.1",
+      "titleEn": "Medicinal substance / absorbed or dispersed substances · 12.1",
+      "titleKo": "의약물질 포함 / 체내 흡수·분산 물질 기기 · 12.1",
+      "summaryEn": "In the case of devices referred to in the first subparagraph of Article 1(8), the quality, safety and usefulness of the substance which, if used separately, would be considered to be a medicinal product within the meaning of point (2) of Article 1 of Directive 2001/83/EC, shall be verified by analogy with the methods specified in Annex I to Directive 2001/83/EC, as required by the applicable conformity assessment procedure under this Regulation.",
+      "summaryKo": "제1조(8)의 첫 번째 호에 언급되어 있는 기기의 경우, 지침 2001/83/EC의 1조(2)의 정의 내에서 개별적으로 사용될 경우 약용제품으로 여겨지는 물질의 품질, 안전 및 유용성은, 이 규정에 따른 적용가능한 적합성 평가 절차에 의해 요구되는 바와 같이, 지침 2001/83/EC의 부속서 1에 명시되어 있는 방법으로 유추하여 검증되어야 한다.",
+      "topics": [
+        "p:medicinal-substance"
+      ],
+      "group": {
+        "key": "12",
+        "en": "12. Medicinal substance / absorbed or dispersed substances",
+        "ko": "12. 의약물질 포함 / 체내 흡수·분산 물질 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-12.2",
+      "ref": "GSPR 12.2",
+      "titleEn": "Medicinal substance / absorbed or dispersed substances · 12.2",
+      "titleKo": "의약물질 포함 / 체내 흡수·분산 물질 기기 · 12.2",
+      "summaryEn": "Devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body, and that are absorbed by or locally dispersed in the human body shall comply, where applicable and in a manner limited to the aspects not covered by this Regulation, with the relevant requirements laid down in Annex I to Directive 2001/83/EC for the evaluation of absorption, distribution, metabolism, excretion, local tolerance, toxicity, interaction with other devices, medicinal products or other substances and potential for adverse reactions, as required by the applicable conformity assessment procedure under this Regulation.",
+      "summaryKo": "인체에 들어가 흡수되거나 국소적으로 확산되는 물질로 구성된, 또는 그러한 물질들의 조합으로 구성된 기기는, 적용가능할 경우 그리고 이 규정이 다루지 않는 사항들에 한해, 흡수, 분포, 대사, 배출, 국소 내성, 독성, 다른 기기, 약용제품 또는 기타 물질과의 상호작용, 그리고 부작용 가능성 평가에 대해서(이 규정 하에 적용가능한 적합성 평가 절차에 의해 요구되는), 지침 2001/83/EC의 부속서 1에 명시되어 있는 관련 요구사항을 준수해야 한다.",
+      "topics": [
+        "p:medicinal-substance"
+      ],
+      "group": {
+        "key": "12",
+        "en": "12. Medicinal substance / absorbed or dispersed substances",
+        "ko": "12. 의약물질 포함 / 체내 흡수·분산 물질 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.1",
+      "ref": "GSPR 13.1",
+      "titleEn": "Materials of biological origin · 13.1",
+      "titleKo": "생물학적 기원 물질 · 13.1",
+      "summaryEn": "For devices manufactured utilising derivatives of tissues or cells of human origin which are non-viable or are rendered non- viable covered by this Regulation in accordance with point (g) of Article 1(6), the following shall apply:",
+      "summaryKo": "제1항(6)(g)에 따라 이 규정의 적용을 받는 비생존 또는 비생존 상태 인간 유래 조직이나 세포의 유래물을 사용해 제조된 기기는 다음을 적용해야 한다",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.1(a)",
+      "ref": "GSPR 13.1(a)",
+      "titleEn": "Materials of biological origin · 13.1(a)",
+      "titleKo": "생물학적 기원 물질 · 13.1(a)",
+      "summaryEn": "donation, procurement and testing of the tissues and cells shall be done in accordance with Directive 2004/23/EC;",
+      "summaryKo": "지침 2004/23/EC에 따라 조직 및 세포를 기증, 조달 및 테스트",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.1(b)",
+      "ref": "GSPR 13.1(b)",
+      "titleEn": "Materials of biological origin · 13.1(b)",
+      "titleKo": "생물학적 기원 물질 · 13.1(b)",
+      "summaryEn": "processing, preservation and any other handling of those tissues and cells or their derivatives shall be carried out so as to provide safety for patients, users and, where applicable, other persons. In particular, safety with regard to viruses and other transmissible agents shall be addressed by appropriate methods of sourcing and by implementation of validated methods of elimination or inactivation in the course of the manufacturing process;",
+      "summaryKo": "조직, 세포 또는 그 유래물의 가공, 보존 및 기타 취급은 환자 및 사용자(적용가능할 경우 그 밖의 사람들)의 안전을 보장할 수 있는 방식으로 수행되어야 한다. 특히, 바이러스 및 기타 전염성 인자와 관련된 안전은 적절한 조달 방법과 제조 과정 중 검증 받은 제거 또는 불활성 방법의 실행을 통해 다뤄져야 한다.",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.1(c)",
+      "ref": "GSPR 13.1(c)",
+      "titleEn": "Materials of biological origin · 13.1(c)",
+      "titleKo": "생물학적 기원 물질 · 13.1(c)",
+      "summaryEn": "the traceability system for those devices shall be complementary and compatible with the traceability and data protection requirements laid down in Directive 2004/23/EC and in Directive 2002/98/EC.",
+      "summaryKo": "이러한 기기의 추적 시스템은 지침 2004/23/EC와 2002/98/EC에 명시되어 있는 추적성 및 데이터 보호 요구사항에 의해 보완되고 양립 가능해야 한다.",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.2",
+      "ref": "GSPR 13.2",
+      "titleEn": "Materials of biological origin · 13.2",
+      "titleKo": "생물학적 기원 물질 · 13.2",
+      "summaryEn": "For devices manufactured utilising tissues or cells of animal origin, or their derivatives, which are non-viable or rendered non-viable the following shall apply:",
+      "summaryKo": "비생존 또는 비생존 상태 동물 유래 조직이나 세포의 유래물을 사용해 제조된 기기는 다음을 적용해야 한다",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.2(a)",
+      "ref": "GSPR 13.2(a)",
+      "titleEn": "Materials of biological origin · 13.2(a)",
+      "titleKo": "생물학적 기원 물질 · 13.2(a)",
+      "summaryEn": "where feasible taking into account the animal species, tissues and cells of animal origin, or their derivatives, shall originate from animals that have been subjected to veterinary controls that are adapted to the intended use of the tissues. Information on the geographical origin of the animals shall be retained by manufacturers;",
+      "summaryKo": "실행가능할 경우 동물의 종을 고려하여, 동물 유래 조직 및 세포 또는 그 유래물은 조직의 용도에 맞는 동물 검역을 거친 동물에서 유래해야 한다. 동물의 지리학적 유래에 대한 정보는 제조자가 보유해야 한다.",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.2(b)",
+      "ref": "GSPR 13.2(b)",
+      "titleEn": "Materials of biological origin · 13.2(b)",
+      "titleKo": "생물학적 기원 물질 · 13.2(b)",
+      "summaryEn": "sourcing, processing, preservation, testing and handling of tissues, cells and substances of animal origin, or their derivatives, shall be carried out so as to provide safety for patients, users and, where applicable, other persons. In particular safety with regard to viruses and other transmissible agents shall be addressed by implementation of validated methods of elimination or viral inactivation in the course of the manufacturing process, except when the use of such methods would lead to unacceptable degradation compromising the clinical benefit of the device;",
+      "summaryKo": "동물 유래 조직, 세포 및 물질 또는 그 유래물의 조달, 가공, 보존, 테스트 및 취급은 환자 및 사용자(적용가능할 경우 그 밖의 사람들)의 안전을 보장할 수 있는 방식으로 수행되어야 한다. 특히, 바이러스 및 기타 전염성 인자와 관련된 안전은 제조 과정 중 검증 받은 제거 또는 바이러스 불활성 방법의 실행을 통해 다뤄져야 한다(그러한 방법이 기기의 임상적 유익을 허용불가능하게 저하시키지 않는다면).",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.2(c)",
+      "ref": "GSPR 13.2(c)",
+      "titleEn": "Materials of biological origin · 13.2(c)",
+      "titleKo": "생물학적 기원 물질 · 13.2(c)",
+      "summaryEn": "in the case of devices manufactured utilising tissues or cells of animal origin, or their derivatives, as referred to in Regulation (EU) No 722/2012 the particular requirements laid down in that Regulation shall apply.",
+      "summaryKo": "동물 유래 조직 또는 세포나 그 유래물을 사용하여 제조되는 기기는 규정 (EU) No 722/2012에 언급되어 있듯이, 해당 규정에 명시되어 있는 특정 요구사항을 적용해야 한다.",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-13.3",
+      "ref": "GSPR 13.3",
+      "titleEn": "Materials of biological origin · 13.3",
+      "titleKo": "생물학적 기원 물질 · 13.3",
+      "summaryEn": "For devices manufactured utilising non-viable biological substances other than those referred to in Sections 13.1 and 13.2, the processing, preservation, testing and handling of those substances shall be carried out so as to provide safety for patients, users and, where applicable, other persons, including in the waste disposal chain. In particular, safety with regard to viruses and other transmissible agents shall be addressed by appropriate methods of sourcing and by implementation of validated methods of elimination or inactivation in the course of the manufacturing process.",
+      "summaryKo": "제13.1 및 13.2절에 언급되어 있는 것 이외의 비생존 생물학적 물질을 사용해 제조된 기기의 경우, 가공, 보존, 테스트 및 취급은 환자 및 사용자(적용가능할 경우 그 밖의 사람들)의 안전을 보장할 수 있는 방식으로 수행되어야 하며, 여기에는 폐기물 처리 과정도 포함된다. 특히, 바이러스 및 기타 전염성 인자와 관련된 안전은 적절한 조달 방법과 제조 과정 중 검증 받은 제거 또는 불활성 방법의 실행을 통해 다뤄져야 한다",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "13",
+        "en": "13. Materials of biological origin",
+        "ko": "13. 생물학적 기원 물질",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.1",
+      "ref": "GSPR 14.1",
+      "titleEn": "Construction and interaction with the environment · 14.1",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.1",
+      "summaryEn": "If the device is intended for use in combination with other devices or equipment the whole combination, including the connection system shall be safe and shall not impair the specified performance of the devices. Any restrictions on use applying to such combinations shall be indicated on the label and/or in the instructions for use. Connections which the user has to handle, such as fluid, gas transfer, electrical or mechanical coupling, shall be designed and constructed in such a way as to minimise all possible risks, such as misconnection.",
+      "summaryKo": "기기가 다른 기기 또는 장비와 결합되어 사용될 경우, 연결 시스템을 포함한 그 전체 결합은 안전해야 하며 기기의 명시된 성능을 손상시켜서는 안 된다. 그러한 결합과 관련된 모든 제한사항을 라벨 및/또는 설명서에 표시해야 한다. 사용자가 취급해야 하는 연결은 (유체, 기체 이동, 전기 또는 기계적 결합) 연결 오류와 같은 가능한 모든 위험을 최소화하는 방법으로 설계 및 구성되어야 한다",
+      "topics": [
+        "p:systems-interconnection",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2",
+      "ref": "GSPR 14.2",
+      "titleEn": "Construction and interaction with the environment · 14.2",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to remove or reduce as far as possible:",
+      "summaryKo": "가능한 다음을 제거 또는 감소시키기 위한 방식으로 기기를 설계 및 제조해야 한다",
+      "topics": [
+        "p:environment-construction"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(a)",
+      "ref": "GSPR 14.2(a)",
+      "titleEn": "Construction and interaction with the environment · 14.2(a)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(a)",
+      "summaryEn": "the risk of injury, in connection with their physical features, including the volume/pressure ratio, dimensional and where appropriate ergonomic features;",
+      "summaryKo": "물리적 특성 (부피/압력비, 치수 및 적절할 경우 인체공학적 특성을 포함)과 관련된 부상 위험",
+      "topics": [
+        "p:environment-construction",
+        "s:lay-usability"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(b)",
+      "ref": "GSPR 14.2(b)",
+      "titleEn": "Construction and interaction with the environment · 14.2(b)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(b)",
+      "summaryEn": "risks connected with reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electromagnetic effects, electrostatic discharge, radiation associated with diagnostic or therapeutic procedures, pressure, humidity, temperature, variations in pressure and acceleration or radio signal interferences;",
+      "summaryKo": "합리적으로 예측가능한 외부 영향 또는 환경적 조건과 관련된 위험 (예를 들어, 자기장, 외부 전기적 및 전자기적 영향, 정전기 방전, 진단 또는 치료적 절차와 관련된 방사선, 압력, 습도, 온도, 압력 변화 및 증가, 또는 무선 신호 간섭)",
+      "topics": [
+        "p:environment-construction",
+        "s:emc",
+        "s:radiation-protection"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(c)",
+      "ref": "GSPR 14.2(c)",
+      "titleEn": "Construction and interaction with the environment · 14.2(c)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(c)",
+      "summaryEn": "the risks associated with the use of the device when it comes into contact with materials, liquids, and substances, including gases, to which it is exposed during normal conditions of use;",
+      "summaryKo": "기기가 정상적인 사용 환경에서 재료, 액체 및 물질에 노출될 때(기체 포함), 기기 사용과 관련된 위험",
+      "topics": [
+        "p:environment-construction",
+        "s:materials"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(d)",
+      "ref": "GSPR 14.2(d)",
+      "titleEn": "Construction and interaction with the environment · 14.2(d)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(d)",
+      "summaryEn": "the risks associated with the possible negative interaction between software and the IT environment within which it operates and interacts;",
+      "summaryKo": "소프트웨어, 그리고 기기가 작동 및 상호작용하는 IT 환경간의 부정적 상호작용과 관련된 위험",
+      "topics": [
+        "p:environment-construction",
+        "s:software"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(e)",
+      "ref": "GSPR 14.2(e)",
+      "titleEn": "Construction and interaction with the environment · 14.2(e)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(e)",
+      "summaryEn": "the risks of accidental ingress of substances into the device;",
+      "summaryKo": "우발적으로 물질이 기기에 침투했을 때의 위험",
+      "topics": [
+        "s:materials",
+        "s:environment-construction"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(f)",
+      "ref": "GSPR 14.2(f)",
+      "titleEn": "Construction and interaction with the environment · 14.2(f)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(f)",
+      "summaryEn": "the risks of reciprocal interference with other devices normally used in the investigations or for the treatment given; and",
+      "summaryKo": "연구 또는 치료에서 정상적으로 사용되는 다른 기기와의 상호 간섭 위험",
+      "topics": [
+        "p:environment-construction",
+        "s:systems-interconnection"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.2(g)",
+      "ref": "GSPR 14.2(g)",
+      "titleEn": "Construction and interaction with the environment · 14.2(g)",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.2(g)",
+      "summaryEn": "risks arising where maintenance or calibration are not possible (as with implants), from ageing of materials used or loss of accuracy of any measuring or control mechanism.",
+      "summaryKo": "재료의 노화 또는 측정이나 통제 메커니즘의 정확성 상실로 인해, 유지보수 또는 교정이 가능하지 않아 초래되는 위험 (이식물의 경우와 같이)",
+      "topics": [
+        "p:environment-construction",
+        "s:lifetime"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.3",
+      "ref": "GSPR 14.3",
+      "titleEn": "Construction and interaction with the environment · 14.3",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.3",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to minimise the risks of fire or explosion during normal use and in single fault condition. Particular attention shall be paid to devices the intended use of which includes exposure to or use in association with flammable or explosive substances or substances which could cause combustion.",
+      "summaryKo": "기기는 정상적인 사용 도중에 그리고 단일 고장 조건에서 화재 또는 폭발의 위험을 최소화하는 방식으로 설계 및 제조되어야 한다. 용도에 있어서 가연성 또는 폭발성 물질에, 또는 연소를 일으킬 수 있는 물질에 노출되거나 이를 사용하는 기기에 특별한 주의를 기울인다.",
+      "topics": [
+        "p:environment-construction",
+        "s:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.4",
+      "ref": "GSPR 14.4",
+      "titleEn": "Construction and interaction with the environment · 14.4",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.4",
+      "summaryEn": "Devices shall be designed and manufactured in such a way that adjustment, calibration, and maintenance can be done safely and effectively.",
+      "summaryKo": "기기는 조정, 교정 및 유지보수를 안전하고 효과적으로 할 수 있는 방식으로 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:environment-construction",
+        "s:lifetime"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.5",
+      "ref": "GSPR 14.5",
+      "titleEn": "Construction and interaction with the environment · 14.5",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.5",
+      "summaryEn": "Devices that are intended to be operated together with other devices or products shall be designed and manufactured in such a way that the interoperability and compatibility are reliable and safe.",
+      "summaryKo": "다른 기기 또는 제품과 함께 작동되는 기기들은 상호운용성 및 호환성이 신뢰될 수 있고 안전한 방식으로 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:systems-interconnection"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.6",
+      "ref": "GSPR 14.6",
+      "titleEn": "Construction and interaction with the environment · 14.6",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.6",
+      "summaryEn": "Any measurement, monitoring or display scale shall be designed and manufactured in line with ergonomic principles, taking account of the intended purpose, users and the environmental conditions in which the devices are intended to be used.",
+      "summaryKo": "모든 측정, 모니터링 및 표시 스케일은, 용도, 사용자, 그리고 그것이 용도에 따라 사용되는 환경적 조건을 고려하여 인체공학적 원칙에 따라 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-14.7",
+      "ref": "GSPR 14.7",
+      "titleEn": "Construction and interaction with the environment · 14.7",
+      "titleKo": "구성 및 환경과의 상호작용 · 14.7",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to facilitate their safe disposal and the safe disposal of related waste substances by the user, patient or other person. To that end, manufacturers shall identify and test procedures and measures as a result of which their devices can be safely disposed after use. Such procedures shall be described in the instructions for use.",
+      "summaryKo": "기기는 사용자, 환자 등에 의한 안전한 기기 처리 및 관련 폐기물의 안전한 처리를 촉진하는 방식으로 설계 및 제조되어야 한다. 이를 위해, 제조자들은 기기가 사용 후에 안전하게 처리될 수 있도록 하는 절차 및 조치를 식별하고 테스트해야 한다. 그러한 절차들은 사용설명서에 설명되어야 한다.",
+      "topics": [
+        "s:environment-construction",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "14",
+        "en": "14. Construction and interaction with the environment",
+        "ko": "14. 구성 및 환경과의 상호작용",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-15.1",
+      "ref": "GSPR 15.1",
+      "titleEn": "Diagnostic or measuring function · 15.1",
+      "titleKo": "진단·측정 기능 · 15.1",
+      "summaryEn": "Diagnostic devices and devices with a measuring function, shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for their intended purpose, based on appropriate scientific and technical methods. The limits of accuracy shall be indicated by the manufacturer.",
+      "summaryKo": "진단 기기 및 측정 기능이 있는 기기는 용도에 대해 적절한 과학적/기술적 방법에 근거하여 충분한 정확성, 정밀도 및 안정성을 제공할 수 있는 방식으로 설계 및 제조되어야 한다. 제조자는 정확성의 한계를 명시해야한다.",
+      "topics": [
+        "p:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "15",
+        "en": "15. Diagnostic or measuring function",
+        "ko": "15. 진단·측정 기능",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-15.2",
+      "ref": "GSPR 15.2",
+      "titleEn": "Diagnostic or measuring function · 15.2",
+      "titleKo": "진단·측정 기능 · 15.2",
+      "summaryEn": "The measurements made by devices with a measuring function shall be expressed in legal units conforming to the provisions of Council Directive 80/181/EEC (1). 80/181/EEC (1) Council Directive 80/181/EEC of 20 December 1979 on the approximation of the laws of the Member States relating to units of measurement and on the repeal of Directive 71/354/EEC (OJ L 39, 15.2.1980, p. 40). (1) 15.2.1980, p. 40).",
+      "summaryKo": "1측정 기능이 있는 기기에 의한 측정은 이사회 지침 (1)를 준수하는 법정 단위로 표시되어야 한다. 이사회 지침 80/181/EEC, 1979년 12월 20일, 측정 단위 관련 회원국 법률의 근사화 및 지침 71/354/EEC의 폐지 (OJ L 39,",
+      "topics": [
+        "p:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "15",
+        "en": "15. Diagnostic or measuring function",
+        "ko": "15. 진단·측정 기능",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.1(a)",
+      "ref": "GSPR 16.1(a)",
+      "titleEn": "Protection against radiation · 16.1(a)",
+      "titleKo": "방사선 방호 · 16.1(a)",
+      "summaryEn": "Devices shall be designed, manufactured and packaged in such a way that exposure of patients, users and other persons to radiation is reduced as far as possible, and in a manner that is compatible with the intended purpose, whilst not restricting the application of appropriate specified levels for therapeutic and diagnostic purposes.",
+      "summaryKo": "기기는 환자, 사용자 등에 대한 방사선 노출을 최대한 감소시키고, 치료적/진단적 목적을 위해 명시된 적절한 수준의 적용을 제한하지 않으면서 용도에 맞는 방식으로 설계, 제조 및 포장되어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.1(b)",
+      "ref": "GSPR 16.1(b)",
+      "titleEn": "Protection against radiation · 16.1(b)",
+      "titleKo": "방사선 방호 · 16.1(b)",
+      "summaryEn": "The operating instructions for devices emitting hazardous or potentially hazardous radiation shall contain detailed information as to the nature of the emitted radiation, the means of protecting the patient and the user, and on ways of avoiding misuse and of reducing the risks inherent to installation as far as possible and appropriate. Information regarding the acceptance and performance testing, the acceptance criteria, and the maintenance procedure shall also be specified.",
+      "summaryKo": "유해한 또는 잠재적으로 유해한 방사선을 방출하는 기기의 조작 설명서에는, 방출 방사선의 특징, 환자 및 사용자 보호 수단, 그리고 오용을 피하고 설치 관련 위험을 최대한 적절하게 줄이는 방법에 대한 상세정보가 포함되어야 한다. 허용 및 성능 테스트, 허용 기준, 그리고 유지보수 절차 역시 명시되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.2(a)",
+      "ref": "GSPR 16.2(a)",
+      "titleEn": "Protection against radiation · 16.2(a)",
+      "titleKo": "방사선 방호 · 16.2(a)",
+      "summaryEn": "Where devices are designed to emit hazardous, or potentially hazardous, levels of ionizing and/or non- ionizing radiation necessary for a specific medical purpose the benefit of which is considered to outweigh the risks inherent to the emission, it shall be possible for the user to control the emissions. Such devices shall be designed and manufactured to ensure reproducibility of relevant variable parameters within an acceptable tolerance.",
+      "summaryKo": "특정 의료 목적을 위해 유해한 또는 잠재적으로 유해한 이온화 및/또는 비이온화 방사선을 방출하는 기기의 경우 (그 유익이 방출에 내재되어 있는 위험보다 크다고 여겨질 경우), 사용자가 방출을 통제하는 것이 가능해야 한다. 그러한 기기는 가변적인 파라미터의 재현성(reproducibility)이 허용가능한 공차 범위 안에 들도록 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.2(b)",
+      "ref": "GSPR 16.2(b)",
+      "titleEn": "Protection against radiation · 16.2(b)",
+      "titleKo": "방사선 방호 · 16.2(b)",
+      "summaryEn": "Where devices are intended to emit hazardous, or potentially hazardous, ionizing and/or non-ionizing radiation, they shall be fitted, where possible, with visual displays and/or audible warnings of such emissions.",
+      "summaryKo": "기기가 유해한 또는 잠재적으로 유해한 이온화 및/또는 비이온화 방사선을 방출할 경우, 가능한 경우 그러한 방출에 대한 시각적 표시 및/또는 청각적 경고 기능이 있어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.3",
+      "ref": "GSPR 16.3",
+      "titleEn": "Protection against radiation · 16.3",
+      "titleKo": "방사선 방호 · 16.3",
+      "summaryEn": "Devices shall be designed and manufactured in such a way that exposure of patients, users and other persons to the emission of unintended, stray or scattered radiation is reduced as far as possible. Where possible and appropriate, methods shall be selected which reduce the exposure to radiation of patients, users and other persons who may be affected.",
+      "summaryKo": "기기는 환자, 사용자 등에 대한 비-의도적, 누설 또는 산란 방사선 노출이 최대한 감소되도록 설계 및 제조되어야 한다. 가능하고 적절할 경우, 영향을 받을 수 있는 환자, 사용자 등에 대한 방사선 노출을 감소시킬 수 있는 방법이 선택되어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.4(a)",
+      "ref": "GSPR 16.4(a)",
+      "titleEn": "Protection against radiation · 16.4(a)",
+      "titleKo": "방사선 방호 · 16.4(a)",
+      "summaryEn": "Devices intended to emit ionizing radiation shall be designed and manufactured taking into account the requirements of the Directive 2013/59/Euratom laying down basic safety standards for protection against the dangers arising from exposure to ionising radiation.",
+      "summaryKo": "이온화 방사선을 방출하는 기기는, 이온화 방사선 노출로 인한 위험으로부터 보호하기 위한 기본적 안전 기준을 정하는 지침 2013/59/Euratom의 요구사항을 고려하여 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.4(b)",
+      "ref": "GSPR 16.4(b)",
+      "titleEn": "Protection against radiation · 16.4(b)",
+      "titleKo": "방사선 방호 · 16.4(b)",
+      "summaryEn": "Devices intended to emit ionising radiation shall be designed and manufactured in such a way as to ensure that, where possible, taking into account the intended use, the quantity, geometry and quality of the radiation emitted can be varied and controlled, and, if possible, monitored during treatment.",
+      "summaryKo": "이온화 방사선을 방출하는 기기는, 가능할 경우 용도를 고려하여, 방사선의 양과 질, 구조가 다양하고 통제가능하며, 가능한 경우 치료 중에 모니터링되게 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.4(c)",
+      "ref": "GSPR 16.4(c)",
+      "titleEn": "Protection against radiation · 16.4(c)",
+      "titleKo": "방사선 방호 · 16.4(c)",
+      "summaryEn": "Devices emitting ionising radiation intended for diagnostic radiology shall be designed and manufactured in such a way as to achieve an image and/or output quality that are appropriate to the intended medical purpose whilst minimising radiation exposure of the patient and user.",
+      "summaryKo": "진단을 위해 이온화 방사선을 방출하는 기기는 환자 및 사용자에 대한 방사선 노출을 최소화 하면서 영상 및/또는 출력 품질이 의도된 의료 목적에 적합할 수 있도록 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-16.4(d)",
+      "ref": "GSPR 16.4(d)",
+      "titleEn": "Protection against radiation · 16.4(d)",
+      "titleKo": "방사선 방호 · 16.4(d)",
+      "summaryEn": "Devices that emit ionising radiation and are intended for therapeutic radiology shall be designed and manufactured in such a way as to enable reliable monitoring and control of the delivered dose, the beam type, energy and, where appropriate, the quality of radiation.",
+      "summaryKo": "이온화 방사선을 방출하며 치료 목적이 있는 기기는 신뢰할만한 모니터링이 가능하고, 전달되는 선량, 빔(beam) 유형, 에너지, 그리고 적절할 경우 방사선의 품질을 통제할 수 있게 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "16",
+        "en": "16. Protection against radiation",
+        "ko": "16. 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-17.1",
+      "ref": "GSPR 17.1",
+      "titleEn": "Electronic programmable systems and software · 17.1",
+      "titleKo": "전자 프로그래머블 시스템·소프트웨어 · 17.1",
+      "summaryEn": "Devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, shall be designed to ensure repeatability, reliability and performance in line with their intended use. In the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks or impairment of performance.",
+      "summaryKo": "소프트웨어 또는 그 자체가 기기인 소프트웨어를 포함하여, 전자적으로 프로그램 가능한 시스템을 포함한 기기는 용도에 맞게 반복성, 신뢰성 및 성능이 보장되도록 설계 되어야 한다. 단일 고장 조건에서, 그 결과로 인한 위험 또는 성능 저하를 가능한 한 제거하거나 줄이기 위해 적절한 수단이 채택되어야 한다.",
+      "topics": [
+        "p:software",
+        "s:intended-performance"
+      ],
+      "group": {
+        "key": "17",
+        "en": "17. Electronic programmable systems and software",
+        "ko": "17. 전자 프로그래머블 시스템·소프트웨어",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-17.2",
+      "ref": "GSPR 17.2",
+      "titleEn": "Electronic programmable systems and software · 17.2",
+      "titleKo": "전자 프로그래머블 시스템·소프트웨어 · 17.2",
+      "summaryEn": "For devices that incorporate software or for software that are devices in themselves, the software shall be developed and manufactured in accordance with the state of the art taking into account the principles of development life cycle, risk management, including information security, verification and validation.",
+      "summaryKo": "소프트웨어 또는 그 자체가 기기인 소프트웨어를 포함하는 기기는, 해당 소프트웨어 개발 수명 주기, 위험 관리 (정보 보안 포함), 확인 및 검증의 원칙을 고려하여 최신 기술에 따라 개발 및 제조되어야 한다.",
+      "topics": [
+        "p:software",
+        "s:risk-management",
+        "s:cybersecurity"
+      ],
+      "group": {
+        "key": "17",
+        "en": "17. Electronic programmable systems and software",
+        "ko": "17. 전자 프로그래머블 시스템·소프트웨어",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-17.3",
+      "ref": "GSPR 17.3",
+      "titleEn": "Electronic programmable systems and software · 17.3",
+      "titleKo": "전자 프로그래머블 시스템·소프트웨어 · 17.3",
+      "summaryEn": "Software referred to in this Section that is intended to be used in combination with mobile computing platforms shall be designed and manufactured taking into account the specific features of the mobile platform (e.g. size and contrast ratio of the screen) and the external factors related to their use (varying environment as regards level of light or noise).",
+      "summaryKo": "모바일 컴퓨팅 플랫폼과 결합되어 사용되는 이 절에 명시된 소프트웨어는 해당 모바일 플랫폼의 특징 (예를 들어, 화면 크기 및 명암비), 그리고 사용과 관련된 외부 요인(밝기 또는 소음 수준과 관련된 다양한 환경)을 고려하여 설계 및 제조 되어야 한다.",
+      "topics": [
+        "p:software",
+        "s:environment-construction"
+      ],
+      "group": {
+        "key": "17",
+        "en": "17. Electronic programmable systems and software",
+        "ko": "17. 전자 프로그래머블 시스템·소프트웨어",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-17.4",
+      "ref": "GSPR 17.4",
+      "titleEn": "Electronic programmable systems and software · 17.4",
+      "titleKo": "전자 프로그래머블 시스템·소프트웨어 · 17.4",
+      "summaryEn": "Manufacturers shall set out minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended.",
+      "summaryKo": "제조자는 소프트웨어를 용도에 맞게 실행시키기 위해 필요한, 하드웨어, IT 네트워크 특징 및 IT 보안 조치에 대한 최소 요구사항을 설명해야 한다 (무단 접근에 대한 보호 포함).",
+      "topics": [
+        "p:cybersecurity",
+        "s:software"
+      ],
+      "group": {
+        "key": "17",
+        "en": "17. Electronic programmable systems and software",
+        "ko": "17. 전자 프로그래머블 시스템·소프트웨어",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.1",
+      "ref": "GSPR 18.1",
+      "titleEn": "Active devices and connected devices · 18.1",
+      "titleKo": "능동 기기 및 연결 기기 · 18.1",
+      "summaryEn": "For non-implantable active devices, in the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks.",
+      "summaryKo": "능동형 비-이식형 기기의 경우, 단일 고장 조건에서 그 결과로 인한 위험을 없애거나 최대한 줄이기 위해 적절한 수단이 채택되어야 한다",
+      "topics": [
+        "p:active-connected",
+        "s:risk-management"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.2",
+      "ref": "GSPR 18.2",
+      "titleEn": "Active devices and connected devices · 18.2",
+      "titleKo": "능동 기기 및 연결 기기 · 18.2",
+      "summaryEn": "Devices where the safety of the patient depends on an internal power supply shall be equipped with a means of determining the state of the power supply and an appropriate warning or indication for when the capacity of the power supply becomes critical. If necessary, such warning or indication shall be given prior to the power supply becoming critical.",
+      "summaryKo": "환자의 안전이 내부 전원 공급에 달려 있는 기기의 경우, 전원 공급 상태를 판단하는 수단을 갖추고 있어야 하며, 전원 공급 용량이 위태로울 경우 적절한 경고 또는 표시를 제공할 수 있어야 한다. 필요할 경우, 그러한 경고 또는 표시는 전원 공급 용량이 위태로워지기 전에 제공되어야 한다.",
+      "topics": [
+        "p:active-connected"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.3",
+      "ref": "GSPR 18.3",
+      "titleEn": "Active devices and connected devices · 18.3",
+      "titleKo": "능동 기기 및 연결 기기 · 18.3",
+      "summaryEn": "Devices where the safety of the patient depends on an external power supply shall include an alarm system to signal any power failure.",
+      "summaryKo": "환자의 안전이 외부 전원 공급에 달려 있는 기기의 경우, 전원 장애를 알리기 위한 경보 시스템을 포함해야 한다.",
+      "topics": [
+        "p:active-connected"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.4",
+      "ref": "GSPR 18.4",
+      "titleEn": "Active devices and connected devices · 18.4",
+      "titleKo": "능동 기기 및 연결 기기 · 18.4",
+      "summaryEn": "Devices intended to monitor one or more clinical parameters of a patient shall be equipped with appropriate alarm systems to alert the user of situations which could lead to death or severe deterioration of the patient's state of health.",
+      "summaryKo": "환자의 한 가지 이상의 임상적 파라미터를 모니터링하는 기기에는 환자의 사망 초래 또는 건강 상태를 심각하게 저하시킬 수 있는 상황을 사용자에게 알리기 위한 적절한 경보 시스템이 포함되어야 한다.",
+      "topics": [
+        "p:active-connected",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.5",
+      "ref": "GSPR 18.5",
+      "titleEn": "Active devices and connected devices · 18.5",
+      "titleKo": "능동 기기 및 연결 기기 · 18.5",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks of creating electromagnetic interference which could impair the operation of the device in question or other devices or equipment in the intended environment.",
+      "summaryKo": "정상적 환경에서 해당 기기 또는 다른 기기나 장비의 작동을 저해할 수 있는 전자파 간섭 위험을 최대한 줄이는 방식으로 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:emc"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.6",
+      "ref": "GSPR 18.6",
+      "titleEn": "Active devices and connected devices · 18.6",
+      "titleKo": "능동 기기 및 연결 기기 · 18.6",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to provide a level of intrinsic immunity to electromagnetic interference such that is adequate to enable them to operate as intended.",
+      "summaryKo": "전자파 간섭에 대해, 기기가 용도대로 작동되게 하는데 적합한 수준의 본질 면역성을 제공하는 방식으로 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:emc"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.7",
+      "ref": "GSPR 18.7",
+      "titleEn": "Active devices and connected devices · 18.7",
+      "titleKo": "능동 기기 및 연결 기기 · 18.7",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to avoid, as far as possible, the risk of accidental electric shocks to the patient, user or any other person, both during normal use of the device and in the event of a single fault condition in the device, provided the device is installed and maintained as indicated by the manufacturer.",
+      "summaryKo": "제조자의 설명대로 설치 및 유지보수 되었을 때, 정상적인 사용 중에, 그리고 단일 고장 조건에서 환자, 사용자 등에 대한 감전 사고 위험을 최대한 피할 수 있는 방식으로 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-18.8",
+      "ref": "GSPR 18.8",
+      "titleEn": "Active devices and connected devices · 18.8",
+      "titleKo": "능동 기기 및 연결 기기 · 18.8",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to protect, as far as possible, against unauthorised access that could hamper the device from functioning as intended.",
+      "summaryKo": "기기가 용도대로 기능하는 것을 방해할 수 있는 무단 접근에 대해 최대한 보호를 제공하는 방식으로 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:cybersecurity"
+      ],
+      "group": {
+        "key": "18",
+        "en": "18. Active devices and connected devices",
+        "ko": "18. 능동 기기 및 연결 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-19.1",
+      "ref": "GSPR 19.1",
+      "titleEn": "Active implantable devices · 19.1",
+      "titleKo": "능동 이식형 기기 · 19.1",
+      "summaryEn": "Active implantable devices shall be designed and manufactured in such a way as to remove or minimize as far as possible:",
+      "summaryKo": "능동형 이식 기기는 다음을 제거 또는 최대한 최소화하는 방식으로 설계 및 제조되어야 한다",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-19.1(a)",
+      "ref": "GSPR 19.1(a)",
+      "titleEn": "Active implantable devices · 19.1(a)",
+      "titleKo": "능동 이식형 기기 · 19.1(a)",
+      "summaryEn": "risks connected with the use of energy sources with particular reference, where electricity is used, to insulation, leakage currents and overheating of the devices,",
+      "summaryKo": "에너지원 사용과 관련된 위험 (전기가 사용될 경우 특히 절연, 누설 전류 및 기기 과열과 관련해)",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-19.1(b)",
+      "ref": "GSPR 19.1(b)",
+      "titleEn": "Active implantable devices · 19.1(b)",
+      "titleKo": "능동 이식형 기기 · 19.1(b)",
+      "summaryEn": "risks connected with medical treatment, in particular those resulting from the use of defibrillators or high- frequency surgical equipment, and",
+      "summaryKo": "의학적 치료와 관련된 위험 (특히, 제세동기 또는 고주파 수술 장비 사용과 관련해)",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-19.1(c)",
+      "ref": "GSPR 19.1(c)",
+      "titleEn": "Active implantable devices · 19.1(c)",
+      "titleKo": "능동 이식형 기기 · 19.1(c)",
+      "summaryEn": "risks which may arise where maintenance and calibration are impossible, including:\n- excessive increase of leakage currents,\n- ageing of the materials used,\n- excess heat generated by the device,\n- decreased accuracy of any measuring or control mechanism.",
+      "summaryKo": "또한 다음을 포함해, 유지보수 또는 교정이 불가능하여 초래되는 위험 누설 전류의 과도한 증가 사용된 재료의 노화 기기에 의해 발생한 과도한 열 측정 또는 통제 메커니즘의 정확성 감소.",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-19.2",
+      "ref": "GSPR 19.2",
+      "titleEn": "Active implantable devices · 19.2",
+      "titleKo": "능동 이식형 기기 · 19.2",
+      "summaryEn": "Active implantable devices shall be designed and manufactured in such a way as to ensure\n- if applicable, the compatibility of the devices with the substances they are intended to administer, and\n- the reliability of the source of energy.",
+      "summaryKo": "능동형 이식 기기는 다음을 보장하는 방식으로 설계 및 제조되어야 한다\n- 적용가능할 경우, 투여되는 물질과 기기의 양립가능성\n- 또한, 에너지원의 신뢰성.",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-19.3",
+      "ref": "GSPR 19.3",
+      "titleEn": "Active implantable devices · 19.3",
+      "titleKo": "능동 이식형 기기 · 19.3",
+      "summaryEn": "Active implantable devices and, if appropriate, their component parts shall be identifiable to allow any necessary measure to be taken following the discovery of a potential risk in connection with the devices or their component parts.",
+      "summaryKo": "관련된 잠재 위험이 발견될 경우 필요한 조치를 취할 수 있도록, 능동형 이식 기기, 그리고 적절할 경우 그 구성요소들의 식별이 가능해야 한다.",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-19.4",
+      "ref": "GSPR 19.4",
+      "titleEn": "Active implantable devices · 19.4",
+      "titleKo": "능동 이식형 기기 · 19.4",
+      "summaryEn": "Active implantable devices shall bear a code by which they and their manufacturer can be unequivocally identified (particularly with regard to the type of device and its year of manufacture); it shall be possible to read this code, if necessary, without the need for a surgical operation.",
+      "summaryKo": "능동형 이식 기기에는 기기와 제조자를 명확하게 식별할 수 있는 (특히, 기기 유형 및 제조 연도) 코드가 있어야 한다. 코드를 읽을 수 있어야 하며, 필요할 경우 수술 없이도 가능해야 한다.",
+      "topics": [
+        "p:implantable"
+      ],
+      "group": {
+        "key": "19",
+        "en": "19. Active implantable devices",
+        "ko": "19. 능동 이식형 기기",
+        "hideTitle": true
+      },
+      "ownNote": "치과 영상기기 비해당"
+    },
+    {
+      "id": "EU-GSPR-20.1",
+      "ref": "GSPR 20.1",
+      "titleEn": "Mechanical and thermal risks · 20.1",
+      "titleKo": "기계적·열 위험 · 20.1",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to protect patients and users against mechanical risks connected with, for example, resistance to movement, instability and moving parts.",
+      "summaryKo": "환자 및 사용자를 기계적 위험(예를 들어, 이동 저항성, 불안정성 및 움직이는 부품)으로부터 보호하는 방식으로 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "20",
+        "en": "20. Mechanical and thermal risks",
+        "ko": "20. 기계적·열 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-20.2",
+      "ref": "GSPR 20.2",
+      "titleEn": "Mechanical and thermal risks · 20.2",
+      "titleKo": "기계적·열 위험 · 20.2",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from vibration generated by the devices, taking account of technical progress and of the means available for limiting vibrations, particularly at source, unless the vibrations are part of the specified performance.",
+      "summaryKo": "진동이 명시된 성능의 일부분이 아니라면, 기술적 발전 및 진동을 제한할 수 있는 가용 수단을 고려하여, 기기 진동으로 인한 위험을 가능한 가장 낮은 수준으로 줄이는 방식으로 (원천적으로) 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "20",
+        "en": "20. Mechanical and thermal risks",
+        "ko": "20. 기계적·열 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-20.3",
+      "ref": "GSPR 20.3",
+      "titleEn": "Mechanical and thermal risks · 20.3",
+      "titleKo": "기계적·열 위험 · 20.3",
+      "summaryEn": "Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from the noise emitted, taking account of technical progress and of the means available to reduce noise, particularly at source, unless the noise emitted is part of the specified performance.",
+      "summaryKo": "소음이 명시된 성능의 일부분이 아니라면, 기술적 발전 및 소음을 제한할 수 있는 가용 수단을 고려하여, 발생되는 소음으로 인한 위험을 가능한 가장 낮은 수준으로 줄이는 방식으로 (원천적으로) 기기가 설계 및 제조되어야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "20",
+        "en": "20. Mechanical and thermal risks",
+        "ko": "20. 기계적·열 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-20.4",
+      "ref": "GSPR 20.4",
+      "titleEn": "Mechanical and thermal risks · 20.4",
+      "titleKo": "기계적·열 위험 · 20.4",
+      "summaryEn": "Terminals and connectors to the electricity, gas or hydraulic and pneumatic energy supplies which the user or other person has to handle, shall be designed and constructed in such a way as to minimise all possible risks.",
+      "summaryKo": "사용자 등이 취급해야 하는 전기, 가스 또는 유압/공압 에너지 공급 단자 혹은 커넥터는 모든 가능한 위험을 최소화하는 방식으로 설계 및 구성되어야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "20",
+        "en": "20. Mechanical and thermal risks",
+        "ko": "20. 기계적·열 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-20.5",
+      "ref": "GSPR 20.5",
+      "titleEn": "Mechanical and thermal risks · 20.5",
+      "titleKo": "기계적·열 위험 · 20.5",
+      "summaryEn": "Errors likely to be made when fitting or refitting certain parts which could be a source of risk shall be made impossible by the design and construction of such parts or, failing this, by information given on the parts themselves and/or their housings. The same information shall be given on moving parts and/or their housings where the direction of movement needs to be known in order to avoid a risk.",
+      "summaryKo": "부품을 맞출 때 생길 수 있는 오류가 위험원이 될 수 있는 경우, 해당 오류를 그러한 부품의 설계 및 구성을 통해 불가능하게 해야 하며, 그렇게 할 수 없다면 부품 자체에 및/또는 그 외함에 해당 정보를 표시해야 한다. 위험을 피하기 위해 부품의 움직임 방향을 알 필요가 있는 경우 동일한 정보를 움직이는 부품 및/또는 그 외함에 표시한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "20",
+        "en": "20. Mechanical and thermal risks",
+        "ko": "20. 기계적·열 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-20.6",
+      "ref": "GSPR 20.6",
+      "titleEn": "Mechanical and thermal risks · 20.6",
+      "titleKo": "기계적·열 위험 · 20.6",
+      "summaryEn": "Accessible parts of devices (excluding the parts or areas intended to supply heat or reach given temperatures) and their surroundings shall not attain potentially dangerous temperatures under normal conditions of use.",
+      "summaryKo": "기기의 접근가능한 부품 (열을 공급하거나 특정 온도에 도달해야 하는 부품 또는 부분 제외) 및 그 주변은 정상적인 사용 환경에서 잠재적으로 위험한 온도에 도달해서는 안 된다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "20",
+        "en": "20. Mechanical and thermal risks",
+        "ko": "20. 기계적·열 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-21.1",
+      "ref": "GSPR 21.1",
+      "titleEn": "Devices supplying energy or substances · 21.1",
+      "titleKo": "에너지·물질 공급 기기 · 21.1",
+      "summaryEn": "Devices for supplying the patient with energy or substances shall be designed and constructed in such a way that the amount to be delivered can be set and maintained accurately enough to ensure the safety of the patient and of the user.",
+      "summaryKo": "환자에게 에너지 또는 물질을 공급하는 기기는 환자 및 사용자의 안전을 보장할 수 있을 정도로 정확하게 그 양이 설정되고 유지되는 방식으로 설계 및 구성되어야 한다.",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "21",
+        "en": "21. Devices supplying energy or substances",
+        "ko": "21. 에너지·물질 공급 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-21.2",
+      "ref": "GSPR 21.2",
+      "titleEn": "Devices supplying energy or substances · 21.2",
+      "titleKo": "에너지·물질 공급 기기 · 21.2",
+      "summaryEn": "Devices shall be fitted with the means of preventing and/or indicating any inadequacies in the amount of energy delivered or substances delivered which could pose a danger. Devices shall incorporate suitable means to prevent, as far as possible, the accidental release of dangerous levels of energy or substances from an energy and/or substance source.",
+      "summaryKo": "기기에는 전달되는 에너지 또는 물질의 양이 부적합하여 위험을 초래할 수 있을 때 이를 방지 및/또는 표시하는 수단이 있어야 한다. 기기에는 에너지원 및/또는 물질원으로부터 위험 수준의 에너지 또는 물질이 사고로 방출되는 것을 최대한 막기 위한 적절한 수단이 포함되어야 한다.",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "21",
+        "en": "21. Devices supplying energy or substances",
+        "ko": "21. 에너지·물질 공급 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-21.3",
+      "ref": "GSPR 21.3",
+      "titleEn": "Devices supplying energy or substances · 21.3",
+      "titleKo": "에너지·물질 공급 기기 · 21.3",
+      "summaryEn": "The function of the controls and indicators shall be clearly specified on the devices. Where a device bears instructions required for its operation or indicates operating or adjustment parameters by means of a visual system, such information shall be understandable to the user and, as appropriate, the patient.",
+      "summaryKo": "제어장치 및 표시장치의 기능은 기기에 분명하게 명시되어 있어야 한다. 기기가 시각적 시스템을 통해 작동에 필요한 지시사항을 표시, 또는 작동이나 조절 파라미터를 표시할 때, 그러한 정보는 사용자, 그리고 적절할 경우 환자가 이해할 수 있게 표시되어야 한다.",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "21",
+        "en": "21. Devices supplying energy or substances",
+        "ko": "21. 에너지·물질 공급 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-22.1",
+      "ref": "GSPR 22.1",
+      "titleEn": "Devices for lay persons · 22.1",
+      "titleKo": "일반인 사용 기기 · 22.1",
+      "summaryEn": "Devices for use by lay persons shall be designed and manufactured in such a way that they perform appropriately for their intended purpose taking into account the skills and the means available to lay persons and the influence resulting from variation that can be reasonably anticipated in the lay person's technique and environment. The information and instructions provided by the manufacturer shall be easy for the lay person to understand and apply.",
+      "summaryKo": "비전문가용 기기는 비전문가의 능력 및 가용 수단, 그리고 비전문가의 기술 및 환경과 관련해 합리적으로 예상되는 다양성으로 인해 초래되는 영향을 고려하여, 용도에 맞게 기능할 수 있도록 설계 및 제조되어야 한다. 제조자가 제공하는 정보 및 지시사항은 비전문가가 쉽게 이해하고 적용할 수 있어야 한다.",
+      "topics": [
+        "p:lay-usability",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "22",
+        "en": "22. Devices for lay persons",
+        "ko": "22. 일반인 사용 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-22.2",
+      "ref": "GSPR 22.2",
+      "titleEn": "Devices for lay persons · 22.2",
+      "titleKo": "일반인 사용 기기 · 22.2",
+      "summaryEn": "Devices for use by lay persons shall be designed and manufactured in such a way as to:\n- ensure that the device can be used safely and accurately by the intended user at all stages of the procedure, if necessary after appropriate training and/or information,\n- reduce, as far as possible and appropriate, the risk from unintended cuts and pricks such as needle stick injuries, and\n- reduce as far as possible the risk of error by the intended user in the handling of the device and, if applicable, in the interpretation of the results.",
+      "summaryKo": "비전문가용 기기는 다음과 같은 방식으로 설계 및 제조되어야 한다\n- 기기가 대상 사용자에 의해 모든 절차 단계들에서, 필요할 경우 적절한 훈련 및/또는 정보를 받은 후, 안전하고 정확하게 사용되게 보장\n- 의도하지 않은 베임 또는 찔림의 위험을 (예를 들어, 바늘 찔림 부상) 최대한 그리고 적절하게 감소\n- 또한, 대상 사용자가 기기를 취급, 그리고 적용가능할 경우 그 결과를 해석하는데 있어 생기는 오류 위험을 최대한 감소.",
+      "topics": [
+        "p:lay-usability",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "22",
+        "en": "22. Devices for lay persons",
+        "ko": "22. 일반인 사용 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-22.3",
+      "ref": "GSPR 22.3",
+      "titleEn": "Devices for lay persons · 22.3",
+      "titleKo": "일반인 사용 기기 · 22.3",
+      "summaryEn": "Devices for use by lay persons shall, where appropriate, include a procedure by which the lay person:\n- can verify that, at the time of use, the device will perform as intended by the manufacturer, and\n- if applicable, is warned if the device has failed to provide a valid result.",
+      "summaryKo": "비전문가용 기기는 적절할 경우 비전문가를 위해 다음이 가능한 절차를 포함해야 한다 사용시 기기가 제조자가 의도한 대로 작동할 것임을 확인할 수 있고 또한 적용가능할 경우, 기기가 유효한 결과를 제공하지 못한 경우 경고를 받을 수 있음.",
+      "topics": [
+        "p:lay-usability",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "22",
+        "en": "22. Devices for lay persons",
+        "ko": "22. 일반인 사용 기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1",
+      "ref": "GSPR 23.1",
+      "titleEn": "Label and instructions for use · 23.1",
+      "titleKo": "라벨 및 사용설명서 · 23.1",
+      "summaryEn": "General requirements regarding the information supplied by the manufacturer Each device shall be accompanied by the information needed to identify the device and its manufacturer, and by any safety and performance information relevant to the user, or any other person, as appropriate. Such information may appear on the device itself, on the packaging or in the instructions for use, and shall, if the manufacturer has a website, be made available and kept up to date on the website, taking into account the following:",
+      "summaryKo": "제조자가 제공하는 정보와 관련된 일반 요구사항 각 기기에는 기기 및 그 제조자를 식별하기 위해 필요한 정보, 그리고 사용자 등과 관련된(적절한대로) 안전 및 성능 정보가 수반되어야 한다. 그러한 정보는 다음을 고려하여 기기 자체에, 포장에 또는 설명서에 표시되어야 하며, 제조자가 웹사이트가 있는 경우 웹사이트에 게재하고 이를 최신으로 유지해야 한다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(a)",
+      "ref": "GSPR 23.1(a)",
+      "titleEn": "Label and instructions for use · 23.1(a)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(a)",
+      "summaryEn": "The medium, format, content, legibility, and location of the label and instructions for use shall be appropriate to the particular device, its intended purpose and the technical knowledge, experience, education or training of the intended user(s). In particular, instructions for use shall be written in terms readily understood by the intended user and, where appropriate, supplemented with drawings and diagrams.",
+      "summaryKo": "라벨 및 사용 설명서의 매체, 형식, 내용, 가독성 및 위치는 특정 기기, 그 용도 및 대상 사용자(들)의 기술적 지식, 경험, 교육, 또는 훈련과 관련해 적절해야 한다. 특히 사용 설명서는 대상 사용자가 쉽게 이해할 수 있는 용어로 작성되어야 하며, 적절할 경우 도면 및 도표로 보충되어야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(b)",
+      "ref": "GSPR 23.1(b)",
+      "titleEn": "Label and instructions for use · 23.1(b)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(b)",
+      "summaryEn": "The information required on the label shall be provided on the device itself. If this is not practicable or appropriate, some or all of the information may appear on the packaging for each unit, and/or on the packaging of multiple devices.",
+      "summaryKo": "라벨에 요구되는 정보는 기기 자체에 표시되어야 한다. 이것이 실행 불가능하거나 적절하지 않을 경우, 정보의 일부 또는 전부를 각각의 포장 및/또는 복수 기기의 포장에 표시할 수 있다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(c)",
+      "ref": "GSPR 23.1(c)",
+      "titleEn": "Label and instructions for use · 23.1(c)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(c)",
+      "summaryEn": "Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes.",
+      "summaryKo": "라벨은 인간 판독(human-readable) 형태로 제공되어야 하며, 기계 판독 정보로 (예를 들어 전파식별(‘RFID’) 또는 바코드) 보충될 수 있다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(d)",
+      "ref": "GSPR 23.1(d)",
+      "titleEn": "Label and instructions for use · 23.1(d)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(d)",
+      "summaryEn": "Instructions for use shall be provided together with devices. By way of exception, instructions for use shall not be required for class I and class IIa devices if such devices can be used safely without any such instructions and unless otherwise provided for elsewhere in this Section.",
+      "summaryKo": "사용 설명서는 기기와 함께 제공되어야 한다. 예외로, 1등급 및 2a등급 기기가 사용 설명서 없이도 안전하게 사용될 수 있고 이 절에서 별도의 규정이 없는 한, 사용 설명서가 요구되지 않는다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(e)",
+      "ref": "GSPR 23.1(e)",
+      "titleEn": "Label and instructions for use · 23.1(e)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(e)",
+      "summaryEn": "Where multiple devices are supplied to a single user and/or location, a single copy of the instructions for use may be provided if so agreed by the purchaser who in any case may request further copies to be provided free of charge.",
+      "summaryKo": "복수의 기기가 단일 사용자 및/또는 장소에 공급될 경우, 구매자가 동의한다면 사용 설명서의 단일 사본을 제공할 수 있으며, 해당 사용자는 언제든 무료로 추가 사본을 요청할 수 있다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(f)",
+      "ref": "GSPR 23.1(f)",
+      "titleEn": "Label and instructions for use · 23.1(f)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(f)",
+      "summaryEn": "Instructions for use may be provided to the user in non- paper format (e.g. electronic) to the extent, and only under the conditions, set out in Regulation (EU) No 207/2012 or in any subsequent implementing rules adopted pursuant to this Regulation.",
+      "summaryKo": "사용 설명서는 규정 (EU) No 207/2012에 설명되어 있는 조건하에, 또는 이 규정에 따라 채택되는 후속 시행 규칙에 따라, 비-종이 형식으로 (예를 들어, 전자 형식) 사용자에게 제공될 수 있다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(g)",
+      "ref": "GSPR 23.1(g)",
+      "titleEn": "Label and instructions for use · 23.1(g)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(g)",
+      "summaryEn": "Residual risks which are required to be communicated to the user and/or other person shall be included as limitations, contra-indications, precautions or warnings in the information supplied by the manufacturer.",
+      "summaryKo": "사용자 및/또는 그 밖의 사람에게 전달되어야 하는 잔여 위험에는 제조자가 제공하는 제한, 금기, 예방조치 또는 경고 정보가 포함되어야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.1(h)",
+      "ref": "GSPR 23.1(h)",
+      "titleEn": "Label and instructions for use · 23.1(h)",
+      "titleKo": "라벨 및 사용설명서 · 23.1(h)",
+      "summaryEn": "Where appropriate, the information supplied by the manufacturer shall take the form of internationally recognised symbols. Any symbol or identification colour used shall conform to the harmonised standards or CS. In areas for which no harmonised standards or CS exist, the symbols and colours shall be described in the documentation supplied with the device.",
+      "summaryKo": "적절할 경우, 제조자가 제공하는 정보는 국제적으로 인정되는 기호의 형식을 가져야 한다. 모든 기호 또는 식별 컬러는 조화 규격 또는 CS를 준수해야 한다. 조화 규격이나 CS가 없는 분야의 경우, 기기와 함께 제공되는 문서에 기호 및 컬러를 설명해야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2",
+      "ref": "GSPR 23.2",
+      "titleEn": "Label and instructions for use · 23.2",
+      "titleKo": "라벨 및 사용설명서 · 23.2",
+      "summaryEn": "Information on the label The label shall bear all of the following particulars:",
+      "summaryKo": "라벨 위의 정보 라벨에는 다음의 모든 정보가 포함되어야 한다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(a)",
+      "ref": "GSPR 23.2(a)",
+      "titleEn": "Label and instructions for use · 23.2(a)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(a)",
+      "summaryEn": "the name or trade name of the device;",
+      "summaryKo": "기기의 이름 또는 상표명",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(b)",
+      "ref": "GSPR 23.2(b)",
+      "titleEn": "Label and instructions for use · 23.2(b)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(b)",
+      "summaryEn": "the details strictly necessary for a user to identify the device, the contents of the packaging and, where it is not obvious for the user, the intended purpose of the device;",
+      "summaryKo": "사용자가 기기를 식별하기 위해 반드시 필요한 상세정보, 포장 내용물, 그리고 기기의 용도 (사용자에게 명백하지 않은 경우)",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(c)",
+      "ref": "GSPR 23.2(c)",
+      "titleEn": "Label and instructions for use · 23.2(c)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(c)",
+      "summaryEn": "the name, registered trade name or registered trade mark of the manufacturer and the address of its registered place of business;",
+      "summaryKo": "제조자의 이름, 등록 상표명 또는 등록 상표, 그리고 등록 영업소의 주소",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(d)",
+      "ref": "GSPR 23.2(d)",
+      "titleEn": "Label and instructions for use · 23.2(d)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(d)",
+      "summaryEn": "if the manufacturer has its registered place of business outside the Union, the name of the authorised representative and address of the registered place of business of the authorised representative;",
+      "summaryKo": "제조자의 등록 영업소가 유럽 연합 밖에 있는 경우, 권한을 가진 대표자의 이름, 그리고 권한을 가진 대표자의 등록 영업소 주소",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(e)",
+      "ref": "GSPR 23.2(e)",
+      "titleEn": "Label and instructions for use · 23.2(e)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(e)",
+      "summaryEn": "where applicable, an indication that the device contains or incorporates:\n- a medicinal substance, including a human blood or plasma derivative, or\n- tissues or cells, or their derivatives, of human origin, or\n- tissues or cells of animal origin, or their derivatives, as referred to in Regulation (EU) No 722/2012;",
+      "summaryKo": "적용가능할 경우, 기기가 다음을 포함하고 있음을 표시 약용 물질 (인간 혈액, 혈장 분획제제 포함), 또는 인간 유래 조직 또는 세포, 혹은 그 유래물, 또는 규정 (EU) No 722/2012에 명시되어 있는 동물 유래 조직 또는 세포, 혹은 그 유래물",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(f)",
+      "ref": "GSPR 23.2(f)",
+      "titleEn": "Label and instructions for use · 23.2(f)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(f)",
+      "summaryEn": "where applicable, information labelled in accordance with Section 10.4.5.;",
+      "summaryKo": "적용가능할 경우, 제10.4.5절에 따라 표시된 정보",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(g)",
+      "ref": "GSPR 23.2(g)",
+      "titleEn": "Label and instructions for use · 23.2(g)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(g)",
+      "summaryEn": "the lot number or the serial number of the device preceded by the words LOT NUMBER or SERIAL NUMBER or an equivalent symbol, as appropriate;",
+      "summaryKo": "기기의 로트 번호 또는 일련 번호(“로트 번호” 또는 “일련 번호”라는 표현이 앞에 있는), 혹은 그와 동등한 기호 (적절한 대로)",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(h)",
+      "ref": "GSPR 23.2(h)",
+      "titleEn": "Label and instructions for use · 23.2(h)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(h)",
+      "summaryEn": "the UDI carrier referred to in Article 27(4) and Part C of Annex VII;",
+      "summaryKo": "부속서 7의 Part C 제27조(4)에 언급되어 있는 UDI 반송자",
+      "topics": [
+        "p:labelling-ifu",
+        "p:udi"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(i)",
+      "ref": "GSPR 23.2(i)",
+      "titleEn": "Label and instructions for use · 23.2(i)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(i)",
+      "summaryEn": "an unambiguous indication of t the time limit for using or implanting the device safely, expressed at least in terms of year and month, where this is relevant;",
+      "summaryKo": "기기를 안전하게 사용 또는 이식하는 것과 관련해 모호하지 않은 시간 제한 표시 (적절할 경우, 최소한 연도 및 월로 표시)",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(j)",
+      "ref": "GSPR 23.2(j)",
+      "titleEn": "Label and instructions for use · 23.2(j)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(j)",
+      "summaryEn": "where there is no indication of the date until when it may be used safely, the date of manufacture. This date of manufacture may be included as part of the lot number or serial number, provided the date is clearly identifiable;",
+      "summaryKo": "언제까지 안전하게 사용할 수 있는지에 대한 날짜 표시가 없는 경우 제조 날짜를 표시한다. 제조 날짜는 로트 번호 또는 일련 번호에 포함될 수 있으며, 이 경우 날짜를 명확하게 식별할 수 있어야 한다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(k)",
+      "ref": "GSPR 23.2(k)",
+      "titleEn": "Label and instructions for use · 23.2(k)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(k)",
+      "summaryEn": "an indication of any special storage and/or handling condition that applies;",
+      "summaryKo": "적용되는 모든 특별한 보관 및/또는 취급 조건의 표시",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(l)",
+      "ref": "GSPR 23.2(l)",
+      "titleEn": "Label and instructions for use · 23.2(l)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(l)",
+      "summaryEn": "if the device is supplied sterile, an indication of its sterile state and the sterilisation method;",
+      "summaryKo": "기기가 멸균으로 제공될 경우, 멸균 상태 및 멸균 방법의 표시",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(m)",
+      "ref": "GSPR 23.2(m)",
+      "titleEn": "Label and instructions for use · 23.2(m)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(m)",
+      "summaryEn": "warnings or precautions to be taken that need to be brought to the immediate attention of the user of the device, and to any other person. This information may be kept to a minimum in which case more detailed information shall appear in the instructions for use, taking into account the intended users;",
+      "summaryKo": "기기의 사용자 등이 즉각적으로 주의를 기울여야 하는 경고 또는 취해야 할 예방 조치. 대상 사용자를 고려해 더욱 상세한 정보가 사용 설명서에 표시될 경우 이 정보는 최소한으로 유지될 수 있다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(n)",
+      "ref": "GSPR 23.2(n)",
+      "titleEn": "Label and instructions for use · 23.2(n)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(n)",
+      "summaryEn": "if the device is intended for single use, an indication of that fact. A manufacturer's indication of single use shall be consistent across the Union;",
+      "summaryKo": "기기가 일회용일 경우 이를 표시. 제조자의 일회용 표시는 유럽 연합 전체에 걸쳐 일관되어야 한다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(o)",
+      "ref": "GSPR 23.2(o)",
+      "titleEn": "Label and instructions for use · 23.2(o)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(o)",
+      "summaryEn": "if the device is a single-use device that has been reprocessed, an indication of that fact, the number of reprocessing cycles already performed, and any limitation as regards the number of reprocessing cycles;",
+      "summaryKo": "기기가 재처리된 일회용 기기일 경우, 이 사실, 이미 실행된 재처리 주기 횟수, 그리고 재처리 주기 횟수의 제한을 표시",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(p)",
+      "ref": "GSPR 23.2(p)",
+      "titleEn": "Label and instructions for use · 23.2(p)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(p)",
+      "summaryEn": "if the device is custom-made, the words ‘custom-made device’;",
+      "summaryKo": "주문제작 기기일 경우, ‘주문제작 기기’라는 표현",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(q)",
+      "ref": "GSPR 23.2(q)",
+      "titleEn": "Label and instructions for use · 23.2(q)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(q)",
+      "summaryEn": "an indication that the device is a medical device. If the device is intended for clinical investigation only, the words ‘exclusively for clinical investigation’;",
+      "summaryKo": "기기가 의료기기라는 표시. 해당 기기가 오로지 임상시험용일 경우, ‘임상시험 전용’이라는 표현",
+      "topics": [
+        "p:labelling-ifu",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(r)",
+      "ref": "GSPR 23.2(r)",
+      "titleEn": "Label and instructions for use · 23.2(r)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(r)",
+      "summaryEn": "in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body via a body orifice or applied to the skin and that are absorbed by or locally dispersed in the human body, the overall qualitative composition of the device and quantitative information on the main constituent or constituents responsible for achieving the principal intended action;",
+      "summaryKo": "체구(body orifice)를 통해 인체에 삽입되거나 피부에 발라 인체에 흡수 혹은 국소적으로 확산되는 물질로 구성된, 또는 그러한 물질들의 조합으로 구성된 기기의 경우, 기기의 전반적인 질적 구성, 그리고 의도된 주요 작용을 달성하는 주 성분(들)의 양적 정보",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.2(s)",
+      "ref": "GSPR 23.2(s)",
+      "titleEn": "Label and instructions for use · 23.2(s)",
+      "titleKo": "라벨 및 사용설명서 · 23.2(s)",
+      "summaryEn": "for active implantable devices, the serial number, and for other implantable devices, the serial number or the lot number.",
+      "summaryKo": "능동형 이식 기기의 경우 일련 번호, 기타 이식 기기의 경우, 일련 번호 또는 로트 번호",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3",
+      "ref": "GSPR 23.3",
+      "titleEn": "Label and instructions for use · 23.3",
+      "titleKo": "라벨 및 사용설명서 · 23.3",
+      "summaryEn": "Information on the packaging which maintains the sterile condition of a device (‘sterile packaging’) The following particulars shall appear on the sterile packaging:",
+      "summaryKo": "기기의 멸균 상태가 유지되는 포장 정보 (‘멸균 포장’) 멸균 포장에는 다음의 정보가 표시되어야 한다",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(a)",
+      "ref": "GSPR 23.3(a)",
+      "titleEn": "Label and instructions for use · 23.3(a)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(a)",
+      "summaryEn": "an indication permitting the sterile packaging to be recognised as such,",
+      "summaryKo": "멸균 포장이라고 인식되게 하는 표시",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(b)",
+      "ref": "GSPR 23.3(b)",
+      "titleEn": "Label and instructions for use · 23.3(b)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(b)",
+      "summaryEn": "a declaration that the device is in a sterile condition,",
+      "summaryKo": "기기가 멸균 상태라는 진술(declaration)",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(c)",
+      "ref": "GSPR 23.3(c)",
+      "titleEn": "Label and instructions for use · 23.3(c)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(c)",
+      "summaryEn": "the method of sterilisation,",
+      "summaryKo": "멸균 방법",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(d)",
+      "ref": "GSPR 23.3(d)",
+      "titleEn": "Label and instructions for use · 23.3(d)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(d)",
+      "summaryEn": "the name and address of the manufacturer,",
+      "summaryKo": "제조자의 이름 및 주소",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(e)",
+      "ref": "GSPR 23.3(e)",
+      "titleEn": "Label and instructions for use · 23.3(e)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(e)",
+      "summaryEn": "a description of the device,",
+      "summaryKo": "기기 설명",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(f)",
+      "ref": "GSPR 23.3(f)",
+      "titleEn": "Label and instructions for use · 23.3(f)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(f)",
+      "summaryEn": "if the device is intended for clinical investigations, the words ‘exclusively for clinical investigations’,",
+      "summaryKo": "임상 시험용 기기일 경우, ‘임상 시험 전용’이라는 표현",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(g)",
+      "ref": "GSPR 23.3(g)",
+      "titleEn": "Label and instructions for use · 23.3(g)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(g)",
+      "summaryEn": "if the device is custom-made, the words ‘custom-made device’,",
+      "summaryKo": "주문제작 기기일 경우, ‘주문제작 기기’라는 표현",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(h)",
+      "ref": "GSPR 23.3(h)",
+      "titleEn": "Label and instructions for use · 23.3(h)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(h)",
+      "summaryEn": "the month and year of manufacture,",
+      "summaryKo": "제조 연도 및 월",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(i)",
+      "ref": "GSPR 23.3(i)",
+      "titleEn": "Label and instructions for use · 23.3(i)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(i)",
+      "summaryEn": "an unambiguous indication of the time limit for using or implanting the device safely expressed at least in terms of year and month, and",
+      "summaryKo": "기기를 안전하게 사용 또는 이식하는 것과 관련해 모호하지 않은 시간 제한 표시 (최소 연도 및 월로 표시)",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.3(j)",
+      "ref": "GSPR 23.3(j)",
+      "titleEn": "Label and instructions for use · 23.3(j)",
+      "titleKo": "라벨 및 사용설명서 · 23.3(j)",
+      "summaryEn": "an instruction to check the instructions for use for what to do if the sterile packaging is damaged or unintentionally opened before use.",
+      "summaryKo": "또한, 멸균 포장이 손상 또는 사용 전에 의도치 않게 개봉될 경우 해야 할 조치를 확인하라는 지시사항.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4",
+      "ref": "GSPR 23.4",
+      "titleEn": "Label and instructions for use · 23.4",
+      "titleKo": "라벨 및 사용설명서 · 23.4",
+      "summaryEn": "Information in the instructions for use The instructions for use shall contain all of the following particulars:",
+      "summaryKo": "사용 설명서 정보 사용 설명서는 다음의 모든 정보를 포함해야 한다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(a)",
+      "ref": "GSPR 23.4(a)",
+      "titleEn": "Label and instructions for use · 23.4(a)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(a)",
+      "summaryEn": "the particulars referred to in points (a), (c), (e), (f), (k), (l), (n) and (r) of Section 23.2;",
+      "summaryKo": "제23.2절의 (a), (c), (e), (f), (k), (l), (n) 및 (r)에 명시되어 있는 상세사항",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(b)",
+      "ref": "GSPR 23.4(b)",
+      "titleEn": "Label and instructions for use · 23.4(b)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(b)",
+      "summaryEn": "the device's intended purpose with a clear specification of indications, contra-indications, the patient target group or groups, and of the intended users, as appropriate;",
+      "summaryKo": "기기의 용도, 그리고 증상, 금기, 대상 환자군(들), 대상 사용자 (적절한 대로)의 명확한 기술",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(c)",
+      "ref": "GSPR 23.4(c)",
+      "titleEn": "Label and instructions for use · 23.4(c)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(c)",
+      "summaryEn": "where applicable, a specification of the clinical benefits to be expected.",
+      "summaryKo": "적용가능할 경우, 예상되는 임상적 유익의 기술",
+      "topics": [
+        "p:labelling-ifu",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(d)",
+      "ref": "GSPR 23.4(d)",
+      "titleEn": "Label and instructions for use · 23.4(d)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(d)",
+      "summaryEn": "where applicable, links to the summary of safety and clinical performance referred to in Article 32;",
+      "summaryKo": "적용가능할 경우, 제32조에 명시되어 있는 안전 및 임상 성능 요약에 대한 링크",
+      "topics": [
+        "p:labelling-ifu",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(e)",
+      "ref": "GSPR 23.4(e)",
+      "titleEn": "Label and instructions for use · 23.4(e)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(e)",
+      "summaryEn": "the performance characteristics of the device;",
+      "summaryKo": "기기의 성능 특성",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(f)",
+      "ref": "GSPR 23.4(f)",
+      "titleEn": "Label and instructions for use · 23.4(f)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(f)",
+      "summaryEn": "where applicable, information allowing the healthcare professional to verify if the device is suitable and select the corresponding software and accessories;",
+      "summaryKo": "적용가능할 경우, 전문가가 기기가 적합하지 여부를 확인하고 상응하는 소프트웨어 및 부속품을 선택할 수 있게 하는 정보",
+      "topics": [
+        "p:labelling-ifu",
+        "s:software"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(g)",
+      "ref": "GSPR 23.4(g)",
+      "titleEn": "Label and instructions for use · 23.4(g)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(g)",
+      "summaryEn": "any residual risks, contra-indications and any undesirable side-effects, including information to be conveyed to the patient in this regard;",
+      "summaryKo": "모든 잔여 위험, 금기 및 바람직하지 않은 부작용 (이와 관련해 환자에게 전달되어야 하는 정보 포함)",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(h)",
+      "ref": "GSPR 23.4(h)",
+      "titleEn": "Label and instructions for use · 23.4(h)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(h)",
+      "summaryEn": "specifications the user requires to use the device appropriately, e.g. if the device has a measuring function, the degree of accuracy claimed for it;",
+      "summaryKo": "기기를 적절하게 사용하기 위해 사용자가 필요로 하는 사양 (예를 들어 기기에 측정 기능이 있는 경우, 제조자가 주장하는 정확도 수준)",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(i)",
+      "ref": "GSPR 23.4(i)",
+      "titleEn": "Label and instructions for use · 23.4(i)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(i)",
+      "summaryEn": "details of any preparatory treatment or handling of the device before it is ready for use or during its use, such as sterilisation, final assembly, calibration, etc., including the levels of disinfection required to ensure patient safety and all available methods for achieving those levels of disinfection;",
+      "summaryKo": "환자의 안전을 보장하기 위해 필요한 수준의 살균(소독), 그리고 그러한 살균(소독) 수준을 달성하기 위한 모든 가용 방법을 포함하여, 기기가 사용 준비 되기 전 또는 사용 중, 기기의 준비를 위한 처리나 취급의 상세사항 (예를 들어, 멸균, 최종 조립, 교정 등)",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(j)",
+      "ref": "GSPR 23.4(j)",
+      "titleEn": "Label and instructions for use · 23.4(j)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(j)",
+      "summaryEn": "any requirements for special facilities, or special training, or particular qualifications of the device user and/or other persons;",
+      "summaryKo": "특별한 시설 또는 훈련에 대한 모든 요구사항, 또는 기기 사용자 등의 특정 자격",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(k)",
+      "ref": "GSPR 23.4(k)",
+      "titleEn": "Label and instructions for use · 23.4(k)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(k)",
+      "summaryEn": "the information needed to verify whether the device is properly installed and is ready to perform safely and as intended by the manufacturer, together with, where relevant:\n- details of the nature, and frequency, of preventive and regular maintenance, and of any preparatory cleaning or disinfection,\n- identification of any consumable components and how to replace them,\n- information on any necessary calibration to ensure that the device operates properly and safely during its intended lifetime, and\n- methods for eliminating the risks encountered by persons involved in installing, calibrating or servicing devices;",
+      "summaryKo": "기기가 적절하게 설치되었고 제조자가 의도한 대로 안전하게 작동할 준비가 되었는지 여부를 확인하기 위해 필요한 정보, 그리고 관련이 있는 경우 다음의 정보\n- 예방 및 정기 유지보수의 유형 및 주기, 그리고 사전 청소 및 살균\n- 소모품의 파악 및 교체 방법\n- 예상 수명 동안 기기가 적절하고 안전하게 작동하도록 하기 위해 필요한 모든 교정 정보\n- 또한, 기기 설치, 교정 또는 정비를 수행하는 사람에게 생길 수 있는 위험을 제거하는 방법",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(l)",
+      "ref": "GSPR 23.4(l)",
+      "titleEn": "Label and instructions for use · 23.4(l)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(l)",
+      "summaryEn": "if the device is supplied sterile, instructions in the event of the sterile packaging being damaged or unintentionally opened before use;",
+      "summaryKo": "기기가 멸균으로 제공될 경우, 멸균 포장이 손상 또는 사용 전에 의도치 않게 개봉될 경우의 지시사항",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(m)",
+      "ref": "GSPR 23.4(m)",
+      "titleEn": "Label and instructions for use · 23.4(m)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(m)",
+      "summaryEn": "if the device is supplied non-sterile with the intention that it is sterilised before use, the appropriate instructions for sterilisation;",
+      "summaryKo": "사용 전에 멸균되기 때문에 비-멸균 상태로 제공되는 기기의 경우, 적절한 멸균 지시사항",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(n)",
+      "ref": "GSPR 23.4(n)",
+      "titleEn": "Label and instructions for use · 23.4(n)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(n)",
+      "summaryEn": "if the device is reusable, information on the appropriate processes for allowing reuse, including cleaning, disinfection, packaging and, where appropriate, the validated method of re- sterilisation appropriate to the Member State or Member States in which the device has been placed on the market. Information shall be provided to identify when the device should no longer be reused, e.g. signs of material degradation or the maximum number of allowable reuses;",
+      "summaryKo": "기기가 재사용 가능할 경우, 재사용을 위한 적절한 처리에 대한 정보 (여기에는, 기기가 시판되는 회원국(들) 내에서 적절한 세척, 소독, 포장 및 적절할 경우 검증된 재-멸균 방법이 포함된다). 기기가 더 이상 재사용 되어서는 안 되는 때를 식별하기 위한 정보가 제공되어야 한다 (예를 들어, 재료 열화의 징후 또는 최대 재사용 횟수)",
+      "topics": [
+        "p:labelling-ifu",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(o)",
+      "ref": "GSPR 23.4(o)",
+      "titleEn": "Label and instructions for use · 23.4(o)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(o)",
+      "summaryEn": "an indication, if appropriate, that a device can be reused only if it is reconditioned under the responsibility of the manufacturer to comply with the general safety and performance requirements;",
+      "summaryKo": "적절할 경우, 제조자의 책임하에 일반적인 안전 및 성능 요구사항을 준수하여 기기가 ‘리컨디션드’될 경우에만 재사용이 가능하다는 표시",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(p)",
+      "ref": "GSPR 23.4(p)",
+      "titleEn": "Label and instructions for use · 23.4(p)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(p)",
+      "summaryEn": "if the device bears an indication that it is for single use, information on known characteristics and technical factors known to the manufacturer that could pose a risk if the device were to be re-used. This information shall be based on a specific section of the manufacturer's risk management documentation, where such characteristics and technical factors shall be addressed in detail. If in accordance with point (d) of Section 23.1. no instructions for use are required, this information shall be made available to the user upon request;",
+      "summaryKo": "기기에 일회용이라는 표시가 있는 경우, 기기가 재사용될 경우 위험을 초래할 수 있는, 제조자에게 알려진 특성 및 기술적 요인에 대한 정보. 이러한 정보는 제조자의 위험 관리 문서의 특정 부분에 기반해야 하며, 해당 특성 및 기술적 요인을 상세하게 다뤄야 한다. 제 23.1절(d)에 따라 사용 설명서가 요구되지 않는 경우, 사용자의 요청이 있을 시 그러한 정보를 공개해야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(q)",
+      "ref": "GSPR 23.4(q)",
+      "titleEn": "Label and instructions for use · 23.4(q)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(q)",
+      "summaryEn": "for devices intended for use together with other devices and/or general purpose equipment:\n- information to identify such devices or equipment, in order to obtain a safe combination, and/or\n- information on any known restrictions to combinations of devices and equipment;",
+      "summaryKo": "다른 기기 및/또는 범용 장비와 함께 사용되는 기기\n- 안전한 조합을 달성하기 위해, 기기 또는 장비를 식별하기 위한 정보, 및/또는\n- 기기 및 장비 조합과 관련해 알려진 제한사항",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(r)",
+      "ref": "GSPR 23.4(r)",
+      "titleEn": "Label and instructions for use · 23.4(r)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(r)",
+      "summaryEn": "if the device emits radiation for medical purposes:\n- detailed information as to the nature, type and where appropriate, the intensity and distribution of the emitted radiation,\n- the means of protecting the patient, user, or other person from unintended radiation during use of the device;",
+      "summaryKo": "기기가 의료 목적을 위해 방사선을 방출할 경우\n- 방출되는 방사선의 특성, 유형, 그리고 적절할 경우 강도 및 분포와 관련된 상세정보\n- 기기 사용 중 의도되지 않은 방사선 방출로부터 환자, 사용자 등을 보호하기 위한 수단",
+      "topics": [
+        "p:labelling-ifu",
+        "s:radiation-protection"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(s)",
+      "ref": "GSPR 23.4(s)",
+      "titleEn": "Label and instructions for use · 23.4(s)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(s)",
+      "summaryEn": "information that allows the user and/or patient to be informed of any warnings, precautions, contra- indications, measures to be taken and limitations of use regarding the device. That information shall, where relevant, allow the user to brief the patient about any warnings, precautions, contra- indications, measures to be taken and limitations of use regarding the device. The information shall cover, where appropriate:\n- warnings, precautions and/or measures to be taken in the event of malfunction of the device or changes in its performance that may affect safety,\n- warnings, precautions and/or measures to be taken as regards the exposure to reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electromagnetic effects, electrostatic discharge, radiation associated with diagnostic or therapeutic procedures, pressure, humidity, or temperature,\n- warnings, precautions and/or measures to be taken as regards the risks of interference posed by the reasonably foreseeable presence of the device during specific diagnostic investigations, evaluations, or therapeutic treatment or other procedures such as electromagnetic interference emitted by the device affecting other equipment,\n- if the device is intended to administer medicinal products, tissues or cells of human or animal origin, or their derivatives, or biological substances, any limitations or incompatibility in the choice of substances to be delivered,\n- warnings, precautions and/or limitations related to the medicinal substance or biological material that is incorporated into the device as an integral part of the device; and\n- precautions related to materials incorporated into the device that contain or consist of CMR substances or endocrine- disrupting substances, or that could result in sensitisation or an allergic reaction by the patient or user;",
+      "summaryKo": "사용자 및/또는 환자에게 기기와 관련된 모든 경고, 예방조치, 금기, 취해야 할 조치 및 사용 제한을 알리기 위한 정보. 그러한 정보는 관련이 있는 경우, 사용자가 환자에게 기기와 관련된 모든 경고, 예방조치, 금기, 취해야 할 조치 및 사용 제한을 간략하게 설명할 수 있게 해야 한다. 해당 정보는 적절할 경우 다음을 다루어야 한다\n- 기기의 오작동 또는 안전에 영향을 미칠 수 있는 성능 변경 시의 경고, 예방조치 및/또는 취해야 할 조치\n- 합리적으로 예측가능한 외부 영향 또는 환경적 조건에 대한 노출과 관련된 (예를 들어, 자기장, 외부 전기적 및 전자기적 영향, 정전기 방전, 진단 또는 치료적 절차와 관련된 방사선, 압력, 습도 또는 온도) 경고, 예방조치 및/또는 취해야 할 조치\n- 특정한 진단상의 연구, 평가 또는 치료적 처치나 기타 절차 중, 합리적으로 예측가능한 기기의 영향으로 인해 초래되는 간섭 위험과 관련된 (예를 들어, 다른 장비에 영향을 미치는 기기가 방출하는 전자파 간섭) 경고, 예방조치 및/또는 취해야 할 조치\n- 기기가 약용제품, 인간 또는 동물 유래 조직이나 세포, 혹은 그 유래물, 또는 생물학적 물질을 투여하는 경우, 투여 물질 선택의 제한 또는 양립불가\n- 기기의 필수 부분으로서 기기와 결합된 약용물질 또는 생물학적 재료와 관련된 경고, 예방조치 및/또는 제한\n- 또한, CMR 물질 또는 내분비 교란 물질, 또는 환자나 사용자에게 과민증을 일으키거나 알레르기 반응을 일으킬 수 있는 물질을 포함하거나 그것으로 구성되어 있는 재료가 기기와 결합되어 있는 경우, 그러한 재료와 관련된 예방조치",
+      "topics": [
+        "p:labelling-ifu",
+        "s:emc",
+        "s:radiation-protection"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(t)",
+      "ref": "GSPR 23.4(t)",
+      "titleEn": "Label and instructions for use · 23.4(t)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(t)",
+      "summaryEn": "in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body and that are absorbed by or locally dispersed in the human body, warnings and precautions, where appropriate, related to the general profile of interaction of the device and its products of metabolism with other devices, medicinal products and other substances as well as contra- indications, undesirable side-effects and risks relating to overdose;",
+      "summaryKo": "인체에 흡수되거나 국소적으로 확산되는 물질로 구성된, 또는 그러한 물질들의 조합으로 구성된 기기의 경우, (적절할 경우) 해당 기기와 다른 기기, 약용제품 및 기타 물질간의 대사로 만들어지는 생성물과의 상호작용과 관련된 일반 특성, 그리고 금기, 바람직하지 않은 부작용 및 과용으로 인한 위험과 관련된 경고 및 예방조치",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(u)",
+      "ref": "GSPR 23.4(u)",
+      "titleEn": "Label and instructions for use · 23.4(u)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(u)",
+      "summaryEn": "in the case of implantable devices, the overall qualitative and quantitative information on the materials and substances to which patients can be exposed;",
+      "summaryKo": "이식형 기기의 경우, 환자가 노출되는 재료 및 물질에 대한 전반적인 질적/양적 정보",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(v)",
+      "ref": "GSPR 23.4(v)",
+      "titleEn": "Label and instructions for use · 23.4(v)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(v)",
+      "summaryEn": "warnings or precautions to be taken in order to facilitate the safe disposal of the device, its accessories and the consumables used with it, if any. This information shall cover, where appropriate:\n- infection or microbial hazards such as explants, needles or surgical equipment contaminated with potentially infectious substances of human origin, and\n- physical hazards such as from sharps.\n- If in accordance with the point (d) of Section 23.1 no instructions for use are required, this information shall be made available to the user upon request;",
+      "summaryKo": "기기, 그 부속품 및 소모품을 안전하게 처리하기 위한 경고 또는 취해야 할 조치. 적절할 경우 이러한 정보는 다음을 다뤄야 한다 감염 또는 미생물 유해성 (잠재적으로 감염 가능성이 있는 인간 유래 물질로 오염된, 외식편, 주사침 또는 수술 장비와 같은) 날카로운 물체와 같은 물리적 유해성. 제23.1절(d)에 따라 사용 설명서가 요구되지 않는 경우, 사용자의 요청이 있을 시 그러한 정보를 공개해야 한다",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(w)",
+      "ref": "GSPR 23.4(w)",
+      "titleEn": "Label and instructions for use · 23.4(w)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(w)",
+      "summaryEn": "for devices intended for use by lay persons, the circumstances in which the user should consult a healthcare professional;",
+      "summaryKo": "비전문가용 기기의 경우, 사용자가 의료 전문가와 상담해야 하는 상황",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(x)",
+      "ref": "GSPR 23.4(x)",
+      "titleEn": "Label and instructions for use · 23.4(x)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(x)",
+      "summaryEn": "for the devices covered by this Regulation pursuant to Article 1(2), information regarding the absence of a clinical benefit and the risks related to use of the device;",
+      "summaryKo": "제1조(2)에 따라 이 규정의 적용을 받는 기기의 경우, 임상적 유익의 결여 및 기기 사용과 관련된 위험 정보",
+      "topics": [
+        "p:labelling-ifu",
+        "s:clinical-evidence"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(y)",
+      "ref": "GSPR 23.4(y)",
+      "titleEn": "Label and instructions for use · 23.4(y)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(y)",
+      "summaryEn": "date of issue of the instructions for use or, if they have been revised, date of issue and identifier of the latest revision of the instructions for use;",
+      "summaryKo": "사용 설명서 발행일, 또는 개정된 경우, 사용 설명서 발행일 및 최신 버전의 식별자",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(z)",
+      "ref": "GSPR 23.4(z)",
+      "titleEn": "Label and instructions for use · 23.4(z)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(z)",
+      "summaryEn": "a notice to the user and/or patient that any serious incident that has occurred in relation to the device should be reported to the manufacturer and the competent authority of the Member State in which the user and/or patient is established;",
+      "summaryKo": "해당 기기와 관련해 발생한 모든 심각한 사고를 제조자, 그리고 사용자 및/또는 환자가 있는 회원국의 관할 당국에게 보고해야 함을 사용자 및/또는 환자에게 알리는 안내문",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(aa)",
+      "ref": "GSPR 23.4(aa)",
+      "titleEn": "Label and instructions for use · 23.4(aa)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(aa)",
+      "summaryEn": "information to be supplied to the patient with an implanted device in accordance with Article 18;",
+      "summaryKo": "제18조에 따라 기기가 이식된 환자에게 제공되는 정보",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "EU-GSPR-23.4(ab)",
+      "ref": "GSPR 23.4(ab)",
+      "titleEn": "Label and instructions for use · 23.4(ab)",
+      "titleKo": "라벨 및 사용설명서 · 23.4(ab)",
+      "summaryEn": "for devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended.",
+      "summaryKo": "소프트웨어 또는 그 자체가 기기인 소프트웨어를 포함하여, 전자적으로 프로그램 가능한 시스템을 포함한 기기의 경우, 소프트웨어를 용도에 맞게 실행시키기 위해 필요한, 하드웨어, IT 네트워크 특성 및 IT 보안 조치에 대한 최소 요구사항 (무단 접근에 대한 보호 포함).",
+      "topics": [
+        "p:labelling-ifu",
+        "s:cybersecurity",
+        "s:software"
+      ],
+      "group": {
+        "key": "23",
+        "en": "23. Label and instructions for use",
+        "ko": "23. 라벨 및 사용설명서",
+        "hideTitle": true
+      }
+    }
+  ]
+}

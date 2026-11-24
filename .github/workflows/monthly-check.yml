@@ -1,0 +1,44 @@
+name: monthly-source-check
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # 매월 1일 00:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run source check
+        id: check
+        run: python scripts/check_updates.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "checklist-monitor"
+          git config user.email "checklist-monitor@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "chore: monthly source check $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open summary issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHANGES: ${{ steps.check.outputs.changes_detected }}
+        run: |
+          title="[월간 점검] $(date -u +%Y-%m) 출처 변경 요약 (변경 감지: ${CHANGES})"
+          gh issue create --title "$title" --body-file reports/latest.md

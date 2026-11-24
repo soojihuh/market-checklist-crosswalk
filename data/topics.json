@@ -1,0 +1,159 @@
+{
+  "_note": "공통 토픽 분류 (초안, 조정 가능). handoff 3.3의 25개 토픽에서 active-device/energy를 active-connected + energy-substance-supply로 분리하고 emc, implantable, premarket-registration을 추가함. critical=true는 치과 X-ray/SW 제품에서 정확도가 가장 중요한 토픽.",
+  "topics": [
+    {
+      "id": "general-safety",
+      "en": "General safety & performance",
+      "ko": "일반 안전·성능"
+    },
+    {
+      "id": "risk-management",
+      "en": "Risk management",
+      "ko": "위험관리"
+    },
+    {
+      "id": "benefit-risk",
+      "en": "Benefit-risk / undesirable effects",
+      "ko": "이익-위험 / 부작용"
+    },
+    {
+      "id": "intended-performance",
+      "en": "Intended purpose & performance",
+      "ko": "의도된 목적·성능"
+    },
+    {
+      "id": "clinical-evidence",
+      "en": "Clinical evidence",
+      "ko": "임상 근거"
+    },
+    {
+      "id": "lifetime",
+      "en": "Lifetime / durability",
+      "ko": "수명·내구성"
+    },
+    {
+      "id": "transport-storage",
+      "en": "Transport & storage",
+      "ko": "운송·보관"
+    },
+    {
+      "id": "materials",
+      "en": "Materials / chemical-physical properties",
+      "ko": "재료·화학적·물리적 특성"
+    },
+    {
+      "id": "biocompatibility",
+      "en": "Biocompatibility / biological properties",
+      "ko": "생물학적 안전성"
+    },
+    {
+      "id": "infection-sterility",
+      "en": "Infection, sterility, microbial contamination",
+      "ko": "감염·멸균·미생물 오염"
+    },
+    {
+      "id": "environment-construction",
+      "en": "Construction & interaction with environment",
+      "ko": "구조 및 환경 상호작용"
+    },
+    {
+      "id": "electrical-mech-thermal",
+      "en": "Electrical / mechanical / thermal risks",
+      "ko": "전기·기계·열 위험"
+    },
+    {
+      "id": "emc",
+      "en": "Electromagnetic compatibility (EMC)",
+      "ko": "전자기 적합성(EMC)",
+      "critical": true
+    },
+    {
+      "id": "radiation-protection",
+      "en": "Radiation protection",
+      "ko": "방사선 방호",
+      "critical": true
+    },
+    {
+      "id": "software",
+      "en": "Software / SaMD",
+      "ko": "소프트웨어 / SaMD",
+      "critical": true
+    },
+    {
+      "id": "cybersecurity",
+      "en": "Cybersecurity / IT security",
+      "ko": "사이버보안 / 정보보안",
+      "critical": true
+    },
+    {
+      "id": "active-connected",
+      "en": "Active & connected devices (power, alarms)",
+      "ko": "능동·연결 기기(전원, 경보)"
+    },
+    {
+      "id": "energy-substance-supply",
+      "en": "Devices supplying energy or substances",
+      "ko": "에너지·물질 공급 기기"
+    },
+    {
+      "id": "measuring-diagnostic",
+      "en": "Measuring / diagnostic function",
+      "ko": "측정·진단 기능"
+    },
+    {
+      "id": "lay-usability",
+      "en": "Usability / lay users",
+      "ko": "사용적합성 / 일반인 사용"
+    },
+    {
+      "id": "labelling-ifu",
+      "en": "Labelling & instructions for use",
+      "ko": "표시기재 · 사용설명서"
+    },
+    {
+      "id": "udi",
+      "en": "Unique Device Identification (UDI)",
+      "ko": "UDI(고유식별)"
+    },
+    {
+      "id": "qms",
+      "en": "Quality management system",
+      "ko": "품질경영시스템"
+    },
+    {
+      "id": "pms-vigilance",
+      "en": "Post-market surveillance & vigilance",
+      "ko": "시판 후 감시·부작용 보고"
+    },
+    {
+      "id": "premarket-registration",
+      "en": "Premarket pathway / registration",
+      "ko": "시판 전 허가·신고 경로"
+    },
+    {
+      "id": "systems-interconnection",
+      "en": "Combination with other devices / systems",
+      "ko": "타 기기·시스템과의 결합·호환"
+    },
+    {
+      "id": "biological-origin",
+      "en": "Materials of biological origin",
+      "ko": "생물학적 기원 물질"
+    },
+    {
+      "id": "medicinal-substance",
+      "en": "Medicinal substance incorporated",
+      "ko": "의약물질 포함"
+    },
+    {
+      "id": "implantable",
+      "en": "Implantable devices",
+      "ko": "이식형 기기"
+    },
+    {
+      "id": "ivd-performance",
+      "en": "IVD analytical / clinical performance",
+      "ko": "IVD 분석·임상 성능"
+    }
+  ]
+}

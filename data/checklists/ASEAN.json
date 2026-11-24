@@ -1,0 +1,2294 @@
+{
+  "market": "ASEAN",
+  "name": {
+    "en": "ASEAN — Essential Principles of Safety and Performance (AMDD Annex 1 / CSDT; paragraph structure per Malaysia ER-12 checklist format)",
+    "ko": "ASEAN — 필수 안전·성능 원칙 (AMDD 부속서 1 / CSDT; 단락 구조는 말레이시아 ER-12 체크리스트 양식 기준)"
+  },
+  "role": "spoke",
+  "verification": "official",
+  "titleNote": "ASEAN 회원국(말레이시아·태국·필리핀·베트남 등)은 AMDD 부속서 1의 필수 원칙을 공통 기준으로 쓰고 CSDT의 'Essential Principles' 항목으로 적합성을 제출함. 이 항목은 사용자가 제공한 'Essential Principles Conformity Checklist(양식 번호 ER-12)' PDF의 요건 문구를 단락(2–19)·소단락((1),(a),(i)) 단위 94개로 분할한 것으로, 이 양식은 말레이시아 규정의 필수 원칙 부록(Appendix 1) 구조를 따르며 'classification according to Malaysia Medical Device Regulation 2012' 표기가 있음. 정의 단락(1)은 요건은 아니지만 용어 9개를 항목으로 추가했고 단락 14는 양식에 없음(번호가 13에서 15로 건너뜀; 양식 15·16이 AMDD 14·15에 해당). 이전 버전(말레이시아 MDA/GD/0007, 일반 원칙 6 + 설계·제조 원칙 11)과 문구는 같은 GHTF 계열이며 번호 체계만 다름. AMDD 부속서 1 원문은 ASEAN 사무국 2015년 9월 발간본(협정 2014-11-21 방콕 서명, 2015-01-01 발효; 태국 정부 사이트 사본)에서 직접 읽어 이 양식과 조항별로 대조함. 부속서 1은 제1–7항(일반) + 제8–19항(설계·제조, 능동 이식형·자가검사·정보·임상 포함)이며 용어는 'manufacturer'가 아니라 'product owner'. 양식 단락 ↔ AMDD 조항: 2→1, 3→2, 4→3, 5→4, 6→5, 7→6, 8→8, 9→9, 10→10, 11→11, 12→12, 13→13.1·13.3–13.7, 15→14, 16→15, 17→17, 18→18, 19(2)→19.1. AMDD에만 있는 요건(7 임상 근거, 13.2 소프트웨어 밸리데이션, 13.8 감전 보호, 16 능동 이식형)은 맨 아래 'AMDD 부속서 1' 그룹으로 추가함. 국가별 차이: 베트남 보건부 결정 166/QD-BYT 부록 II(비공식 영문 번역)는 19개 항목으로 능동 이식형 기기와 임상시험 항목이 추가됨; 태국은 Class 2–4 제출 서류에 필수 원칙 포함(Class 1 제외); 필리핀 AO 2018-0002는 CSDT에 맞추되 부속서 미열람; 싱가포르는 HSA GN-16이 별도(본문 미열람); 인도네시아는 미확인. 이 구조에는 사이버보안·IT 보안 단락이 없음(13(1)은 프로그래머블 시스템 반복성·신뢰성·성능만). 제조자명·문서/시험성적서 번호·적용 여부(A/N.A) 판단·관련 규격 같은 제품 고유 정보는 넣지 않음(이 양식은 증빙 열이 단락 경계와 어긋나 규격을 항목별로 정확히 대응시킬 수 없음). 국문은 AI 번역 초안. IVD 관련: AMDD 부속서 1의 IVD 문구(9.2–9.5의 IVD 예외·IVD 전용 조항)를 'AMDD 부속서 1' 그룹에 추가하고, 양식 11(2)·11(3)(진단 정확도·교정물질 소급성)에는 IVD 성능 토픽을 보조로 연결함. AMDD 부속서 3(IVD 위험 분류 규칙)과 부속서 2(비IVD 분류 규칙)는 요건 체크리스트가 아니라 분류 규칙이라 이 도구에 넣지 않음. 관련 규격은 양식의 '적합 규칙(Rule of conformity)' 열에 적힌 규격명을 단락 단위로 옮긴 참고용이며(문서·보고서 번호는 제외), 증빙 열이 단락 경계와 어긋나 하위 항목별 대응은 정확하지 않을 수 있고 공식 규정이 정한 목록이 아님.",
+  "topicsFormat": "p:<topic> = primary, s:<topic> = secondary",
+  "sections": [
+    {
+      "id": "ASEAN-P2",
+      "ref": "Section 2 (AMDD 1)",
+      "titleEn": "Section 2 (AMDD 1) — Safety of patients, users and other persons · Section 2 (AMDD 1)",
+      "titleKo": "섹션 2 (AMDD 1) — 환자·사용자·다른 사람의 안전 · Section 2 (AMDD 1)",
+      "summaryEn": "Medical devices should be designed and manufactured in such a way that, when used under the conditions and for the purposes intended and, where applicable, by virtue of the technical knowledge, experience, education or training of intended users, they will not compromise the clinical condition or the safety of patients, or the safety and health of users or, where applicable, other persons, provided that any risks which may be associated with their use constitute acceptable risks when weighed against the benefits to the patient and are compatible with a high level of protection of health and safety.",
+      "summaryKo": "의료기기는 의도된 조건과 목적에 따라 사용될 때, 그리고 해당되는 경우 의도된 사용자의 기술 지식·경험·교육·훈련을 고려할 때, 환자의 임상 상태나 안전, 또는 사용자나 해당되는 경우 다른 사람의 안전과 건강을 해치지 않도록 설계·제조되어야 한다. 단, 사용과 관련될 수 있는 위험은 환자에 대한 이익과 비교하여 허용 가능한 위험이고 높은 수준의 건강·안전 보호와 양립해야 한다.",
+      "topics": [
+        "p:general-safety",
+        "s:benefit-risk",
+        "s:lay-usability"
+      ],
+      "group": {
+        "key": "P2",
+        "en": "Section 2 (AMDD 1) — Safety of patients, users and other persons",
+        "ko": "섹션 2 (AMDD 1) — 환자·사용자·다른 사람의 안전",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "EN 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P3-s1",
+      "ref": "Section 3 (sentence 1) (AMDD 2)",
+      "titleEn": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device · Section 3 (sentence 1) (AMDD 2)",
+      "titleKo": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소 · Section 3 (sentence 1) (AMDD 2)",
+      "summaryEn": "The solutions adopted by the manufacturer for the design and construction of the devices should conform to safety principles, taking account of the generally acknowledged state of the art.",
+      "summaryKo": "제조자가 기기의 설계·제조에 채택하는 해법은 일반적으로 인정되는 최신 기술 수준을 고려하여 안전 원칙에 부합해야 한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "P3",
+        "en": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device",
+        "ko": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "EN 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P3-lead",
+      "ref": "Section 3 (lead-in) (AMDD 2)",
+      "titleEn": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device · Section 3 (lead-in) (AMDD 2)",
+      "titleKo": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소 · Section 3 (lead-in) (AMDD 2)",
+      "summaryEn": "In selecting the most appropriate solutions, the manufacturer should apply the following principles in the following order:",
+      "summaryKo": "가장 적절한 해법을 선택할 때 제조자는 다음 원칙을 아래 순서에 따라 적용해야 한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "P3",
+        "en": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device",
+        "ko": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P3(i)",
+      "ref": "Section 3(i) (AMDD 2)",
+      "titleEn": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device · Section 3(i) (AMDD 2)",
+      "titleKo": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소 · Section 3(i) (AMDD 2)",
+      "summaryEn": "identify hazards and the associated risks arising from the intended use and foreseeable misuse,",
+      "summaryKo": "의도된 사용과 예측 가능한 오용에서 발생하는 위험요인과 관련 위험을 식별한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "P3",
+        "en": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device",
+        "ko": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P3(ii)",
+      "ref": "Section 3(ii) (AMDD 2)",
+      "titleEn": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device · Section 3(ii) (AMDD 2)",
+      "titleKo": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소 · Section 3(ii) (AMDD 2)",
+      "summaryEn": "eliminate or reduce risks as far as possible (inherently safe design and construction),",
+      "summaryKo": "본질적으로 안전한 설계·제조로 위험을 가능한 한 제거하거나 줄인다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "P3",
+        "en": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device",
+        "ko": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P3(iii)",
+      "ref": "Section 3(iii) (AMDD 2)",
+      "titleEn": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device · Section 3(iii) (AMDD 2)",
+      "titleKo": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소 · Section 3(iii) (AMDD 2)",
+      "summaryEn": "where appropriate take adequate protection measures including alarms if necessary, in relation to risks that cannot be eliminated,",
+      "summaryKo": "적절한 경우, 제거할 수 없는 위험에 대해 필요 시 경보를 포함한 적절한 방호 조치를 취한다.",
+      "topics": [
+        "p:risk-management"
+      ],
+      "group": {
+        "key": "P3",
+        "en": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device",
+        "ko": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P3(iv)",
+      "ref": "Section 3(iv) (AMDD 2)",
+      "titleEn": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device · Section 3(iv) (AMDD 2)",
+      "titleKo": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소 · Section 3(iv) (AMDD 2)",
+      "summaryEn": "inform users of the residual risks due to any shortcomings of the protection measures adopted.",
+      "summaryKo": "채택한 방호 조치의 미비로 남는 잔여 위험을 사용자에게 알린다.",
+      "topics": [
+        "p:risk-management",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "P3",
+        "en": "Section 3 (AMDD 2) — Reduction of risk associated with a medical device",
+        "ko": "섹션 3 (AMDD 2) — 의료기기 관련 위험의 감소",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P4",
+      "ref": "Section 4 (AMDD 3)",
+      "titleEn": "Section 4 (AMDD 3) — Performance intended by the manufacturer · Section 4 (AMDD 3)",
+      "titleKo": "섹션 4 (AMDD 3) — 제조자가 의도한 성능 · Section 4 (AMDD 3)",
+      "summaryEn": "A medical device shall achieve the performance intended by the manufacturer and be designed, manufactured and packaged in such a way that they are suitable for one or more of the functions within the scope of the definition of a medical device.",
+      "summaryKo": "의료기기는 제조자가 의도한 성능을 달성해야 하며, 의료기기 정의 범위에 있는 하나 이상의 기능에 적합하도록 설계·제조·포장되어야 한다.",
+      "topics": [
+        "p:intended-performance"
+      ],
+      "group": {
+        "key": "P4",
+        "en": "Section 4 (AMDD 3) — Performance intended by the manufacturer",
+        "ko": "섹션 4 (AMDD 3) — 제조자가 의도한 성능",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "ISO 14155-1",
+          "ko": "임상시험 실시기준(양식 표기 그대로)"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P5",
+      "ref": "Section 5 (AMDD 4)",
+      "titleEn": "Section 5 (AMDD 4) — Characteristics and performance under normal stresses (lifetime) · Section 5 (AMDD 4)",
+      "titleKo": "섹션 5 (AMDD 4) — 정상 응력에서의 특성·성능(수명) · Section 5 (AMDD 4)",
+      "summaryEn": "The characteristics and performances of a medical device referred to in paragraphs 2, 3 and 4 shall not be adversely affected to such a degree that the health or safety of the patient or the user and, where applicable, of other persons are compromised during the lifetime of the device, as indicated by the manufacturer, when the medical device is subjected to the stresses which can occur during normal conditions of use and has been properly maintained in accordance with the manufacturer's instructions.",
+      "summaryKo": "단락 2, 3, 4에서 언급한 의료기기의 특성과 성능은, 제조자가 표시한 기기 수명 동안 정상 사용 조건에서 발생할 수 있는 응력을 받고 제조자의 지침에 따라 적절히 유지관리되었을 때, 환자나 사용자(해당되는 경우 다른 사람)의 건강·안전이 위태로워질 정도로 악영향을 받아서는 안 된다.",
+      "topics": [
+        "p:lifetime"
+      ],
+      "group": {
+        "key": "P5",
+        "en": "Section 5 (AMDD 4) — Characteristics and performance under normal stresses (lifetime)",
+        "ko": "섹션 5 (AMDD 4) — 정상 응력에서의 특성·성능(수명)",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: AMDD 부속서 1 제4항은 '적절히 유지관리되고 필요 시 교정(calibrated)된' 경우로 되어 있어 '교정' 문구가 이 양식에는 없음.",
+      "standards": [
+        {
+          "id": "EN 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "EN 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "EN 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "ISO 14155-1",
+          "ko": "임상시험 실시기준(양식 표기 그대로)"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P6",
+      "ref": "Section 6 (AMDD 5)",
+      "titleEn": "Section 6 (AMDD 5) — Transport and storage conditions · Section 6 (AMDD 5)",
+      "titleKo": "섹션 6 (AMDD 5) — 운송·보관 조건 · Section 6 (AMDD 5)",
+      "summaryEn": "A medical device shall be designed, manufactured and packed in such a way that its characteristics and performances during their intended use will not be adversely affected under transport and storage conditions, for example, fluctuations of temperature and humidity, taking into account of the instructions and information provided by the manufacturer.",
+      "summaryKo": "의료기기는, 제조자가 제공한 지침과 정보를 고려한 운송·보관 조건(예: 온습도 변동)에서 의도된 사용 중의 특성과 성능이 악영향을 받지 않도록 설계·제조·포장되어야 한다.",
+      "topics": [
+        "p:transport-storage"
+      ],
+      "group": {
+        "key": "P6",
+        "en": "Section 6 (AMDD 5) — Transport and storage conditions",
+        "ko": "섹션 6 (AMDD 5) — 운송·보관 조건",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: '온도·습도 변동 등(for example, fluctuations of temperature and humidity)' 예시는 AMDD 제5항에 없고 이 양식에만 있음.",
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P7",
+      "ref": "Section 7 (AMDD 6)",
+      "titleEn": "Section 7 (AMDD 6) — Benefits outweigh side effects · Section 7 (AMDD 6)",
+      "titleKo": "섹션 7 (AMDD 6) — 이익이 부작용을 상회 · Section 7 (AMDD 6)",
+      "summaryEn": "The benefits of the use of a medical device shall be determined to outweigh any undesirable side effects for the performances intended.",
+      "summaryKo": "의료기기 사용의 이익은 의도된 성능에 대해 바람직하지 않은 부작용을 상회하는 것으로 판정되어야 한다.",
+      "topics": [
+        "p:benefit-risk"
+      ],
+      "group": {
+        "key": "P7",
+        "en": "Section 7 (AMDD 6) — Benefits outweigh side effects",
+        "ko": "섹션 7 (AMDD 6) — 이익이 부작용을 상회",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P8(1)-lead",
+      "ref": "Section 8(1) (lead-in) (AMDD 8.1)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(1) (lead-in) (AMDD 8.1)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(1) (lead-in) (AMDD 8.1)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way as to ensure the characteristics and performance referred to in paragraphs 2 to 7 of this Appendix, with particular attention to —",
+      "summaryKo": "의료기기는 이 부록 단락 2~7에서 언급한 특성과 성능을 보장하도록 설계·제조되어야 하며, 다음에 특히 주의해야 한다 —",
+      "topics": [
+        "p:materials"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "ISO 10993-1",
+          "ko": "생물학적 평가"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P8(1)(a)",
+      "ref": "Section 8(1)(a) (AMDD 8.1)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(1)(a) (AMDD 8.1)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(1)(a) (AMDD 8.1)",
+      "summaryEn": "the choice of materials used, particularly as regards toxicity and, where appropriate, flammability;",
+      "summaryKo": "사용된 재료의 선택(특히 독성, 적절한 경우 인화성 측면);",
+      "topics": [
+        "p:materials",
+        "s:biocompatibility"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(1)(b)",
+      "ref": "Section 8(1)(b) (AMDD 8.1)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(1)(b) (AMDD 8.1)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(1)(b) (AMDD 8.1)",
+      "summaryEn": "the compatibility between the materials used and biological tissues;",
+      "summaryKo": "사용된 재료와 생물학적 조직 사이의 적합성;",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      },
+      "ownNote": "양식에서 조직·세포·체액·검체와의 적합성이 (b)와 (c) 두 줄로 나뉘어 표기됨. / AMDD 대조: AMDD 8.1의 한 글머리표('생물학적 조직, 세포, 체액, 검체와의 적합성')가 이 양식에서 (b)·(c) 두 줄로 나뉜 것으로 확인됨 — 요건은 하나."
+    },
+    {
+      "id": "ASEAN-P8(1)(c)",
+      "ref": "Section 8(1)(c) (AMDD 8.1)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(1)(c) (AMDD 8.1)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(1)(c) (AMDD 8.1)",
+      "summaryEn": "cells, body fluids and specimens, taking account of the intended purpose of the device;",
+      "summaryKo": "세포, 체액 및 검체(기기의 의도된 목적을 고려);",
+      "topics": [
+        "p:materials",
+        "p:biocompatibility"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: AMDD 8.1의 한 글머리표가 이 양식에서 (b)·(c)로 나뉜 것의 뒷부분임."
+    },
+    {
+      "id": "ASEAN-P8(1)(d)",
+      "ref": "Section 8(1)(d) (AMDD 8.1)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(1)(d) (AMDD 8.1)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(1)(d) (AMDD 8.1)",
+      "summaryEn": "the choice of materials used should reflect, where appropriate, matters such as hardness, wear and fatigue strength;",
+      "summaryKo": "사용된 재료의 선택은 적절한 경우 경도, 마모, 피로 강도 같은 사항을 반영해야 한다;",
+      "topics": [
+        "p:materials"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(2)-lead",
+      "ref": "Section 8(2) (lead-in) (AMDD 8.2)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(2) (lead-in) (AMDD 8.2)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(2) (lead-in) (AMDD 8.2)",
+      "summaryEn": "A medical device shall be designed, manufactured and packed in such a way—",
+      "summaryKo": "의료기기는 다음과 같이 설계·제조·포장되어야 한다 —",
+      "topics": [
+        "p:materials"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(2)(a)",
+      "ref": "Section 8(2)(a) (AMDD 8.2)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(2)(a) (AMDD 8.2)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(2)(a) (AMDD 8.2)",
+      "summaryEn": "as to minimise the risk posed by contaminants and residues to the persons involved in the transport, storage and use of the devices and to patients, taking account of the intended purpose of the product in which particular attention should be paid to tissues exposed and to the duration and frequency of exposure.",
+      "summaryKo": "제품의 의도된 목적을 고려하여, 기기의 운송·보관·사용에 관여하는 사람과 환자에 대해 오염물·잔류물이 일으키는 위험을 최소화한다. 이때 노출되는 조직과 노출의 기간·빈도에 특별히 주의해야 한다.",
+      "topics": [
+        "p:materials",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(2)(b)",
+      "ref": "Section 8(2)(b) (AMDD 8.3)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(2)(b) (AMDD 8.3)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(2)(b) (AMDD 8.3)",
+      "summaryEn": "that they can be used safely with the materials, substances and gases with which they enter into contact during their normal use or during routine procedures; if the devices are intended to administer medicinal products they should be designed and manufactured in such a way as to be compatible with the medicinal products concerned according to the provisions and restrictions governing these products and that their performance is maintained in accordance with the intended use.",
+      "summaryKo": "정상 사용 중 또는 일상적 시술 중에 접촉하는 재료·물질·가스와 안전하게 사용될 수 있어야 한다. 기기가 의약품을 투여하도록 의도된 경우, 해당 의약품에 적용되는 규정과 제한에 따라 그 의약품과 적합하고, 의도된 용도에 따라 성능이 유지되도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:materials",
+        "s:medicinal-substance"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(2)(c)",
+      "ref": "Section 8(2)(c) (AMDD 8.5)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(2)(c) (AMDD 8.5)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(2)(c) (AMDD 8.5)",
+      "summaryEn": "as to reduce as far as reasonably practicable and appropriate the risks posed by substances that may leach or leak from the device.",
+      "summaryKo": "기기에서 용출되거나 누출될 수 있는 물질이 일으키는 위험을 합리적으로 실행 가능하고 적절한 범위까지 줄인다.",
+      "topics": [
+        "p:materials"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(2)(d)",
+      "ref": "Section 8(2)(d) (AMDD 8.6)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(2)(d) (AMDD 8.6)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(2)(d) (AMDD 8.6)",
+      "summaryEn": "as to reduce as far as reasonably practicable and appropriate risks posed by the unintentional ingress or egress of substances into or from the device taking into account the device and the nature of the environment in which it is intended to be used.",
+      "summaryKo": "기기와 의도된 사용 환경의 성격을 고려하여, 기기로의 의도하지 않은 물질 유입 또는 기기로부터의 유출로 인한 위험을 합리적으로 실행 가능하고 적절한 범위까지 줄인다.",
+      "topics": [
+        "s:materials",
+        "s:environment-construction"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P8(3)",
+      "ref": "Section 8(3) (AMDD 8.4)",
+      "titleEn": "Section 8 (AMDD 8) — Chemical, physical and biological properties · Section 8(3) (AMDD 8.4)",
+      "titleKo": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성 · Section 8(3) (AMDD 8.4)",
+      "summaryEn": "Where a medical device incorporates, as an integral part, a substance which, if used separately, may be considered to be a medicinal product or drug as defined in the relevant legislation that applies and which is liable to act upon the body with action ancillary to that of the medical device, the safety, quality and usefulness of the substance shall be verified, taking account of the intended purpose of the device.",
+      "summaryKo": "의료기기가 일체로서, 단독 사용 시 관련 법령에 따른 의약품·약물로 간주될 수 있고 기기에 부수적으로 인체에 작용할 수 있는 물질을 포함하는 경우, 기기의 의도된 목적을 고려하여 그 물질의 안전성·품질·유용성을 검증해야 한다.",
+      "topics": [
+        "p:medicinal-substance"
+      ],
+      "group": {
+        "key": "P8",
+        "en": "Section 8 (AMDD 8) — Chemical, physical and biological properties",
+        "ko": "섹션 8 (AMDD 8) — 화학적·물리적·생물학적 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(1)-lead",
+      "ref": "Section 9(1) (lead-in) (AMDD 9.1)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(1) (lead-in) (AMDD 9.1)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(1) (lead-in) (AMDD 9.1)",
+      "summaryEn": "A medical device and its manufacturing processes shall be designed—",
+      "summaryKo": "의료기기와 그 제조 공정은 다음과 같이 설계되어야 한다 —",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(1)(a)",
+      "ref": "Section 9(1)(a) (AMDD 9.1)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(1)(a) (AMDD 9.1)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(1)(a) (AMDD 9.1)",
+      "summaryEn": "in such a way as to eliminate or to reduce as far as reasonably practicable and appropriate the risk of infection to patients, users and, where applicable, other persons;",
+      "summaryKo": "환자·사용자·해당되는 경우 다른 사람에 대한 감염 위험을 합리적으로 실행 가능하고 적절한 범위까지 제거하거나 줄이도록;",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(1)(b)",
+      "ref": "Section 9(1)(b) (AMDD 9.1)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(1)(b) (AMDD 9.1)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(1)(b) (AMDD 9.1)",
+      "summaryEn": "to allow easy handling and, where necessary—",
+      "summaryKo": "쉽게 취급할 수 있도록 하고, 필요한 경우 —",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(1)(b)(i)",
+      "ref": "Section 9(1)(b)(i) (AMDD 9.1)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(1)(b)(i) (AMDD 9.1)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(1)(b)(i) (AMDD 9.1)",
+      "summaryEn": "reduce as far as reasonably practicable and appropriate any microbial leakage from the device and/or microbial exposure during use;",
+      "summaryKo": "기기에서의 미생물 누출 및/또는 사용 중 미생물 노출을 합리적으로 실행 가능하고 적절한 범위까지 줄이고;",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(1)(b)(ii)",
+      "ref": "Section 9(1)(b)(ii) (AMDD 9.1)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(1)(b)(ii) (AMDD 9.1)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(1)(b)(ii) (AMDD 9.1)",
+      "summaryEn": "prevent microbial contamination of the device, or specimen where applicable, by the patient, user or other person.",
+      "summaryKo": "환자·사용자·다른 사람에 의한 기기(해당되는 경우 검체)의 미생물 오염을 방지한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(2)",
+      "ref": "Section 9(2) (AMDD 9.2)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(2) (AMDD 9.2)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(2) (AMDD 9.2)",
+      "summaryEn": "Where a medical device incorporates substances of biological origin, the risk of infection shall be reduced as far as reasonably practicable and appropriate by selecting appropriate sources, donors and substances and by using, as appropriate, validated inactivation, conservation, test and control procedures.",
+      "summaryKo": "의료기기에 생물학적 기원 물질이 포함된 경우, 적절한 출처·공여자·물질을 선택하고 적절히 밸리데이션된 불활화·보존·시험·관리 절차를 사용하여 감염 위험을 합리적으로 실행 가능하고 적절한 범위까지 줄여야 한다.",
+      "topics": [
+        "p:biological-origin",
+        "s:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(3)-lead",
+      "ref": "Section 9(3) (lead-in) (AMDD 9.3)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(3) (lead-in) (AMDD 9.3)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(3) (lead-in) (AMDD 9.3)",
+      "summaryEn": "Where a medical device incorporates tissues, cells or substances of nonhuman origin, such tissues, cells and substances shall originate from animals that have been subjected to veterinary controls and surveillance adapted to the intended use of the tissues, cells or substances and the following requirements shall be adhered to—",
+      "summaryKo": "의료기기에 비인체 유래 조직·세포·물질이 포함된 경우, 그 조직 등은 조직·세포·물질의 의도된 용도에 맞는 수의학적 관리·감시를 받은 동물에서 유래해야 하며 다음 요건을 준수해야 한다 —",
+      "topics": [
+        "p:biological-origin"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(3)(a)",
+      "ref": "Section 9(3)(a) (AMDD 9.3)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(3)(a) (AMDD 9.3)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(3)(a) (AMDD 9.3)",
+      "summaryEn": "retention of information on the geographical origin of the animals;",
+      "summaryKo": "동물의 지리적 기원에 관한 정보의 보관;",
+      "topics": [
+        "p:biological-origin"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(3)(b)",
+      "ref": "Section 9(3)(b) (AMDD 9.3)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(3)(b) (AMDD 9.3)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(3)(b) (AMDD 9.3)",
+      "summaryEn": "performance of appropriate processing, preservation, testing and handling of tissues, cells or substances of animal origin so as to ensure optimal safety, particularly, safety with regard to viruses and other transmissible agents shall be addressed by implementing validated methods of elimination or inactivation in the course of the manufacturing process.",
+      "summaryKo": "동물 유래 조직·세포·물질의 처리·보존·시험·취급을 최적의 안전을 보장하도록 수행하며, 특히 바이러스 및 기타 전염성 인자에 대한 안전은 제조 공정 중 밸리데이션된 제거 또는 불활화 방법을 적용하여 확보한다.",
+      "topics": [
+        "p:biological-origin"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(4)-lead",
+      "ref": "Section 9(4) (lead-in) (AMDD 9.5)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(4) (lead-in) (AMDD 9.5)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(4) (lead-in) (AMDD 9.5)",
+      "summaryEn": "Where a medical device incorporates human tissues, cells or substances, the following requirements shall be adhered to:",
+      "summaryKo": "의료기기에 인체 유래 조직·세포·물질이 포함된 경우 다음 요건을 준수해야 한다.",
+      "topics": [
+        "p:biological-origin"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(4)(a)",
+      "ref": "Section 9(4)(a) (AMDD 9.5)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(4)(a) (AMDD 9.5)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(4)(a) (AMDD 9.5)",
+      "summaryEn": "proper selection of sources, donors and/or tissues, cells or substances of human origin;",
+      "summaryKo": "공급원·공여자 및/또는 인체 유래 조직·세포·물질의 적절한 선택;",
+      "topics": [
+        "p:biological-origin"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(4)(b)",
+      "ref": "Section 9(4)(b) (AMDD 9.5)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(4)(b) (AMDD 9.5)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(4)(b) (AMDD 9.5)",
+      "summaryEn": "performance of appropriate processing, preservation, testing and handling of tissues, cells or substances of such origin so as to ensure optimal safety, particularly, safety with regard to viruses and other transmissible agents shall be addressed by implementing validated methods of elimination or inactivation in the course of the manufacturing process.",
+      "summaryKo": "해당 조직·세포·물질의 처리·보존·시험·취급을 최적의 안전을 보장하도록 수행하며, 특히 바이러스 및 기타 전염성 인자에 대한 안전은 제조 공정 중 밸리데이션된 제거 또는 불활화 방법을 적용하여 확보한다.",
+      "topics": [
+        "p:biological-origin"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(5)",
+      "ref": "Section 9(5) (AMDD 9.6)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(5) (AMDD 9.6)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(5) (AMDD 9.6)",
+      "summaryEn": "A medical device that is labelled as having a special microbiological state shall be designed, manufactured and packed to ensure it remain so when placed on the market and remain so under the transport and storage conditions specified by the manufacturer.",
+      "summaryKo": "특별한 미생물 상태로 표시된 의료기기는 시장에 출시될 때와 제조자가 지정한 운송·보관 조건에서 그 상태를 유지하도록 설계·제조·포장되어야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(6)",
+      "ref": "Section 9(6) (AMDD 9.7)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(6) (AMDD 9.7)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(6) (AMDD 9.7)",
+      "summaryEn": "A medical device that is delivered in a sterile state shall be designed, manufactured and packed in a non-reusable pack, and/or according to appropriate procedures, to ensure that it remains sterile when placed on the market and remains sterile, under the transport and storage conditions indicated by the manufacturer, until the protective packaging is damaged or opened.",
+      "summaryKo": "멸균 상태로 공급되는 의료기기는, 재사용할 수 없는 포장 및/또는 적절한 절차로, 시장에 출시될 때 멸균 상태이고 제조자가 표시한 운송·보관 조건에서 보호 포장이 손상되거나 개봉될 때까지 멸균 상태를 유지하도록 설계·제조·포장되어야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: '비재사용 포장·보호 포장이 손상·개봉될 때까지' 문구는 AMDD 9.7에 없고 이 양식(GHTF 계열 문구)에만 있음."
+    },
+    {
+      "id": "ASEAN-P9(7)",
+      "ref": "Section 9(7) (AMDD 9.8)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(7) (AMDD 9.8)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(7) (AMDD 9.8)",
+      "summaryEn": "A medical device that is labelled either as sterile or as having a special microbiological state should have been processed, manufactured and, if applicable, sterilised by appropriate, validated methods.",
+      "summaryKo": "멸균 또는 특별한 미생물 상태로 표시된 의료기기는 적절하고 밸리데이션된 방법으로 처리·제조되고, 해당되는 경우 멸균되었어야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(8)",
+      "ref": "Section 9(8) (AMDD 9.9)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(8) (AMDD 9.9)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(8) (AMDD 9.9)",
+      "summaryEn": "A medical device that is intended to be sterilised should be manufactured in appropriately controlled conditions.",
+      "summaryKo": "멸균하도록 의도된 의료기기는 적절히 관리된 조건에서 제조해야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(9)",
+      "ref": "Section 9(9) (AMDD 9.10)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(9) (AMDD 9.10)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(9) (AMDD 9.10)",
+      "summaryEn": "Packaging systems for non-sterile medical device shall be capable of keeping the medical device without deterioration at the level of cleanliness stipulated and, if the medical device is to be sterilised prior to use, the risk of microbial contamination shall be minimised and the packaging system should be suitable for the method of sterilisation indicated by the manufacturer.",
+      "summaryKo": "비멸균 의료기기의 포장 시스템은 기기가 정해진 청결 수준에서 열화 없이 유지되도록 할 수 있어야 하며, 사용 전에 멸균할 기기라면 미생물 오염 위험을 최소화하고 제조자가 지정한 멸균 방법에 적합해야 한다.",
+      "topics": [
+        "p:infection-sterility"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P9(10)",
+      "ref": "Section 9(10) (AMDD 9.11)",
+      "titleEn": "Section 9 (AMDD 9) — Infection and microbial contamination · Section 9(10) (AMDD 9.11)",
+      "titleKo": "섹션 9 (AMDD 9) — 감염 및 미생물 오염 · Section 9(10) (AMDD 9.11)",
+      "summaryEn": "The packaging and/or label of a medical device shall distinguish between identical or similar products placed on the market in both sterile and non-sterile conditions.",
+      "summaryKo": "의료기기의 포장 및/또는 라벨은 멸균 상태와 비멸균 상태로 시장에 함께 출시되는 동일하거나 유사한 제품을 구분해야 한다.",
+      "topics": [
+        "p:infection-sterility",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "P9",
+        "en": "Section 9 (AMDD 9) — Infection and microbial contamination",
+        "ko": "섹션 9 (AMDD 9) — 감염 및 미생물 오염",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(1)",
+      "ref": "Section 10(1) (AMDD 10.1)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(1) (AMDD 10.1)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(1) (AMDD 10.1)",
+      "summaryEn": "If the medical device is intended for use in combination with other devices or equipment, the whole combination, including the connection system shall be safe and shall not impair the specified performance of the medical device.",
+      "summaryKo": "의료기기가 다른 기기·장비와 조합하여 사용하도록 의도된 경우, 연결 시스템을 포함한 전체 조합이 안전해야 하고 해당 의료기기의 명시된 성능을 저해해서는 안 된다.",
+      "topics": [
+        "p:systems-interconnection"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P10(2)",
+      "ref": "Section 10(2) (AMDD 10.1)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(2) (AMDD 10.1)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(2) (AMDD 10.1)",
+      "summaryEn": "Any restrictions on use applying to such combinations referred to in subparagraph (1) shall be indicated on the label and/or in the instructions for use;",
+      "summaryKo": "(1)에서 언급한 그러한 조합에 적용되는 사용 제한은 라벨 및/또는 사용설명서에 표시해야 한다.",
+      "topics": [
+        "p:systems-interconnection",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)-lead",
+      "ref": "Section 10(3) (lead-in) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3) (lead-in) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3) (lead-in) (AMDD 10.2)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way as to remove or reduce as far as reasonably practicable and appropriate —",
+      "summaryKo": "의료기기는 다음을 합리적으로 실행 가능하고 적절한 범위까지 제거하거나 줄이도록 설계·제조되어야 한다 —",
+      "topics": [
+        "p:environment-construction"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)(a)",
+      "ref": "Section 10(3)(a) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3)(a) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3)(a) (AMDD 10.2)",
+      "summaryEn": "the risk of injury, in connection with their physical features, including the volume/pressure ratio, dimensional and where appropriate ergonomic features;",
+      "summaryKo": "기기의 물리적 특징(부피/압력 비, 치수, 적절한 경우 인간공학적 특징 포함)과 관련된 상해 위험;",
+      "topics": [
+        "p:environment-construction",
+        "s:lay-usability"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)(b)",
+      "ref": "Section 10(3)(b) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3)(b) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3)(b) (AMDD 10.2)",
+      "summaryEn": "risks connected with reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electromagnetic effects, electrostatic discharge, pressure, humidity, temperature or variations in pressure and acceleration;",
+      "summaryKo": "합리적으로 예측 가능한 외부 영향이나 환경 조건(자기장, 외부 전기·전자기 영향, 정전기 방전, 압력, 습도, 온도, 압력 변동·가속도 등)과 관련된 위험;",
+      "topics": [
+        "p:environment-construction",
+        "s:emc"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)(c)",
+      "ref": "Section 10(3)(c) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3)(c) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3)(c) (AMDD 10.2)",
+      "summaryEn": "the risks connected to their use in conjunction with materials, substances and gases with which they may come into contact during normal conditions of use;",
+      "summaryKo": "정상 사용 조건에서 접촉할 수 있는 재료·물질·가스와 함께 사용할 때의 위험;",
+      "topics": [
+        "p:environment-construction",
+        "s:materials"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)(d)",
+      "ref": "Section 10(3)(d) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3)(d) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3)(d) (AMDD 10.2)",
+      "summaryEn": "the risks of accidental penetration of substances into the medical device;",
+      "summaryKo": "의료기기 내로 물질이 우발적으로 침투하는 위험;",
+      "topics": [
+        "p:environment-construction",
+        "s:materials"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)(e)",
+      "ref": "Section 10(3)(e) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3)(e) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3)(e) (AMDD 10.2)",
+      "summaryEn": "the risk of incorrect identification of specimens;",
+      "summaryKo": "검체를 잘못 식별할 위험;",
+      "topics": [
+        "p:environment-construction"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(3)(f)",
+      "ref": "Section 10(3)(f) (AMDD 10.2)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(3)(f) (AMDD 10.2)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(3)(f) (AMDD 10.2)",
+      "summaryEn": "risks arising where maintenance or calibration are not possible (as with implants), from ageing of materials used or loss of accuracy of a measuring or control mechanism;",
+      "summaryKo": "(이식형처럼) 유지보수나 교정이 불가능한 경우, 사용된 재료의 노화 또는 측정·제어 메커니즘의 정확도 상실로 발생하는 위험;",
+      "topics": [
+        "p:environment-construction",
+        "s:lifetime"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(4)-lead",
+      "ref": "Section 10(4) (lead-in) (AMDD 10.3–10.4)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(4) (lead-in) (AMDD 10.3–10.4)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(4) (lead-in) (AMDD 10.3–10.4)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way as—",
+      "summaryKo": "의료기기는 다음과 같이 설계·제조되어야 한다 —",
+      "topics": [
+        "p:environment-construction"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(4)(a)",
+      "ref": "Section 10(4)(a) (AMDD 10.3)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(4)(a) (AMDD 10.3)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(4)(a) (AMDD 10.3)",
+      "summaryEn": "to minimise the risks of fire or explosion during normal use and in single fault condition, with particular attention to medical device whose intended use includes exposure to or use in association with flammable substances or substances which could cause combustion; and",
+      "summaryKo": "정상 사용 중 및 단일 고장 상태에서 화재·폭발 위험을 최소화하며, 특히 의도된 용도에 인화성 물질이나 연소를 일으킬 수 있는 물질에 노출되거나 그와 함께 사용하는 것이 포함된 의료기기에 주의하고,",
+      "topics": [
+        "p:environment-construction",
+        "s:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P10(4)(b)",
+      "ref": "Section 10(4)(b) (AMDD 10.4)",
+      "titleEn": "Section 10 (AMDD 10) — Manufacturing and environmental properties · Section 10(4)(b) (AMDD 10.4)",
+      "titleKo": "섹션 10 (AMDD 10) — 제조 및 환경 특성 · Section 10(4)(b) (AMDD 10.4)",
+      "summaryEn": "to facilitate the safe disposal of any waste substances.",
+      "summaryKo": "폐기물의 안전한 처리를 용이하게 한다.",
+      "topics": [
+        "s:environment-construction"
+      ],
+      "group": {
+        "key": "P10",
+        "en": "Section 10 (AMDD 10) — Manufacturing and environmental properties",
+        "ko": "섹션 10 (AMDD 10) — 제조 및 환경 특성",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P11(1)",
+      "ref": "Section 11(1) (AMDD 11.1)",
+      "titleEn": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function · Section 11(1) (AMDD 11.1)",
+      "titleKo": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기 · Section 11(1) (AMDD 11.1)",
+      "summaryEn": "A medical device with a measuring function, where inaccuracy could have a significant adverse effect on the patient, shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for the intended purpose of the device and the limits of accuracy should be indicated by the manufacturer.",
+      "summaryKo": "측정 기능이 있고 부정확성이 환자에게 중대한 악영향을 줄 수 있는 의료기기는, 기기의 의도된 목적에 충분한 정확도·정밀도·안정성을 제공하도록 설계·제조되어야 하며 정확도의 한계는 제조자가 표시해야 한다.",
+      "topics": [
+        "p:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P11",
+        "en": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function",
+        "ko": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: AMDD 11.1에는 '부정확성이 환자에게 중대한 악영향을 줄 수 있는 경우' 한정이 없어 측정 기능이 있는 모든 기기에 적용 — 이 양식이 더 좁게 서술됨."
+    },
+    {
+      "id": "ASEAN-P11(2)",
+      "ref": "Section 11(2) (AMDD 11.2)",
+      "titleEn": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function · Section 11(2) (AMDD 11.2)",
+      "titleKo": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기 · Section 11(2) (AMDD 11.2)",
+      "summaryEn": "A diagnostic medical device shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for its intended use, based on appropriate scientific and technical methods; in particular the design shall address sensitivity, specificity, trueness, repeatability, reproducibility, control of known relevant interference and limits of detection, as appropriate.",
+      "summaryKo": "진단 의료기기는 적절한 과학적·기술적 방법에 근거하여 의도된 용도에 충분한 정확도·정밀도·안정성을 제공하도록 설계·제조되어야 하며, 특히 설계는 민감도, 특이도, 정확성(trueness), 반복성, 재현성, 알려진 관련 간섭의 관리, 검출한계를 적절히 다루어야 한다.",
+      "topics": [
+        "p:measuring-diagnostic",
+        "s:ivd-performance"
+      ],
+      "group": {
+        "key": "P11",
+        "en": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function",
+        "ko": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: AMDD 11.2는 '진단용 기기'가 아니라 의료기기 전반에 적용하는 문구."
+    },
+    {
+      "id": "ASEAN-P11(3)",
+      "ref": "Section 11(3) (AMDD 11.3)",
+      "titleEn": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function · Section 11(3) (AMDD 11.3)",
+      "titleKo": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기 · Section 11(3) (AMDD 11.3)",
+      "summaryEn": "Where the performance of a medical device depends on the use of calibrators and/or control materials, the traceability of values assigned to such calibrators and/or control materials shall be assured through a quality management system.",
+      "summaryKo": "의료기기의 성능이 교정물질 및/또는 관리물질의 사용에 의존하는 경우, 그 물질에 부여된 값의 소급성은 품질경영시스템을 통해 보장되어야 한다.",
+      "topics": [
+        "s:measuring-diagnostic",
+        "s:qms",
+        "s:ivd-performance"
+      ],
+      "group": {
+        "key": "P11",
+        "en": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function",
+        "ko": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P11(4)",
+      "ref": "Section 11(4) (AMDD 11.4)",
+      "titleEn": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function · Section 11(4) (AMDD 11.4)",
+      "titleKo": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기 · Section 11(4) (AMDD 11.4)",
+      "summaryEn": "Any measurement, monitoring or display scale shall be designed in line with ergonomic principles, taking account of the intended purpose of a medical device.",
+      "summaryKo": "측정·모니터링·표시 스케일은 의료기기의 의도된 목적을 고려하여 인간공학 원칙에 맞게 설계되어야 한다.",
+      "topics": [
+        "p:lay-usability",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P11",
+        "en": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function",
+        "ko": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P11(5)",
+      "ref": "Section 11(5) (AMDD 11.5)",
+      "titleEn": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function · Section 11(5) (AMDD 11.5)",
+      "titleKo": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기 · Section 11(5) (AMDD 11.5)",
+      "summaryEn": "Wherever possible values expressed numerically shall be in commonly accepted, standardised units, and understood by the users of the medical device.",
+      "summaryKo": "가능한 한 수치로 표현되는 값은 일반적으로 인정되는 표준화된 단위로 표시하고 의료기기 사용자가 이해할 수 있어야 한다.",
+      "topics": [
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P11",
+        "en": "Section 11 (AMDD 11) — Medical device with a diagnostic or measuring function",
+        "ko": "섹션 11 (AMDD 11) — 진단·측정 기능이 있는 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(1)",
+      "ref": "Section 12(1) (AMDD 12.1)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(1) (AMDD 12.1)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(1) (AMDD 12.1)",
+      "summaryEn": "A medical devices shall be designed, manufactured and packaged in such a way that exposure of patients, users and other persons to any emitted radiation shall be reduced as far as practicable and appropriate, compatible with the intended purpose, whilst not restricting the application of appropriate specified levels for therapeutic and diagnostic purposes.",
+      "summaryKo": "의료기기는 환자·사용자·다른 사람이 방출 방사선에 노출되는 것이 의도된 목적에 부합하는 범위에서 실행 가능하고 적절한 수준까지 줄어들도록, 그러면서도 치료·진단 목적에 적절한 지정 수준의 적용을 제한하지 않도록 설계·제조·포장되어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P12(2)",
+      "ref": "Section 12(2) (AMDD 12.2.1)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(2) (AMDD 12.2.1)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(2) (AMDD 12.2.1)",
+      "summaryEn": "Where a medical device is designed to emit hazardous, or potentially hazardous, levels of visible and/or invisible radiation necessary for a specific medical purpose, the benefit of which is considered to outweigh the risks inherent in the emission, such medical device shall be designed and manufactured to ensure reproducibility of relevant variable parameters within an acceptable tolerance and it shall be possible for the user to control the emissions.",
+      "summaryKo": "특정 의료 목적에 필요한 가시 및/또는 비가시의 유해 또는 잠재적 유해 수준의 방사선을 방출하도록 설계되고 그 이익이 방출에 내재된 위험을 상회한다고 판단되는 의료기기는, 관련 가변 파라미터의 재현성이 허용 가능한 오차 범위 내에서 보장되도록 설계·제조되어야 하며 사용자가 방출을 제어할 수 있어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(3)",
+      "ref": "Section 12(3) (AMDD 12.2.2)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(3) (AMDD 12.2.2)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(3) (AMDD 12.2.2)",
+      "summaryEn": "Where a medical device is intended to emit potentially hazardous, visible and/or invisible radiation, it should be fitted, where practicable, with visual displays and/or audible warnings of such emissions.",
+      "summaryKo": "잠재적으로 유해한 가시 및/또는 비가시 방사선을 방출하도록 의도된 의료기기에는, 실행 가능한 경우 그러한 방출을 알리는 시각 표시 및/또는 경고음을 갖추어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(4)",
+      "ref": "Section 12(4) (AMDD 12.3)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(4) (AMDD 12.3)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(4) (AMDD 12.3)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way that exposure of patients, users and other persons to the emission of unintended, stray or scattered radiation is reduced as far as practicable and appropriate.",
+      "summaryKo": "의료기기는 환자·사용자·다른 사람이 의도하지 않은 방사선, 누설 방사선, 산란 방사선에 노출되는 것이 실행 가능하고 적절한 수준까지 줄어들도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(5)",
+      "ref": "Section 12(5) (AMDD 12.4)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(5) (AMDD 12.4)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(5) (AMDD 12.4)",
+      "summaryEn": "The operating instructions for medical device emitting radiation shall provide detailed information as to the nature of the emitted radiation, means of protecting the patient and the user and ways of avoiding misuse and of eliminating the risks inherent in installation.",
+      "summaryKo": "방사선을 방출하는 의료기기의 사용 지침은 방출되는 방사선의 특성, 환자·사용자 보호 수단, 오용 방지 방법, 설치에 내재된 위험 제거 방법에 대한 상세 정보를 제공해야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(6)",
+      "ref": "Section 12(6) (AMDD 12.5.1)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(6) (AMDD 12.5.1)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(6) (AMDD 12.5.1)",
+      "summaryEn": "A medical device intended to emit ionising radiation shall be designed and manufactured in such a way as to ensure that, where practicable, the quantity, geometry and energy distribution (or quality) of radiation emitted can be varied and controlled taking into account the intended use.",
+      "summaryKo": "전리방사선을 방출하도록 의도된 의료기기는, 실행 가능한 경우 방출되는 방사선의 양·기하·에너지 분포(또는 품질)를 의도된 용도에 맞게 변경·제어할 수 있도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(7)",
+      "ref": "Section 12(7) (AMDD 12.5.2)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(7) (AMDD 12.5.2)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(7) (AMDD 12.5.2)",
+      "summaryEn": "A medical device emitting ionising radiation intended for diagnostic radiology shall be designed and manufactured in such a way as to achieve appropriate image and/or output quality for the intended medical purpose whilst minimising radiation exposure of the patient and user.",
+      "summaryKo": "진단방사선 용도의 전리방사선 의료기기는 환자와 사용자의 방사선 노출을 최소화하면서 의도된 의료 목적에 적절한 영상 및/또는 출력 품질을 달성하도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P12(8)",
+      "ref": "Section 12(8) (AMDD 12.5.3)",
+      "titleEn": "Section 12 (AMDD 12) — Protection against radiation · Section 12(8) (AMDD 12.5.3)",
+      "titleKo": "섹션 12 (AMDD 12) — 방사선 방호 · Section 12(8) (AMDD 12.5.3)",
+      "summaryEn": "A medical device emitting ionising radiation, intended for therapeutic radiology shall be designed and manufactured in such a way as to enable reliable monitoring and control of the delivered dose, the beam type and energy and where appropriate, the energy distribution of the radiation beam.",
+      "summaryKo": "치료방사선 용도의 전리방사선 의료기기는 전달 선량, 빔의 종류와 에너지, 적절한 경우 방사선 빔의 에너지 분포를 신뢰성 있게 모니터링·제어할 수 있도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:radiation-protection",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P12",
+        "en": "Section 12 (AMDD 12) — Protection against radiation",
+        "ko": "섹션 12 (AMDD 12) — 방사선 방호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P13(1)",
+      "ref": "Section 13(1) (AMDD 13.1)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(1) (AMDD 13.1)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(1) (AMDD 13.1)",
+      "summaryEn": "A medical device incorporating electronic programmable system, including software, shall be designed to ensure the repeatability, reliability and performance of these systems according to the intended use.",
+      "summaryKo": "소프트웨어를 포함한 전자 프로그래머블 시스템을 내장한 의료기기는 의도된 용도에 따라 해당 시스템의 반복성·신뢰성·성능이 보장되도록 설계되어야 한다.",
+      "topics": [
+        "p:software",
+        "s:intended-performance",
+        "s:active-connected"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      },
+      "ownNote": "이 양식(및 말레이시아 규정 문구)에는 소프트웨어 수명주기·IT 보안·사이버보안 clause가 없음(EU 17.2/17.4/18.8, AU EP 12.1(5), BR Art. 50–53과 대비되는 갭).",
+      "standards": [
+        {
+          "id": "EN 60601-1-2",
+          "ko": "전자기 적합성(EMC)"
+        },
+        {
+          "id": "IEC 62304",
+          "ko": "의료기기 소프트웨어 수명주기"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P13(2)",
+      "ref": "Section 13(2) (AMDD 13.1)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(2) (AMDD 13.1)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(2) (AMDD 13.1)",
+      "summaryEn": "In the event of a single fault condition in the system referred to in subparagraph (1), appropriate means shall be adopted to eliminate or reduce as far as practicable and appropriate consequent risks.",
+      "summaryKo": "(1)에서 언급한 시스템에 단일 고장 상태가 발생하는 경우, 그로 인한 위험을 제거하거나 실행 가능하고 적절한 범위까지 줄이는 적절한 수단을 채택해야 한다.",
+      "topics": [
+        "p:software",
+        "s:active-connected"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P13(3)",
+      "ref": "Section 13(3) (AMDD 13.3)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(3) (AMDD 13.3)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(3) (AMDD 13.3)",
+      "summaryEn": "A medical device where the safety of the patients depends on an internal power supply shall be equipped with a means of determining the state of the power supply.",
+      "summaryKo": "환자의 안전이 내부 전원에 의존하는 의료기기에는 전원 상태를 확인하는 수단을 갖추어야 한다.",
+      "topics": [
+        "p:active-connected"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P13(4)",
+      "ref": "Section 13(4) (AMDD 13.4)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(4) (AMDD 13.4)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(4) (AMDD 13.4)",
+      "summaryEn": "A medical device where the safety of the patients depends on an external power supply shall include an alarm system to signal any power failure.",
+      "summaryKo": "환자의 안전이 외부 전원에 의존하는 의료기기에는 정전을 알리는 경보 시스템을 포함해야 한다.",
+      "topics": [
+        "p:active-connected"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P13(5)",
+      "ref": "Section 13(5) (AMDD 13.5)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(5) (AMDD 13.5)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(5) (AMDD 13.5)",
+      "summaryEn": "A medical device intended to monitor one or more clinical parameters of a patient shall be equipped with appropriate alarm system to alert the user of situations which could lead to death or severe deterioration of the patient's state of health.",
+      "summaryKo": "환자의 임상 파라미터를 하나 이상 모니터링하도록 의도된 의료기기에는 환자의 사망이나 건강 상태의 심각한 악화로 이어질 수 있는 상황을 사용자에게 알리는 적절한 경보 시스템을 갖추어야 한다.",
+      "topics": [
+        "p:active-connected",
+        "s:measuring-diagnostic"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P13(6)",
+      "ref": "Section 13(6) (AMDD 13.6)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(6) (AMDD 13.6)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(6) (AMDD 13.6)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way as to reduce as far as practicable and appropriate the risks of creating electromagnetic interference which could impair the operation of this or other devices or equipment in the usual environment.",
+      "summaryKo": "의료기기는 통상 환경에서 해당 기기 또는 다른 기기·장비의 작동을 방해할 수 있는 전자기 간섭을 일으킬 위험이 실행 가능하고 적절한 범위까지 줄어들도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:emc"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P13(7)",
+      "ref": "Section 13(7) (AMDD 13.7)",
+      "titleEn": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source · Section 13(7) (AMDD 13.7)",
+      "titleKo": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기 · Section 13(7) (AMDD 13.7)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way as to provide an adequate level of intrinsic immunity to electromagnetic disturbance to enable them to operate as intended.",
+      "summaryKo": "의료기기는 의도대로 작동할 수 있도록 전자기 교란에 대한 적절한 수준의 고유 내성을 갖도록 설계·제조되어야 한다.",
+      "topics": [
+        "p:emc"
+      ],
+      "group": {
+        "key": "P13",
+        "en": "Section 13 (AMDD 13) — Medical device connected to or equipped with an energy source",
+        "ko": "섹션 13 (AMDD 13) — 에너지원에 연결되거나 에너지원을 갖춘 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P15-lead",
+      "ref": "Section 15 (lead-in) (AMDD 14)",
+      "titleEn": "Section 15 (AMDD 14) — Protection against mechanical risks · Section 15 (lead-in) (AMDD 14)",
+      "titleKo": "섹션 15 (AMDD 14) — 기계적 위험 보호 · Section 15 (lead-in) (AMDD 14)",
+      "summaryEn": "A medical device shall be designed and manufactured in such a way as—",
+      "summaryKo": "의료기기는 다음과 같이 설계·제조되어야 한다 —",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P15",
+        "en": "Section 15 (AMDD 14) — Protection against mechanical risks",
+        "ko": "섹션 15 (AMDD 14) — 기계적 위험 보호",
+        "hideTitle": true
+      },
+      "ownNote": "양식에서 단락 15는 (1) 표기 없이 (a)–(c)로 시작하고 이어서 (2), (3)이 옴.",
+      "standards": [
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P15(a)",
+      "ref": "Section 15(a) (AMDD 14.1)",
+      "titleEn": "Section 15 (AMDD 14) — Protection against mechanical risks · Section 15(a) (AMDD 14.1)",
+      "titleKo": "섹션 15 (AMDD 14) — 기계적 위험 보호 · Section 15(a) (AMDD 14.1)",
+      "summaryEn": "to protect the patient and user against mechanical risks connected with, for example, resistance to movement, instability and moving parts;",
+      "summaryKo": "예컨대 움직임에 대한 저항, 불안정, 가동부와 관련된 기계적 위험으로부터 환자와 사용자를 보호하도록;",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P15",
+        "en": "Section 15 (AMDD 14) — Protection against mechanical risks",
+        "ko": "섹션 15 (AMDD 14) — 기계적 위험 보호",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: '움직임 저항·불안정·가동부' 예시는 AMDD 14.1에 없고 이 양식에만 있음."
+    },
+    {
+      "id": "ASEAN-P15(b)",
+      "ref": "Section 15(b) (AMDD 14.2)",
+      "titleEn": "Section 15 (AMDD 14) — Protection against mechanical risks · Section 15(b) (AMDD 14.2)",
+      "titleKo": "섹션 15 (AMDD 14) — 기계적 위험 보호 · Section 15(b) (AMDD 14.2)",
+      "summaryEn": "to reduce to the lowest practicable level the risks arising from vibration generated by the devices, taking account of technical progress and of the means available for limiting vibrations, particularly at source, unless the vibrations are part of the specified performance; and",
+      "summaryKo": "기술 진보와 (특히 발생원에서) 진동을 제한하기 위한 이용 가능한 수단을 고려하여, 진동이 명시된 성능의 일부가 아닌 한 기기가 발생시키는 진동으로 인한 위험을 실행 가능한 가장 낮은 수준까지 줄이도록; 그리고",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P15",
+        "en": "Section 15 (AMDD 14) — Protection against mechanical risks",
+        "ko": "섹션 15 (AMDD 14) — 기계적 위험 보호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P15(c)",
+      "ref": "Section 15(c) (AMDD 14.3)",
+      "titleEn": "Section 15 (AMDD 14) — Protection against mechanical risks · Section 15(c) (AMDD 14.3)",
+      "titleKo": "섹션 15 (AMDD 14) — 기계적 위험 보호 · Section 15(c) (AMDD 14.3)",
+      "summaryEn": "to reduce to the lowest practicable level the risks arising from the noise emitted, taking account of technical progress and of the means available to reduce noise, particularly at source, unless the noise emitted is part of the specified performance.",
+      "summaryKo": "기술 진보와 (특히 발생원에서) 소음을 줄이기 위한 이용 가능한 수단을 고려하여, 방출되는 소음이 명시된 성능의 일부가 아닌 한 소음으로 인한 위험을 실행 가능한 가장 낮은 수준까지 줄이도록.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P15",
+        "en": "Section 15 (AMDD 14) — Protection against mechanical risks",
+        "ko": "섹션 15 (AMDD 14) — 기계적 위험 보호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P15(2)",
+      "ref": "Section 15(2) (AMDD 14.4)",
+      "titleEn": "Section 15 (AMDD 14) — Protection against mechanical risks · Section 15(2) (AMDD 14.4)",
+      "titleKo": "섹션 15 (AMDD 14) — 기계적 위험 보호 · Section 15(2) (AMDD 14.4)",
+      "summaryEn": "Terminals and connectors to the electricity, gas or hydraulic and pneumatic energy supplies which the user has to handle should be designed and constructed in such a way as to minimise all possible risks.",
+      "summaryKo": "사용자가 취급해야 하는 전기·가스·유압·공압 에너지 공급원의 단자와 커넥터는 모든 가능한 위험을 최소화하도록 설계·구성되어야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P15",
+        "en": "Section 15 (AMDD 14) — Protection against mechanical risks",
+        "ko": "섹션 15 (AMDD 14) — 기계적 위험 보호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P15(3)",
+      "ref": "Section 15(3) (AMDD 14.5)",
+      "titleEn": "Section 15 (AMDD 14) — Protection against mechanical risks · Section 15(3) (AMDD 14.5)",
+      "titleKo": "섹션 15 (AMDD 14) — 기계적 위험 보호 · Section 15(3) (AMDD 14.5)",
+      "summaryEn": "Accessible parts of the devices, excluding the parts or areas intended to supply heat or reach given temperatures, and their surroundings shall not attain potentially dangerous temperatures under normal use.",
+      "summaryKo": "기기의 접근 가능한 부분(열을 공급하거나 특정 온도에 도달하도록 의도된 부분·영역 제외)과 그 주변은 정상 사용에서 잠재적으로 위험한 온도에 도달해서는 안 된다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "group": {
+        "key": "P15",
+        "en": "Section 15 (AMDD 14) — Protection against mechanical risks",
+        "ko": "섹션 15 (AMDD 14) — 기계적 위험 보호",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P16-lead",
+      "ref": "Section 16 (lead-in) (AMDD 15.1)",
+      "titleEn": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances · Section 16 (lead-in) (AMDD 15.1)",
+      "titleKo": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험 · Section 16 (lead-in) (AMDD 15.1)",
+      "summaryEn": "A medical device for supplying the patient with energy or substances shall—",
+      "summaryKo": "환자에게 에너지나 물질을 공급하는 의료기기는 다음을 충족해야 한다 —",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "P16",
+        "en": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances",
+        "ko": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P16(a)",
+      "ref": "Section 16(a) (AMDD 15.1)",
+      "titleEn": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances · Section 16(a) (AMDD 15.1)",
+      "titleKo": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험 · Section 16(a) (AMDD 15.1)",
+      "summaryEn": "be designed and constructed in such a way that the delivered amount can be set and maintained accurately enough to guarantee the safety of the patient and of the user.",
+      "summaryKo": "환자와 사용자의 안전을 보장할 만큼 정확하게 공급량을 설정·유지할 수 있도록 설계·구성될 것.",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "P16",
+        "en": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances",
+        "ko": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: AMDD 15.1은 '투여 속도 및/또는 양(rate and/or amount)'인데 이 양식은 '양(amount)'만 적음."
+    },
+    {
+      "id": "ASEAN-P16(b)",
+      "ref": "Section 16(b) (AMDD 15.2)",
+      "titleEn": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances · Section 16(b) (AMDD 15.2)",
+      "titleKo": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험 · Section 16(b) (AMDD 15.2)",
+      "summaryEn": "be fitted with the means of preventing and/or indicating any inadequacies in the delivered amount which could pose a danger.",
+      "summaryKo": "위험을 초래할 수 있는 공급량의 부적정을 방지 및/또는 표시하는 수단을 갖출 것.",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "P16",
+        "en": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances",
+        "ko": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P16(c)",
+      "ref": "Section 16(c) (AMDD 15.2)",
+      "titleEn": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances · Section 16(c) (AMDD 15.2)",
+      "titleKo": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험 · Section 16(c) (AMDD 15.2)",
+      "summaryEn": "incorporate suitable means to prevent, as far as possible, the accidental release of dangerous levels of energy from an energy and/or substance source.",
+      "summaryKo": "에너지 및/또는 물질 공급원에서 위험한 수준의 에너지가 우발적으로 방출되는 것을 가능한 한 방지하는 적절한 수단을 포함할 것.",
+      "topics": [
+        "p:energy-substance-supply"
+      ],
+      "group": {
+        "key": "P16",
+        "en": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances",
+        "ko": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P16(d)",
+      "ref": "Section 16(d) (AMDD 15.3)",
+      "titleEn": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances · Section 16(d) (AMDD 15.3)",
+      "titleKo": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험 · Section 16(d) (AMDD 15.3)",
+      "summaryEn": "clearly specify the function of any controls and indicators on the medical device;",
+      "summaryKo": "의료기기의 모든 제어장치와 표시기의 기능을 명확히 표시할 것.",
+      "topics": [
+        "p:energy-substance-supply",
+        "s:lay-usability"
+      ],
+      "group": {
+        "key": "P16",
+        "en": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances",
+        "ko": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P16(e)",
+      "ref": "Section 16(e) (AMDD 15.3)",
+      "titleEn": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances · Section 16(e) (AMDD 15.3)",
+      "titleKo": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험 · Section 16(e) (AMDD 15.3)",
+      "summaryEn": "as appropriate, bear instructions required for its operation or indicate operating or adjustment parameters by means of a visual system, that shall be understandable to the user and, as appropriate to the patient.",
+      "summaryKo": "적절한 경우, 작동에 필요한 지침을 표시하거나 시각 시스템으로 작동·조정 파라미터를 표시하며, 그 정보는 사용자와 적절한 경우 환자가 이해할 수 있어야 한다.",
+      "topics": [
+        "p:energy-substance-supply",
+        "s:lay-usability"
+      ],
+      "group": {
+        "key": "P16",
+        "en": "Section 16 (AMDD 15) — Risks posed to the patient by supplied energy or substances",
+        "ko": "섹션 16 (AMDD 15) — 공급되는 에너지·물질이 환자에게 주는 위험",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P17(1)-lead",
+      "ref": "Section 17(1) (lead-in) (AMDD 17.1)",
+      "titleEn": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration · Section 17(1) (lead-in) (AMDD 17.1)",
+      "titleKo": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기 · Section 17(1) (lead-in) (AMDD 17.1)",
+      "summaryEn": "Medical device for self-testing or self-administration shall be designed and manufactured in such a way—",
+      "summaryKo": "자가검사·자가투여 의료기기는 다음과 같이 설계·제조되어야 한다 —",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "P17",
+        "en": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration",
+        "ko": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기",
+        "hideTitle": true
+      },
+      "standards": [
+        {
+          "id": "IEC 60601-1",
+          "ko": "의료전기기기 기본 안전·필수 성능"
+        },
+        {
+          "id": "IEC 60601-1-3",
+          "ko": "진단용 X선 장비의 방사선 방호"
+        },
+        {
+          "id": "IEC 60601-2-63",
+          "ko": "치과 구외 X선 장비 개별 규격"
+        },
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P17(1)(a)",
+      "ref": "Section 17(1)(a) (AMDD 17.1)",
+      "titleEn": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration · Section 17(1)(a) (AMDD 17.1)",
+      "titleKo": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기 · Section 17(1)(a) (AMDD 17.1)",
+      "summaryEn": "that they perform appropriately for their intended purpose taking into account the skills and the means available to users and the influence resulting from variation that can reasonably be anticipated in user's technique and environment;",
+      "summaryKo": "사용자가 이용할 수 있는 기술과 수단, 사용자 기술과 환경에서 합리적으로 예상되는 편차의 영향을 고려하여 의도된 목적에 적절하게 작동하도록;",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "P17",
+        "en": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration",
+        "ko": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P17(1)(b)",
+      "ref": "Section 17(1)(b) (AMDD 17.1)",
+      "titleEn": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration · Section 17(1)(b) (AMDD 17.1)",
+      "titleKo": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기 · Section 17(1)(b) (AMDD 17.1)",
+      "summaryEn": "that the information and instructions provided by the manufacturer shall be easy for the user to understand and apply; and",
+      "summaryKo": "제조자가 제공하는 정보와 지침을 사용자가 이해하고 적용하기 쉽도록; 그리고",
+      "topics": [
+        "p:lay-usability",
+        "s:labelling-ifu"
+      ],
+      "group": {
+        "key": "P17",
+        "en": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration",
+        "ko": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P17(1)(c)",
+      "ref": "Section 17(1)(c) (AMDD 17.2)",
+      "titleEn": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration · Section 17(1)(c) (AMDD 17.2)",
+      "titleKo": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기 · Section 17(1)(c) (AMDD 17.2)",
+      "summaryEn": "as to reduce as far as practicable the risk of use error in the handling of the device and, if applicable, the specimen, and also in the interpretation of results.",
+      "summaryKo": "기기(해당되는 경우 검체)의 취급과 결과 해석에서 사용 오류 위험이 실행 가능한 범위까지 줄어들도록.",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "P17",
+        "en": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration",
+        "ko": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P17(2)",
+      "ref": "Section 17(2) (AMDD 17.3)",
+      "titleEn": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration · Section 17(2) (AMDD 17.3)",
+      "titleKo": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기 · Section 17(2) (AMDD 17.3)",
+      "summaryEn": "Medical device for self-testing or self-administration shall, where reasonably possible, include a procedure by which the user can verify that, at the time of use, the product will perform as intended by the manufacturer.",
+      "summaryKo": "자가검사·자가투여 의료기기에는 합리적으로 가능한 경우, 사용 시점에 제품이 제조자가 의도한 대로 작동할 것임을 사용자가 확인할 수 있는 절차를 포함해야 한다.",
+      "topics": [
+        "p:lay-usability"
+      ],
+      "group": {
+        "key": "P17",
+        "en": "Section 17 (AMDD 17) — Medical device for self-testing or self-administration",
+        "ko": "섹션 17 (AMDD 17) — 자가검사·자가투여 의료기기",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P18(1)",
+      "ref": "Section 18(1) (AMDD 18.1)",
+      "titleEn": "Section 18 (AMDD 18) — Information supplied by the manufacturer · Section 18(1) (AMDD 18.1)",
+      "titleKo": "섹션 18 (AMDD 18) — 제조자가 제공하는 정보 · Section 18(1) (AMDD 18.1)",
+      "summaryEn": "User of a medical device shall be provided with the appropriate information needed, to identify the manufacturer, to use the medical device safely and to ensure the intended performance, taking account of their training and knowledge.",
+      "summaryKo": "의료기기 사용자에게는 제조자 식별, 안전한 사용, 의도된 성능 확보에 필요한 적절한 정보를 사용자의 교육과 지식 수준을 고려하여 제공해야 한다.",
+      "topics": [
+        "p:labelling-ifu",
+        "s:lay-usability"
+      ],
+      "group": {
+        "key": "P18",
+        "en": "Section 18 (AMDD 18) — Information supplied by the manufacturer",
+        "ko": "섹션 18 (AMDD 18) — 제조자가 제공하는 정보",
+        "hideTitle": true
+      },
+      "ownNote": "AMDD 대조: AMDD 18.1은 기기 식별 정보, 제품 소유자(product owner) 식별 정보, 안전한 사용 방법 설명 3가지만 나열하며 '의도된 성능 보장' 문구는 없음.",
+      "standards": [
+        {
+          "id": "ISO 14971",
+          "ko": "위험관리"
+        },
+        {
+          "id": "ISO 15223-1",
+          "ko": "표시 기호"
+        },
+        {
+          "id": "ISO 20417",
+          "ko": "제조자 제공 정보"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-P18(2)",
+      "ref": "Section 18(2) (AMDD 18.1)",
+      "titleEn": "Section 18 (AMDD 18) — Information supplied by the manufacturer · Section 18(2) (AMDD 18.1)",
+      "titleKo": "섹션 18 (AMDD 18) — 제조자가 제공하는 정보 · Section 18(2) (AMDD 18.1)",
+      "summaryEn": "The information referred to in subparagraph (1) shall be easily understood by the user.",
+      "summaryKo": "(1)에서 언급한 정보는 사용자가 쉽게 이해할 수 있어야 한다.",
+      "topics": [
+        "p:labelling-ifu"
+      ],
+      "group": {
+        "key": "P18",
+        "en": "Section 18 (AMDD 18) — Information supplied by the manufacturer",
+        "ko": "섹션 18 (AMDD 18) — 제조자가 제공하는 정보",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-P19(1)",
+      "ref": "Section 19(1) (AMDD 해당 없음)",
+      "titleEn": "Section 19 (AMDD 19) — Performance evaluation including clinical evaluation · Section 19(1) (AMDD 해당 없음)",
+      "titleKo": "섹션 19 (AMDD 19) — 성능 평가(임상 평가 포함) · Section 19(1) (AMDD 해당 없음)",
+      "summaryEn": "All data generated in support of performance evaluation of a medical device shall be obtained.",
+      "summaryKo": "의료기기의 성능 평가를 뒷받침하기 위해 생성되는 모든 데이터는 확보해야 한다.",
+      "topics": [
+        "p:clinical-evidence"
+      ],
+      "group": {
+        "key": "P19",
+        "en": "Section 19 (AMDD 19) — Performance evaluation including clinical evaluation",
+        "ko": "섹션 19 (AMDD 19) — 성능 평가(임상 평가 포함)",
+        "hideTitle": true
+      },
+      "ownNote": "양식 문구가 'shall be obtained'에서 끝남(MDA/GD/0007 6.2.11.1은 '각 관할의 요건에 따라'를 덧붙임). / AMDD 대조: 이 문장('성능 평가를 뒷받침하는 모든 데이터를 확보해야 한다')은 AMDD 부속서 1 본문에 없음(AMDD 7항은 임상 근거·임상 평가 요구, 19.1은 헬싱키 선언)."
+    },
+    {
+      "id": "ASEAN-P19(2)",
+      "ref": "Section 19(2) (AMDD 19.1)",
+      "titleEn": "Section 19 (AMDD 19) — Performance evaluation including clinical evaluation · Section 19(2) (AMDD 19.1)",
+      "titleKo": "섹션 19 (AMDD 19) — 성능 평가(임상 평가 포함) · Section 19(2) (AMDD 19.1)",
+      "summaryEn": "Clinical investigations of a medical device on human subjects shall be carried out in accordance with the spirit of the Helsinki Declaration, which shall include every step in the clinical investigation from first consideration of the need and justification of the study to publication of the results.",
+      "summaryKo": "사람 대상 의료기기 임상시험은 시험의 필요성과 정당성을 처음 검토하는 단계부터 결과 발표에 이르는 모든 단계를 포함하여 헬싱키 선언의 취지에 따라 수행해야 한다.",
+      "topics": [
+        "p:clinical-evidence"
+      ],
+      "group": {
+        "key": "P19",
+        "en": "Section 19 (AMDD 19) — Performance evaluation including clinical evaluation",
+        "ko": "섹션 19 (AMDD 19) — 성능 평가(임상 평가 포함)",
+        "hideTitle": true
+      }
+    },
+    {
+      "id": "ASEAN-AMDD-4",
+      "ref": "AMDD Annex 1, 4",
+      "titleEn": "Lifetime — properly maintained and calibrated",
+      "titleKo": "수명 — 적절한 유지관리·교정",
+      "summaryEn": "The characteristics and performances referred to in Clauses 1, 2 and 3 shall not be adversely affected to such a degree that the health or safety of the patient or the user and, where applicable, of other persons are compromised during the lifetime of the medical device, as indicated by the product owner, when the medical device is subjected to the stresses which can occur during normal conditions of use and has been properly maintained and calibrated, if appropriate, in accordance with the product owner's instructions.",
+      "summaryKo": "제1·2·3항의 특성과 성능은, 제품 소유자가 표시한 기기 수명 동안 정상 사용 조건에서 발생할 수 있는 응력을 받고 제품 소유자의 지침에 따라 적절히 유지관리되고 필요 시 교정되었을 때, 환자·사용자(해당 시 다른 사람)의 건강·안전이 위태로워질 정도로 악영향을 받아서는 안 된다.",
+      "topics": [
+        "p:lifetime"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "양식 단락 5에는 '교정(calibrated)' 문구가 없음. / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-7",
+      "ref": "AMDD Annex 1, 7",
+      "titleEn": "Clinical evidence and clinical evaluation",
+      "titleKo": "임상 근거·임상 평가",
+      "summaryEn": "Medical devices shall require clinical evidence, appropriate for the use and classification of the medical device, demonstrating that the medical device complies with the applicable provisions of the essential principles. A clinical evaluation shall be conducted.",
+      "summaryKo": "의료기기는 기기의 용도와 등급에 적합한, 해당 필수 원칙 조항에 부합함을 입증하는 임상 근거를 갖춰야 한다. 임상 평가를 수행해야 한다.",
+      "topics": [
+        "p:clinical-evidence"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "말레이시아 ER-12 양식(단락 2–7이 AMDD 1–6에 대응)에는 이 요건이 없음. / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-11",
+      "ref": "AMDD Annex 1, 11.1–11.2",
+      "titleEn": "Measuring function and accuracy (scope)",
+      "titleKo": "측정 기능·정확도(적용 범위)",
+      "summaryEn": "11.1 Medical devices with a measuring function shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for their intended purpose. The limits of accuracy, precision and stability shall be indicated by the product owner. 11.2 Medical devices shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for their intended purpose, based on appropriate scientific and technical methods. In particular the design shall address the sensitivity, specificity, trueness, repeatability, reproducibility, control of known relevant interference and limits of detection, as appropriate.",
+      "summaryKo": "11.1 측정 기능이 있는 의료기기는 의도된 목적에 충분한 정확도·정밀도·안정성을 제공하도록 설계·제조해야 한다. 정확도·정밀도·안정성의 한계는 제품 소유자가 표시해야 한다. 11.2 의료기기는 적절한 과학·기술적 방법에 근거해 의도된 목적에 충분한 정확도·정밀도·안정성을 제공하도록 설계·제조해야 한다. 특히 설계는 해당되는 경우 민감도, 특이도, 정확성(trueness), 반복성, 재현성, 알려진 관련 간섭의 관리, 검출 한계를 다루어야 한다.",
+      "topics": [
+        "p:measuring-diagnostic"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "양식 단락 11(1)은 '부정확성이 환자에게 중대한 악영향을 줄 수 있는 경우'로 한정하고 11(2)는 '진단용 기기'로 한정함 — AMDD 원문에는 이 한정이 없음. / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-13-2",
+      "ref": "AMDD Annex 1, 13.2",
+      "titleEn": "Software validation",
+      "titleKo": "소프트웨어 밸리데이션",
+      "summaryEn": "For medical devices which incorporate software or which are medical software in themselves, the software shall be validated according to the state of the art taking into account the principles of development lifecycle, risk management, validation and verification.",
+      "summaryKo": "소프트웨어를 포함하거나 그 자체가 의료용 소프트웨어인 의료기기는, 개발 수명주기·위험관리·밸리데이션·검증의 원칙을 고려해 최신 기술 수준에 따라 소프트웨어를 밸리데이션해야 한다.",
+      "topics": [
+        "p:software",
+        "s:risk-management"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "말레이시아 ER-12 양식 단락 13에는 없음(13(1)·(2)는 반복성·신뢰성·성능과 단일 고장만). 사이버보안·IT 보안 조항은 AMDD 부속서 1에도 없음. / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-13-8",
+      "ref": "AMDD Annex 1, 13.8",
+      "titleEn": "Protection against electrical risks",
+      "titleKo": "전기적 위험 보호",
+      "summaryEn": "A medical device shall be designed and manufactured in a way that ensures that, as far as possible, a patient, or any other person is protected against the risk of accidental electric shock when it is installed and maintained as indicated by the product owner, is being used under normal conditions of use and in the event of a single fault condition.",
+      "summaryKo": "의료기기는 제품 소유자가 지시한 대로 설치·유지관리되고 정상 사용 조건에서 사용될 때와 단일 고장 상태에서, 환자나 다른 사람이 우발적 감전 위험으로부터 가능한 한 보호되도록 설계·제조해야 한다.",
+      "topics": [
+        "p:electrical-mech-thermal"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "말레이시아 ER-12 양식 단락 13(1)–(7)에는 없음(감전 보호 단락 누락). / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-16-1",
+      "ref": "AMDD Annex 1, 16.1",
+      "titleEn": "Active implantable devices — identification code",
+      "titleKo": "능동 이식형 기기 — 식별 코드",
+      "summaryEn": "An active implantable medical device shall incorporate, display, emit or exhibit a code or unique characteristic that can be used to identify: the type of medical device; the product owner of the medical device; and the year of manufacture of the medical device.",
+      "summaryKo": "능동 이식형 의료기기는 기기의 종류, 제품 소유자, 제조 연도를 식별할 수 있는 코드나 고유한 특성을 내장·표시·방출·나타내야 한다.",
+      "topics": [
+        "p:implantable"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "치과 영상기기 비해당. 양식에는 이 단락이 없음(양식의 단락 14 누락은 AMDD 14 '기계적 위험'이 빠진 것이 아니라 번호가 건너뛴 것이며, 양식 15·16이 AMDD 14·15에 대응). / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-16-2",
+      "ref": "AMDD Annex 1, 16.2",
+      "titleEn": "Active implantable devices — readable without surgery",
+      "titleKo": "능동 이식형 기기 — 수술 없이 판독",
+      "summaryEn": "The identifier shall be readable without the need for surgery to the person in whom the medical device is implanted.",
+      "summaryKo": "식별자는 기기가 이식된 사람에게 수술 없이 판독할 수 있어야 한다.",
+      "topics": [
+        "p:implantable"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "치과 영상기기 비해당. / 출처: ASEAN Medical Device Directive, ASEAN Secretariat 2015 (협정 2014-11-21 방콕 서명, 2015-01-01 발효), Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-IVD-9-2",
+      "ref": "AMDD Annex 1, 9.2",
+      "titleEn": "Biological-origin substances — IVD exception",
+      "titleKo": "생물학적 기원 물질 — IVD 예외",
+      "summaryEn": "Where a medical device incorporates substances of biological origin, the risk of infection must be reduced as far as reasonably practicable and appropriate by selecting appropriate sources, donors and substances and by using, as appropriate, validated inactivation, conservation, test and control procedures. This may not apply to certain IVD medical device if the activity of the virus and other transmissible agent are integral to the intended purpose of the IVD medical device or when such elimination or inactivation process would compromise the performance of the IVD medical device.",
+      "summaryKo": "의료기기가 생물학적 기원 물질을 포함하면, 적절한 공급원·기증자·물질을 선택하고 필요에 따라 밸리데이션된 불활화·보존·시험·관리 절차를 사용해 감염 위험을 합리적으로 실행 가능하고 적절한 만큼 줄여야 한다. 바이러스·기타 전염성 인자의 활성이 IVD 의료기기의 의도된 목적에 필수적이거나 그러한 제거·불활화 과정이 IVD 의료기기의 성능을 해칠 경우 특정 IVD 의료기기에는 적용하지 않을 수 있다.",
+      "topics": [
+        "p:biological-origin",
+        "s:ivd-performance"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "양식 단락 9(2)와 같은 요건이며 IVD 예외 문장은 양식에 없음. / 출처: ASEAN Medical Device Directive, ASEAN 사무국 2015, Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-IVD-9-3",
+      "ref": "AMDD Annex 1, 9.3 (IVD exception)",
+      "titleEn": "Animal-origin tissues — IVD exception",
+      "titleKo": "동물 유래 조직 — IVD 예외",
+      "summaryEn": "Products incorporating non-viable tissues, cells and substances of animal origin falling within the definition of a medical device shall originate from animals that have been subjected to veterinary controls and surveillance adapted to the intended purpose of the tissues. The product owner is required to retain information on the geographical origin of the animals. Processing, preservation, testing and handling shall be carried out so as to provide optimal safety. In particular, safety with regard to viruses and other transmissible agents shall be addressed by implementation of validated methods of elimination or inactivation in the course of the manufacturing process. This may not apply to certain IVD medical device if the activity of the virus and other transmissible agent are integral to the intended purpose of the IVD medical device or when such elimination or inactivation process would compromise the performance of the IVD medical device.",
+      "summaryKo": "의료기기 정의에 해당하는 비생존 동물 유래 조직·세포·물질을 포함하는 제품은 조직의 의도된 목적에 맞는 수의학적 관리·감시를 받은 동물에서 유래해야 한다. 제품 소유자는 동물의 지리적 기원 정보를 보관해야 한다. 처리·보존·시험·취급은 최적의 안전성을 제공하도록 수행해야 하며, 특히 바이러스 등 전염성 인자에 대한 안전성은 제조 과정에서 밸리데이션된 제거·불활화 방법으로 확보해야 한다. 바이러스·기타 전염성 인자의 활성이 IVD 의료기기의 의도된 목적에 필수적이거나 그러한 제거·불활화 과정이 IVD 의료기기의 성능을 해칠 경우 특정 IVD 의료기기에는 적용하지 않을 수 있다.",
+      "topics": [
+        "p:biological-origin",
+        "s:ivd-performance"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "양식 단락 9(3)에 대응하며 IVD 예외 문장은 양식에 없음. / 출처: ASEAN Medical Device Directive, ASEAN 사무국 2015, Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-IVD-9-4",
+      "ref": "AMDD Annex 1, 9.4",
+      "titleEn": "Microbial / recombinant-origin products — IVD exception",
+      "titleKo": "미생물·재조합 유래 제품 — IVD 예외",
+      "summaryEn": "For products incorporating cells, tissues and derivatives of microbial or recombinant origin falling within the definition of a medical device, the selection of sources/donors, the processing, preservation, testing and handling of cells, tissues and derivatives of such origin shall be carried out so as to provide optimal safety. In particular, safety with regard to viruses and other transmissible agents shall be addressed by implementation of validated methods of elimination or inactivation in the course of the manufacturing process. This may not apply to certain IVD medical device if the activity of the virus and other transmissible agent are integral to the intended purpose of the IVD medical device or when such elimination or inactivation process would compromise the performance of the IVD medical device.",
+      "summaryKo": "의료기기 정의에 해당하는 미생물·재조합 유래 세포·조직·유도체를 포함하는 제품은 공급원·기증자 선택과 해당 세포·조직·유도체의 처리·보존·시험·취급을 최적의 안전성을 제공하도록 수행해야 한다. 특히 바이러스 등 전염성 인자에 대한 안전성은 제조 과정에서 밸리데이션된 제거·불활화 방법으로 확보해야 한다. 바이러스·기타 전염성 인자의 활성이 IVD 의료기기의 의도된 목적에 필수적이거나 그러한 제거·불활화 과정이 IVD 의료기기의 성능을 해칠 경우 특정 IVD 의료기기에는 적용하지 않을 수 있다.",
+      "topics": [
+        "p:biological-origin",
+        "s:ivd-performance"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "양식 단락 9에는 미생물·재조합 유래 제품을 별도로 다룬 단락이 없음. / 출처: ASEAN Medical Device Directive, ASEAN 사무국 2015, Annex 1"
+    },
+    {
+      "id": "ASEAN-AMDD-IVD-9-5",
+      "ref": "AMDD Annex 1, 9.5",
+      "titleEn": "IVD products incorporating non-viable human tissues, cells and substances",
+      "titleKo": "비생존 인체 조직·세포·물질을 포함하는 IVD 제품",
+      "summaryEn": "For products incorporating non-viable human tissues, cells and substances falling within the definition of an IVD medical device, the selection of sources, donors and/or substances of human origin, the processing, preservation, testing and handling of tissues, cells and substances of such origin shall be carried out so as to provide optimal safety. In particular, safety with regard to viruses and other transmissible agents shall be addressed by implementation of validated methods of elimination or inactivation in the course of the manufacturing process. This may not apply to certain IVD medical device if the activity of the virus and other transmissible agent are integral to the intended purpose of the IVD medical device or when such elimination or inactivation process would compromise the performance of the IVD medical device.",
+      "summaryKo": "IVD 의료기기 정의에 해당하는 비생존 인체 조직·세포·물질을 포함하는 제품은 인체 유래 공급원·기증자·물질의 선택과 처리·보존·시험·취급을 최적의 안전성을 제공하도록 수행해야 한다. 특히 바이러스 등 전염성 인자에 대한 안전성은 제조 과정에서 밸리데이션된 제거·불활화 방법으로 확보해야 한다. 바이러스·기타 전염성 인자의 활성이 IVD 의료기기의 의도된 목적에 필수적이거나 그러한 제거·불활화 과정이 IVD 의료기기의 성능을 해칠 경우 특정 IVD 의료기기에는 적용하지 않을 수 있다.",
+      "topics": [
+        "p:biological-origin",
+        "p:ivd-performance"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "AMDD",
+        "en": "AMDD Annex 1 — requirements not in (or different from) the Malaysia ER-12 form",
+        "ko": "AMDD 부속서 1 — 말레이시아 ER-12 양식에 없거나 다른 요건"
+      },
+      "ownNote": "IVD 전용 항목. 양식 단락 9(4)(인체 유래)는 비IVD 문구이며 AMDD 9.5와 다름. / 출처: ASEAN Medical Device Directive, ASEAN 사무국 2015, Annex 1"
+    },
+    {
+      "id": "ASEAN-DEF-hazard",
+      "ref": "Section 1 (definition: hazard)",
+      "titleEn": "Definition — hazard",
+      "titleKo": "정의 — 위해요인(hazard)",
+      "summaryEn": "“hazard” means potential source of harm;",
+      "summaryKo": "“hazard”는 위해(harm)의 잠재적 원인을 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-harm",
+      "ref": "Section 1 (definition: harm)",
+      "titleEn": "Definition — harm",
+      "titleKo": "정의 — 위해(harm)",
+      "summaryEn": "“harm” means physical injury or damage to the health of people or damage to property or the environment;",
+      "summaryKo": "“harm”은 신체적 상해, 사람의 건강에 대한 손상, 또는 재산·환경에 대한 손상을 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-intended-use",
+      "ref": "Section 1 (definition: intended use/purpose)",
+      "titleEn": "Definition — intended use/purpose",
+      "titleKo": "정의 — 의도된 사용·목적",
+      "summaryEn": "“intended use/purpose” means the objective intent of the manufacturer regarding the use of a product, process or service as reflected in the specifications, instructions and information provided by the manufacturer;",
+      "summaryKo": "“intended use/purpose”는 제조자가 제공한 사양·지침·정보에 반영된, 제품·공정·서비스의 사용에 관한 제조자의 객관적 의도를 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-clin-eval",
+      "ref": "Section 1 (definition: clinical evaluation)",
+      "titleEn": "Definition — clinical evaluation",
+      "titleKo": "정의 — 임상 평가",
+      "summaryEn": "“clinical evaluation” means review of relevant scientific literature and/or the review and assessment of data collected through clinical investigation;",
+      "summaryKo": "“clinical evaluation”은 관련 과학 문헌의 검토 및/또는 임상시험으로 수집한 데이터의 검토·평가를 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-perf-eval",
+      "ref": "Section 1 (definition: performance evaluation)",
+      "titleEn": "Definition — performance evaluation",
+      "titleKo": "정의 — 성능 평가",
+      "summaryEn": "“performance evaluation” means a review of the performance of a medical device based upon data already available, scientific literature and, where appropriate, laboratory, animal or clinical investigations;",
+      "summaryKo": "“performance evaluation”은 이미 입수 가능한 데이터, 과학 문헌, 해당 시 실험실·동물·임상시험에 근거해 의료기기의 성능을 검토하는 것을 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-self-test",
+      "ref": "Section 1 (definition: medical device for self-testing / self-administration)",
+      "titleEn": "Definition — medical device for self-testing / self-administration",
+      "titleKo": "정의 — 자가검사·자가투여 의료기기",
+      "summaryEn": "“medical device for self-testing/self-administration” means a medical device intended by the manufacturer to be able to be used by lay persons in a non-clinical environment;",
+      "summaryKo": "“자가검사·자가투여 의료기기”는 제조자가 일반인이 비임상 환경에서 사용할 수 있도록 의도한 의료기기를 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-risk",
+      "ref": "Section 1 (definition: risk)",
+      "titleEn": "Definition — risk",
+      "titleKo": "정의 — 위험(risk)",
+      "summaryEn": "“risk” means combination of the probability of occurrence of harm and the severity of that harm;",
+      "summaryKo": "“risk”는 위해 발생 확률과 그 위해의 심각도의 조합을 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-clin-inv",
+      "ref": "Section 1 (definition: clinical investigation)",
+      "titleEn": "Definition — clinical investigation",
+      "titleKo": "정의 — 임상시험",
+      "summaryEn": "“clinical investigation” means a designed and planned systematic study in human subjects undertaken to verify the safety and/or performance of a specific device;",
+      "summaryKo": "“clinical investigation”은 특정 기기의 안전성 및/또는 성능을 검증하기 위해 사람을 대상으로 설계·계획해 수행하는 체계적 연구를 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    },
+    {
+      "id": "ASEAN-DEF-specimen",
+      "ref": "Section 1 (definition: specimen)",
+      "titleEn": "Definition — specimen",
+      "titleKo": "정의 — 검체(specimen)",
+      "summaryEn": "“specimen” means the discrete portion of a body fluid or tissue or other sample associated with the body taken for examination, study, or analysis of one or more quantity or characteristic to determine the character of the whole.",
+      "summaryKo": "“specimen”은 전체의 성질을 판단하기 위해 하나 이상의 양·특성을 검사·연구·분석할 목적으로 채취한 체액·조직 또는 신체와 관련된 그 밖의 시료의 별개 부분을 말한다.",
+      "topics": [
+        "p:general-safety"
+      ],
+      "verification": "official",
+      "group": {
+        "key": "P1",
+        "en": "Section 1 — Definitions (Malaysia ER-12 form)",
+        "ko": "섹션 1 — 정의(말레이시아 ER-12 양식)"
+      },
+      "ownNote": "정의 단락이라 요건이 아니라 용어 설명임 — 이전에는 제외했으나 원문 완결성을 위해 추가. 출처: 사용자 제공 ER-12 양식 단락 1."
+    }
+  ]
+}
